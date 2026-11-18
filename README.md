@@ -7,6 +7,7 @@ Empieza por aquí, en este orden:
 3. [`docs/03-hilo-de-contenido-y-embudo.md`](docs/03-hilo-de-contenido-y-embudo.md) — qué es un hilo de contenido y un embudo, cómo exponerte más y cómo optimizar el perfil.
 4. [`docs/04-guion-zapatos-180k.md`](docs/04-guion-zapatos-180k.md) — 3 guiones de reel, guion de historias y guion de DM para vender tenis de $180.000 sin quejas por el precio.
 5. [`docs/05-por-que-no-vendo-y-plan.md`](docs/05-por-que-no-vendo-y-plan.md) — por qué no has vendido, auditoría por video, cuándo meter publicidad y plan de 30 días.
+6. [`docs/06-5-guiones-instagram-tiktok.md`](docs/06-5-guiones-instagram-tiktok.md) — 5 guiones para Instagram y TikTok (gancho, problema, prueba, solución, CTA) con 3 ganchos cada uno, adaptación por plataforma y calendario semanal.
 
 ## Skills (para usar con Claude Code en este repositorio)
 
