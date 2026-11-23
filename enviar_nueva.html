@@ -80,7 +80,7 @@ function render(){
  document.getElementById("stats").textContent=EST.map(e=>`${e}: ${c[e]}`).join(" · ");
 }
 function setEst(k,estado,fecha){const prev=st[k]||{};st[k]={estado,fecha:fecha!==undefined?fecha:(prev.fecha||"")};store.set("seg3",st);render()}
-function marcar(k){if(((st[k]||{}).estado||"pendiente")==="pendiente")setTimeout(()=>setEst(k,"enviado",hoy()),0)}
+function marcar(k){if(((st[k]||{}).estado||"pendiente")==="pendiente")setEst(k,"enviado",hoy())}
 function toast(){const t=document.getElementById("toast");t.classList.add("on");setTimeout(()=>t.classList.remove("on"),2200)}
 async function copiar(txt){try{await navigator.clipboard.writeText(txt);return true}catch(e){const a=document.createElement("textarea");a.value=txt;document.body.appendChild(a);a.select();let ok=false;try{ok=document.execCommand("copy")}catch(_){}a.remove();return ok}}
 const days=document.getElementById("days");

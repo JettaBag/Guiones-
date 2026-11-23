@@ -78,7 +78,7 @@ function render(){
 }
 function setEst(id,estado,fecha){const prev=st[id]||{};st[id]={estado,fecha:fecha!==undefined?fecha:(prev.fecha||"")};store.set("seg2",st);render()}
 document.getElementById("days").addEventListener("click",e=>{const a=e.target.closest("a.wa");if(!a)return;const id=a.closest(".row").dataset.k;
- if(((st[id]||{}).estado||"pendiente")==="pendiente")setTimeout(()=>setEst(id,"enviado",hoy()),0)});
+ if(((st[id]||{}).estado||"pendiente")==="pendiente")setEst(id,"enviado",hoy())});
 document.getElementById("days").addEventListener("change",e=>{if(e.target.tagName!=="SELECT")return;const id=e.target.closest(".row").dataset.k;
  const v=e.target.value;setEst(id,v,v==="pendiente"?"":((st[id]||{}).fecha||hoy()))});
 document.getElementById("exp").addEventListener("click",()=>{
