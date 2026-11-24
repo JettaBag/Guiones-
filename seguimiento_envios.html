@@ -68,10 +68,10 @@ select{padding:7px 8px;border-radius:8px;border:1px solid var(--line);background
 
   <div class="bar">
     <div class="tabs" role="group" aria-label="Lista">
-      <button class="tab" id="tab-nueva" data-lista="nueva">Lista nueva (70)</button>
-      <button class="tab" id="tab-anterior" data-lista="anterior">Lista anterior (71)</button>
-      <button class="tab" id="tab-costa" data-lista="costa">Cali pequeñas + Costa (44)</button>
-      <button class="tab" id="tab-meta" data-lista="meta">Anuncios Meta (60 + 9 marcas)</button>
+      <button class="tab" id="tab-anterior" data-lista="anterior">Lista 1 · primera (71)</button>
+      <button class="tab" id="tab-nueva" data-lista="nueva">Lista 2 (70)</button>
+      <button class="tab" id="tab-costa" data-lista="costa">Lista 3 · Cali + Costa (44)</button>
+      <button class="tab" id="tab-meta" data-lista="meta">Lista 4 · Anuncios Meta (69)</button>
     </div>
     <div class="stats" id="stats"></div>
     <div class="filters"><label><input type="checkbox" id="soloPend"> Mostrar solo pendientes</label></div>
@@ -93,7 +93,7 @@ const GRUPOS = {
 let estados = {};            // id -> {estado, fecha}
 let db = null, col = null;   // guardado en el servidor
 let modo = "cargando";       // "servidor" | "local" | "cargando"
-function listaDeHash(){ const h=location.hash.slice(1); return ["nueva","anterior","costa","meta"].includes(h) ? h : "nueva"; }
+function listaDeHash(){ const h=location.hash.slice(1); return ["nueva","anterior","costa","meta"].includes(h) ? h : "anterior"; }
 let lista = listaDeHash();
 let soloPend = false;
 
