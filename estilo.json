@@ -1,0 +1,113 @@
+{
+ "version": 1,
+ "fecha": "2026-11-24",
+ "nicho": "zapatillas / sneakers – videos lista 'Top N' (5 zapatillas que..., N pares esenciales)",
+ "fuente_medicion": "estilo_medido.json (automático) + revisión visual de fotogramas y espectrogramas. Se ignoran la marca de agua y el cierre de TikTok (los agrega la descarga).",
+ "referencias": {
+  "ref1": "aleejandro4.44 – 5 zapatillas que si te veo usando (85 s) – PLANTILLA PRINCIPAL",
+  "ref5": "aleejandro4.44 – zapatillas que si te veo usando (91 s) – PLANTILLA PRINCIPAL",
+  "ref2": "culto.co – 5 sneakers que deberías tener (72 s) – variante con subtítulos pequeños y música continua",
+  "ref3": "kiddwilooo – 5 pares esenciales (46 s) – variante plano único + recortes de producto + whoosh/pop",
+  "ref4": "wikishoes_ – lista de 7 Nike (18 s; 14 s útiles) – variante corta, lista condensada"
+ },
+
+ "formato": {
+  "resolucion_entrega": "1080x1920", "aspecto": "9:16", "fps": 30, "codec": "H.264 High, yuv420p, bt709",
+  "bitrate_objetivo_kbps": 12000,
+  "nota": "Las referencias son descargas de TikTok recomprimidas a 576x1024 @ 0,5–1,6 Mbps; no reflejan el original. Se entrega en calidad alta y TikTok recomprime.",
+  "duracion_tipica_s": {"lista_5_completa": [72, 92], "corta": [18, 46]}
+ },
+
+ "estructura": {
+  "tipo": "lista Top N contada en cuenta regresiva (5 → 1)",
+  "bloques": [
+   {"parte": "gancho", "dur_s": [3.5, 5], "contenido": "persona a cámara dice el título textual desde el frame 0; título grande arriba con foto de zapatillas detrás"},
+   {"parte": "por cada item", "repetir": "N", "contenido": "hablado a cámara (8–10 s; se anuncia el modelo) → montaje B-roll de ese modelo (6 s) con música"},
+   {"parte": "cierre", "dur_s": [3, 4], "contenido": "a cámara, remate o pregunta para comentarios"}
+  ]
+ },
+
+ "ritmo": {
+  "medido": {"ref1": "50 cortes, 35/min", "ref5": "47 cortes, 31/min", "ref2": "10 cortes, 8/min", "ref3": "1 plano", "ref4": "1 plano"},
+  "tramo_hablado_s": {"mediana": 8.2, "rango": [3.2, 11.4], "cortes_dentro": "ninguno visible (jump-cuts solo para quitar pausas)"},
+  "montaje_broll": {"duracion_s": 6.0, "planos": [7, 11], "plano_mediana_s": 0.75, "rango_s": [0.4, 0.93], "sincronizado_con": "golpes de la música"},
+  "palabras_por_minuto": {"mediana": 131, "rango": [111, 234]},
+  "pausas": "sin silencios: la voz arranca en el frame 0 y no hay huecos > 0,3 s"
+ },
+
+ "zooms": {
+  "tramo_hablado": {"tipo": "zoom lento continuo (push-in)", "escala": [1.04, 1.08], "duracion": "todo el tramo"},
+  "punch_in_en_corte": {"frecuencia": "raro: 2 en 91 s (ref5)", "escala": [1.09, 1.33]},
+  "broll": "planos de mano/producto, el movimiento lo da la cámara; sin zooms digitales"
+ },
+
+ "textos": {
+  "titulo_gancho": {
+   "aparece": "0,0–0,3 s, entrada con desenfoque + fundido (ref1/ref5), letra a letra (ref3) o escrito a mano (ref2)",
+   "dura": "hasta que empieza la lista (~4,5–5 s)",
+   "posicion": "tercio superior, centrado (centro y ≈ 230–420 px de 1920)",
+   "lineas": [
+    {"texto_ej": "5 ZAPATILLAS", "fuente": "Montserrat ExtraBold", "mayus": true, "color": "#FFFFFF", "alto_px": 70},
+    {"texto_ej": "QUE SI TE VEO USANDO", "fuente": "Anton (condensada pesada)", "mayus": true, "color": "#F2D21B", "alto_px": 120},
+    {"texto_ej": "TIENES BUEN GUSTO", "fuente": "Montserrat ExtraBold", "mayus": true, "color": "#FFFFFF", "alto_px": 70}
+   ],
+   "efectos": "sombra negra difusa (glow 18 px, 70 %), foto recortada de 2–4 zapatillas detrás del texto, degradado oscuro arriba"
+  },
+  "lista_numerada": {
+   "estilo_principal": "ref1/ref5",
+   "posicion": "arriba a la izquierda; números en x 122–204 px; filas centradas en y 128, 243, 359, 473, 589 px (paso 115 px) para N=5",
+   "numeros": {"fuente": "Montserrat ExtraBold", "color": "#EABD1B", "alto_px": 65, "sombra": "glow negro difuso"},
+   "items": {"fuente": "Montserrat ExtraBold", "color": "#FFFFFF", "x_px": 210, "tamaño": "igual alto que el número", "sombra": "glow negro difuso"},
+   "comportamiento": "todos los números visibles y vacíos desde que termina el gancho; el nombre aparece cuando se anuncia (corte seco o pop); visible en tramos hablados, oculto durante el B-roll",
+   "variante_ref4": "números blancos + sombra dura abajo-derecha, items en condensada (Barlow Condensed SemiBold) más pequeños"
+  },
+  "titulo_de_seccion_ref3": {"ej": "2. PAR NEGRO", "fuente": "Montserrat Black", "color": "#FFFFFF", "sombra": "dura abajo-derecha", "posicion": "arriba centrado, y≈200 px", "entrada": "desenfoque → nítido 0,3 s + whoosh"},
+  "nombre_en_broll_ref2_ref5": {"ej": "SALOMON XT6", "fuente": "Anton / condensada", "color": "#FFFFFF", "posicion": "centro-arriba", "uso": "primer plano del B-roll"},
+  "etiqueta_broll_ref1": {"ej": "+aura", "fuente": "Montserrat SemiBold", "color": "#FFFFFF", "tamaño": "pequeño (~40 px)", "posicion": "centro-arriba"},
+  "recortes_producto_ref3": "PNG de la zapatilla sin fondo, abajo-centro sobre la persona, entra con pop (+ sonido pop)"
+ },
+
+ "subtitulos": {
+  "principal_ref1_ref5": "NO hay subtítulos de lo que se dice; el texto en pantalla es solo título + lista",
+  "variante_ref2": {
+   "fuente": "Montserrat SemiBold", "color": "#EDE6A8 (crema/amarillo claro)", "contorno": "ninguno, sombra suave",
+   "alto_px": 40, "posicion_centro_y_pct": 74.5, "palabras_por_bloque": 3,
+   "animacion": "palabra a palabra acumulando dentro del bloque (aparece cada palabra cuando se dice), corte seco al cambiar de bloque"
+  },
+  "decision_pendiente": "¿subtítulos estilo ref2 o sin subtítulos (ref1/ref5)?"
+ },
+
+ "color": {
+  "medido_promedio": {"brillo_L": 41.3, "contraste_L_std": 20.6, "saturacion": 0.29, "ratio_R_B": 1.16, "lab_a": 5.0, "lab_b": 5.0, "negro_p2": 4.4, "blanco_p98": 86.4},
+  "lectura": "imagen algo oscura y de bajo brillo, negros profundos, saturación moderada-baja, leve calidez/magenta; luces prácticas de color (azul/morado) en el fondo",
+  "filtro_ffmpeg_base": "eq=contrast=1.08:brightness=-0.03:saturation=0.92,colorbalance=rs=0.03:bs=-0.02:rm=0.02:bm=-0.02,curves=master='0/0.02 0.25/0.21 0.75/0.80 1/0.92'",
+  "metodo_fase2": "se ajusta por video: se miden las estadísticas del crudo y se calcula un LUT (.cube) que lleva su media/desviación de L, a y b a estos valores; se verifica comparando fotogramas"
+ },
+
+ "audio": {
+  "lufs_medido": {"ref1": -18.4, "ref2": -13.6, "ref3": -13.0, "ref4": -16.2, "ref5": -12.4, "nota": "TikTok normaliza; se entrega a -14 LUFS, pico -1 dBTP"},
+  "voz": "seca, cercana, al frente; sin reverb",
+  "musica": {
+   "principal_ref1_ref5": "solo durante el B-roll, a volumen alto (sin voz encima); entra con un golpe de bombo justo en el primer corte del montaje y se corta al volver a cámara",
+   "variante_ref2_ref4": "música continua bajo la voz a ≈ -13/-14 dB",
+   "ref3": "sin música"
+  },
+  "efectos": {
+   "principal_ref1_ref5": "casi sin efectos en lo hablado; el 'golpe' lo pone la música en el corte al B-roll",
+   "ref3": [
+    {"tipo": "whoosh suave (0,3 s, 60 Hz–2 kHz)", "cuando": "entra el título / título de sección (0,1; 1,35; 10,7; 22,35; 27,95 s)", "nivel_dbfs": -11},
+    {"tipo": "pop corto (0,1 s, ~800 Hz)", "cuando": "aparece una imagen de producto o un texto (4,2; 4,95; 5,7; 17,5; 29,2; 30,05; 36,15 s)", "nivel_dbfs": -11}
+   ],
+   "frecuencia_ref3_por_min": 15.7,
+   "biblioteca_equivalente": {"whoosh": "whoosh/whoosh-clean.mp3, whoosh/whoosh-wind.mp3", "pop": "clicks-ui/nintendo-09.mp3 o un pop corto (a confirmar escuchando)"}
+  }
+ },
+
+ "gancho_0_3s": {
+  "comun": "habla desde el frame 0 y dice el título literal ('5 zapatillas que si te veo usando...'); título grande arriba ya visible a 0,3 s; plano medio a cámara; 10–12 palabras en 3 s",
+  "cortes_en_3s": 0,
+  "zoom_en_3s": "zoom lento 1,05x (ref1/ref5)",
+  "sonido_en_3s": "ref3: whoosh en el título; ref1/ref5: ninguno",
+  "gesto": "mano abierta mostrando '5' en ref1, ref2 y ref3"
+ }
+}

@@ -1,0 +1,367 @@
+{
+ "archivo": "ref2.mp4",
+ "formato": {
+  "ancho": 576,
+  "alto": 1024,
+  "aspecto": "576:1024",
+  "es_9_16": true,
+  "fps": 29.82,
+  "codec_video": "h264",
+  "pix_fmt": "yuv420p",
+  "bitrate_video_kbps": 1578,
+  "bitrate_total_kbps": 1714,
+  "duracion_s": 72.305,
+  "codec_audio": "aac",
+  "audio_hz": 44100,
+  "canales": 2,
+  "color": "bt709"
+ },
+ "ritmo": {
+  "cortes": [
+   7.067,
+   15.433,
+   18.267,
+   27.033,
+   41.6,
+   51.233,
+   54.533,
+   61.3,
+   66.067,
+   68.267
+  ],
+  "num_cortes": 10,
+  "cortes_por_minuto": 8.3,
+  "plano_medio_s": 6.57,
+  "plano_mediana_s": 6.77,
+  "plano_min_s": 2.2,
+  "plano_max_s": 14.57,
+  "palabras_por_minuto": 156
+ },
+ "zooms": {
+  "eventos": [
+   {
+    "t": 3.75,
+    "fin": 4.05,
+    "tipo": "zoom_lento",
+    "escala": 1.041
+   },
+   {
+    "t": 7.317,
+    "fin": 8.017,
+    "tipo": "zoom_lento",
+    "escala": 0.919
+   },
+   {
+    "t": 8.117,
+    "fin": 10.617,
+    "tipo": "zoom_lento",
+    "escala": 1.04
+   },
+   {
+    "t": 9.117,
+    "tipo": "punch_out",
+    "escala": 0.95
+   },
+   {
+    "t": 10.617,
+    "fin": 11.817,
+    "tipo": "zoom_lento",
+    "escala": 0.92
+   },
+   {
+    "t": 13.617,
+    "fin": 14.817,
+    "tipo": "zoom_lento",
+    "escala": 0.941
+   },
+   {
+    "t": 14.817,
+    "fin": 15.353,
+    "tipo": "zoom_lento",
+    "escala": 1.039
+   },
+   {
+    "t": 15.583,
+    "fin": 15.883,
+    "tipo": "zoom_lento",
+    "escala": 1.04
+   },
+   {
+    "t": 19.117,
+    "fin": 20.217,
+    "tipo": "zoom_lento",
+    "escala": 1.148
+   },
+   {
+    "t": 30.083,
+    "fin": 31.383,
+    "tipo": "zoom_lento",
+    "escala": 1.04
+   },
+   {
+    "t": 32.083,
+    "fin": 32.683,
+    "tipo": "zoom_lento",
+    "escala": 0.899
+   },
+   {
+    "t": 32.683,
+    "fin": 32.983,
+    "tipo": "zoom_lento",
+    "escala": 0.958
+   },
+   {
+    "t": 32.983,
+    "fin": 33.883,
+    "tipo": "zoom_lento",
+    "escala": 0.885
+   },
+   {
+    "t": 34.683,
+    "fin": 34.983,
+    "tipo": "zoom_lento",
+    "escala": 1.044
+   },
+   {
+    "t": 35.583,
+    "tipo": "punch_in",
+    "escala": 1.035
+   },
+   {
+    "t": 36.783,
+    "fin": 37.383,
+    "tipo": "zoom_lento",
+    "escala": 1.03
+   },
+   {
+    "t": 42.25,
+    "tipo": "punch_out",
+    "escala": 0.964
+   },
+   {
+    "t": 42.75,
+    "fin": 44.45,
+    "tipo": "zoom_lento",
+    "escala": 1.155
+   },
+   {
+    "t": 44.45,
+    "fin": 45.15,
+    "tipo": "zoom_lento",
+    "escala": 1.055
+   },
+   {
+    "t": 45.15,
+    "fin": 46.15,
+    "tipo": "zoom_lento",
+    "escala": 1.039
+   },
+   {
+    "t": 45.55,
+    "tipo": "punch_in",
+    "escala": 1.044
+   },
+   {
+    "t": 46.35,
+    "fin": 46.95,
+    "tipo": "zoom_lento",
+    "escala": 1.073
+   },
+   {
+    "t": 47.35,
+    "fin": 48.05,
+    "tipo": "zoom_lento",
+    "escala": 1.061
+   },
+   {
+    "t": 48.05,
+    "fin": 51.153,
+    "tipo": "zoom_lento",
+    "escala": 1.071
+   }
+  ],
+  "por_minuto": 19.9,
+  "escala_media_punch_in": 1.06
+ },
+ "subtitulos": {
+  "detectados": true,
+  "cobertura_palabras": 0.9,
+  "centro_vertical_pct": 59.6,
+  "posicion": "centro",
+  "ancho_bloque_pct": 18.0,
+  "alto_letra_pct_alto": 2.14,
+  "alto_mayuscula_px_1920": 41,
+  "palabras_por_bloque_mediana": 18.5,
+  "palabras_por_bloque_max": 25,
+  "color_resaltado": null,
+  "color_base": "#FFFFFF",
+  "contorno": "negro (detectado por borde oscuro)",
+  "animacion": {
+   "tipo": "corte seco por palabra/bloque",
+   "escala_relativa_frames_0_2_4_8": [
+    0.998,
+    0.998,
+    1.0,
+    1.0
+   ]
+  },
+  "fuente": "ver analisis/<video>/subtitulos_recortes.png (identificación visual)"
+ },
+ "color": {
+  "brillo_L_medio": 40.9,
+  "contraste_L_std": 21.8,
+  "saturacion_media": 0.299,
+  "ratio_rojo_azul": 1.117,
+  "lab_a_medio": 9.52,
+  "lab_b_medio": 0.2,
+  "negro_p2": 4.2,
+  "blanco_p98": 86.4,
+  "temperatura": "neutra"
+ },
+ "audio": {
+  "lufs_integrado": -13.6,
+  "true_peak_db": 0.0,
+  "rango_lra": 3.5,
+  "voz_rms_db": -13.5,
+  "fondo_en_pausas_rms_db": -180.0,
+  "musica_de_fondo": false,
+  "musica_bajo_voz_db": null,
+  "efectos": [
+   {
+    "t": 4.899,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-wind.mp3",
+    "similitud": 0.46,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 5.259,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/pack-06.mp3",
+    "similitud": 0.5,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 11.761,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+    "similitud": 0.47,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 17.09,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+    "similitud": 0.46,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 18.112,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 18.622,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 19.83,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+    "similitud": 0.46,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 54.787,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+    "similitud": 0.47,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 58.015,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+    "similitud": 0.54,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 66.107,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 66.618,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 68.336,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 68.708,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   }
+  ],
+  "efectos_por_minuto": 10.8,
+  "separacion_demucs": {
+   "musica_de_fondo": false,
+   "voz_db": -12.9,
+   "musica_continua_db": -42.1,
+   "musica_bajo_voz_db": null,
+   "musica_lufs": null,
+   "pistas": "/home/user/Guiones-/analisis/ref2/sep/htdemucs/audio"
+  }
+ },
+ "gancho": {
+  "primera_palabra_s": 0.0,
+  "texto_3s": "Cinco Snickers que deberías tener antes de que acabes de 2026.",
+  "palabras_en_3s": 11,
+  "cortes_en_3s": 0,
+  "zooms_en_3s": 0,
+  "efectos_en_3s": [],
+  "subtitulo_desde_inicio": true
+ }
+}

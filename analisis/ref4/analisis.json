@@ -1,0 +1,165 @@
+{
+ "archivo": "ref4.mp4",
+ "formato": {
+  "ancho": 576,
+  "alto": 1024,
+  "aspecto": "576:1024",
+  "es_9_16": true,
+  "fps": 30.0,
+  "codec_video": "h264",
+  "pix_fmt": "yuv420p",
+  "bitrate_video_kbps": 609,
+  "bitrate_total_kbps": 746,
+  "duracion_s": 17.831,
+  "codec_audio": "aac",
+  "audio_hz": 44100,
+  "canales": 2,
+  "color": "bt709"
+ },
+ "ritmo": {
+  "cortes": [
+   13.8
+  ],
+  "num_cortes": 1,
+  "cortes_por_minuto": 3.4,
+  "plano_medio_s": 8.92,
+  "plano_mediana_s": 8.92,
+  "plano_min_s": 4.03,
+  "plano_max_s": 13.8,
+  "palabras_por_minuto": 131
+ },
+ "zooms": {
+  "eventos": [
+   {
+    "t": 12.65,
+    "fin": 13.35,
+    "tipo": "zoom_lento",
+    "escala": 0.945
+   },
+   {
+    "t": 13.45,
+    "fin": 13.72,
+    "tipo": "zoom_lento",
+    "escala": 1.032
+   },
+   {
+    "t": 13.65,
+    "tipo": "punch_in",
+    "escala": 1.052
+   }
+  ],
+  "por_minuto": 10.1,
+  "escala_media_punch_in": 1.042
+ },
+ "subtitulos": {
+  "detectados": true,
+  "cobertura_palabras": 1.0,
+  "centro_vertical_pct": 26.8,
+  "posicion": "arriba",
+  "ancho_bloque_pct": 52.0,
+  "alto_letra_pct_alto": 1.67,
+  "alto_mayuscula_px_1920": 32,
+  "palabras_por_bloque_mediana": 25.0,
+  "palabras_por_bloque_max": 29,
+  "color_resaltado": null,
+  "color_base": "#FFFFFF",
+  "contorno": "negro (detectado por borde oscuro)",
+  "animacion": {
+   "tipo": "corte seco por palabra/bloque",
+   "escala_relativa_frames_0_2_4_8": [
+    1.0,
+    1.019,
+    1.021,
+    1.0
+   ]
+  },
+  "fuente": "ver analisis/<video>/subtitulos_recortes.png (identificación visual)"
+ },
+ "color": {
+  "brillo_L_medio": 36.1,
+  "contraste_L_std": 20.5,
+  "saturacion_media": 0.299,
+  "ratio_rojo_azul": 1.132,
+  "lab_a_medio": 3.77,
+  "lab_b_medio": 5.48,
+  "negro_p2": 4.6,
+  "blanco_p98": 82.0,
+  "temperatura": "neutra"
+ },
+ "audio": {
+  "lufs_integrado": -16.2,
+  "true_peak_db": 0.0,
+  "rango_lra": 6.1,
+  "voz_rms_db": -18.1,
+  "fondo_en_pausas_rms_db": -180.0,
+  "musica_de_fondo": true,
+  "musica_bajo_voz_db": -13.2,
+  "efectos": [
+   {
+    "t": 1.672,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+    "similitud": 0.47,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 5.898,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/animal-crossing-12.mp3",
+    "similitud": 0.67,
+    "confianza": "seguro",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 11.146,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 13.862,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 14.234,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   }
+  ],
+  "efectos_por_minuto": 16.8,
+  "separacion_demucs": {
+   "musica_de_fondo": true,
+   "voz_db": -18.9,
+   "musica_continua_db": -32.1,
+   "musica_bajo_voz_db": -13.2,
+   "musica_lufs": -17.4,
+   "pistas": "/home/user/Guiones-/analisis/ref4/sep/htdemucs/audio"
+  }
+ },
+ "gancho": {
+  "primera_palabra_s": 0.0,
+  "texto_3s": "Tenéis que dar la pena a cada sentado versión Nike. Nike Air",
+  "palabras_en_3s": 12,
+  "cortes_en_3s": 0,
+  "zooms_en_3s": 0,
+  "efectos_en_3s": [
+   "clicks-ui"
+  ],
+  "subtitulo_desde_inicio": true
+ }
+}

@@ -1,0 +1,2425 @@
+{
+ "resumen": {
+  "n_videos": 5,
+  "formato": {
+   "resolucion": "576.0x1024.0",
+   "fps": 30.0,
+   "bitrate_video_kbps": 862.0,
+   "duracion_s": 72.305
+  },
+  "ritmo": {
+   "plano_medio_s": 6.57,
+   "cortes_por_minuto": 8.3,
+   "palabras_por_minuto": 131.0
+  },
+  "zooms": {
+   "por_minuto": 19.9,
+   "escala_punch_in": 1.06
+  },
+  "subtitulos": {
+   "centro_vertical_pct": 27.9,
+   "alto_letra_pct_alto": 2.71,
+   "alto_mayuscula_px_1920": 52.0,
+   "palabras_por_bloque_mediana": 22.5,
+   "ancho_bloque_pct": 59.4,
+   "color_resaltado": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "animacion": [
+    "corte seco por palabra/bloque",
+    "corte seco por palabra/bloque",
+    "corte seco por palabra/bloque",
+    "corte seco por palabra/bloque",
+    "corte seco por palabra/bloque"
+   ]
+  },
+  "color": {
+   "brillo_L_medio": 40.9,
+   "contraste_L_std": 20.6,
+   "saturacion_media": 0.299,
+   "ratio_rojo_azul": 1.132,
+   "lab_a_medio": 3.77,
+   "lab_b_medio": 5.48,
+   "negro_p2": 4.3,
+   "blanco_p98": 86.4
+  },
+  "audio": {
+   "lufs": -13.6,
+   "true_peak": 0.0,
+   "musica_bajo_voz_db": -13.2,
+   "efectos_por_minuto": 16.8,
+   "tipos_efectos": [
+    "clicks-ui",
+    "ding/tono",
+    "impacto/golpe",
+    "impactos",
+    "riser",
+    "whoosh"
+   ],
+   "sonidos_de_biblioteca_usados": [
+    "clicks-ui/animal-crossing-04.mp3",
+    "clicks-ui/animal-crossing-05.mp3",
+    "clicks-ui/animal-crossing-12.mp3",
+    "clicks-ui/ding.mp3",
+    "clicks-ui/nintendo-09.mp3",
+    "impactos/bamboo-hit.mp3",
+    "whoosh/pack-06.mp3",
+    "whoosh/pack-07.mp3",
+    "whoosh/whoosh-clean.mp3",
+    "whoosh/whoosh-wind.mp3"
+   ]
+  },
+  "gancho": {
+   "primera_palabra_s": 0.0,
+   "cortes_en_3s": 0.0,
+   "zooms_en_3s": 0.0
+  }
+ },
+ "videos": [
+  {
+   "archivo": "ref1.mp4",
+   "formato": {
+    "ancho": 576,
+    "alto": 1024,
+    "aspecto": "576:1024",
+    "es_9_16": true,
+    "fps": 30.0,
+    "codec_video": "h264",
+    "pix_fmt": "yuv420p",
+    "bitrate_video_kbps": 862,
+    "bitrate_total_kbps": 998,
+    "duracion_s": 85.333,
+    "codec_audio": "aac",
+    "audio_hz": 44100,
+    "canales": 2,
+    "color": "bt709"
+   },
+   "ritmo": {
+    "cortes": [
+     4.633,
+     12.8,
+     13.1,
+     14.033,
+     15.5,
+     16.367,
+     17.233,
+     17.933,
+     18.8,
+     28.333,
+     29.4,
+     30.367,
+     31.267,
+     32.133,
+     32.833,
+     33.433,
+     34.333,
+     41.8,
+     42.167,
+     42.767,
+     43.367,
+     43.967,
+     44.567,
+     45.167,
+     45.8,
+     46.4,
+     47.033,
+     47.633,
+     48.233,
+     59.4,
+     60.533,
+     61.6,
+     62.533,
+     63.467,
+     64.533,
+     65.2,
+     65.4,
+     73.367,
+     74.767,
+     75.4,
+     75.933,
+     76.167,
+     76.533,
+     77.3,
+     77.933,
+     78.3,
+     78.7,
+     78.933,
+     79.333,
+     81.3
+    ],
+    "num_cortes": 50,
+    "cortes_por_minuto": 35.2,
+    "plano_medio_s": 1.67,
+    "plano_mediana_s": 0.7,
+    "plano_min_s": 0.2,
+    "plano_max_s": 11.17,
+    "palabras_por_minuto": 120
+   },
+   "zooms": {
+    "eventos": [
+     {
+      "t": 0.05,
+      "fin": 0.95,
+      "tipo": "zoom_lento",
+      "escala": 1.046
+     },
+     {
+      "t": 4.633,
+      "tipo": "punch_out_en_corte",
+      "escala": 0.834
+     },
+     {
+      "t": 5.483,
+      "fin": 6.683,
+      "tipo": "zoom_lento",
+      "escala": 1.072
+     },
+     {
+      "t": 10.483,
+      "fin": 11.183,
+      "tipo": "zoom_lento",
+      "escala": 1.035
+     },
+     {
+      "t": 13.1,
+      "tipo": "punch_out_en_corte",
+      "escala": 0.684
+     },
+     {
+      "t": 13.85,
+      "tipo": "punch_out",
+      "escala": 0.96
+     },
+     {
+      "t": 15.85,
+      "fin": 16.15,
+      "tipo": "zoom_lento",
+      "escala": 1.046
+     },
+     {
+      "t": 17.233,
+      "tipo": "punch_out_en_corte",
+      "escala": 0.942
+     },
+     {
+      "t": 17.783,
+      "tipo": "punch_in",
+      "escala": 1.044
+     },
+     {
+      "t": 19.75,
+      "fin": 21.05,
+      "tipo": "zoom_lento",
+      "escala": 1.081
+     },
+     {
+      "t": 21.65,
+      "fin": 22.25,
+      "tipo": "zoom_lento",
+      "escala": 0.944
+     },
+     {
+      "t": 23.55,
+      "fin": 24.25,
+      "tipo": "zoom_lento",
+      "escala": 0.938
+     },
+     {
+      "t": 26.85,
+      "fin": 27.55,
+      "tipo": "zoom_lento",
+      "escala": 1.045
+     },
+     {
+      "t": 28.383,
+      "fin": 29.083,
+      "tipo": "zoom_lento",
+      "escala": 1.05
+     },
+     {
+      "t": 29.55,
+      "fin": 30.287,
+      "tipo": "zoom_lento",
+      "escala": 1.04
+     },
+     {
+      "t": 30.417,
+      "fin": 31.017,
+      "tipo": "zoom_lento",
+      "escala": 1.06
+     },
+     {
+      "t": 31.267,
+      "tipo": "punch_in_en_corte",
+      "escala": 1.049
+     },
+     {
+      "t": 32.883,
+      "fin": 33.353,
+      "tipo": "zoom_lento",
+      "escala": 1.044
+     },
+     {
+      "t": 33.283,
+      "tipo": "punch_in",
+      "escala": 1.042
+     },
+     {
+      "t": 34.383,
+      "fin": 34.783,
+      "tipo": "zoom_lento",
+      "escala": 0.967
+     },
+     {
+      "t": 34.983,
+      "fin": 36.283,
+      "tipo": "zoom_lento",
+      "escala": 1.067
+     },
+     {
+      "t": 37.383,
+      "tipo": "punch_out",
+      "escala": 0.958
+     },
+     {
+      "t": 39.083,
+      "fin": 39.883,
+      "tipo": "zoom_lento",
+      "escala": 0.945
+     },
+     {
+      "t": 39.883,
+      "fin": 41.283,
+      "tipo": "zoom_lento",
+      "escala": 1.129
+     },
+     {
+      "t": 48.283,
+      "fin": 48.883,
+      "tipo": "zoom_lento",
+      "escala": 0.918
+     },
+     {
+      "t": 49.183,
+      "tipo": "punch_in",
+      "escala": 1.044
+     },
+     {
+      "t": 49.183,
+      "fin": 50.883,
+      "tipo": "zoom_lento",
+      "escala": 1.177
+     },
+     {
+      "t": 62.05,
+      "fin": 62.453,
+      "tipo": "zoom_lento",
+      "escala": 1.044
+     },
+     {
+      "t": 63.467,
+      "tipo": "punch_out_en_corte",
+      "escala": 0.669
+     },
+     {
+      "t": 64.417,
+      "tipo": "punch_out",
+      "escala": 0.904
+     },
+     {
+      "t": 68.35,
+      "fin": 68.85,
+      "tipo": "zoom_lento",
+      "escala": 0.969
+     },
+     {
+      "t": 70.35,
+      "fin": 70.95,
+      "tipo": "zoom_lento",
+      "escala": 0.952
+     },
+     {
+      "t": 71.45,
+      "fin": 72.65,
+      "tipo": "zoom_lento",
+      "escala": 1.063
+     },
+     {
+      "t": 74.817,
+      "fin": 75.32,
+      "tipo": "zoom_lento",
+      "escala": 1.137
+     },
+     {
+      "t": 75.45,
+      "fin": 75.853,
+      "tipo": "zoom_lento",
+      "escala": 1.079
+     },
+     {
+      "t": 76.583,
+      "fin": 77.22,
+      "tipo": "zoom_lento",
+      "escala": 1.052
+     },
+     {
+      "t": 77.35,
+      "fin": 77.853,
+      "tipo": "zoom_lento",
+      "escala": 1.083
+     }
+    ],
+    "por_minuto": 26.0,
+    "escala_media_punch_in": 1.066
+   },
+   "subtitulos": {
+    "detectados": true,
+    "cobertura_palabras": 0.92,
+    "centro_vertical_pct": 27.9,
+    "posicion": "arriba",
+    "ancho_bloque_pct": 75.6,
+    "alto_letra_pct_alto": 2.86,
+    "alto_mayuscula_px_1920": 55,
+    "palabras_por_bloque_mediana": 22.0,
+    "palabras_por_bloque_max": 28,
+    "color_resaltado": null,
+    "color_base": "#FFFFFF",
+    "contorno": "negro (detectado por borde oscuro)",
+    "animacion": {
+     "tipo": "corte seco por palabra/bloque",
+     "escala_relativa_frames_0_2_4_8": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "fuente": "ver analisis/<video>/subtitulos_recortes.png (identificación visual)"
+   },
+   "color": {
+    "brillo_L_medio": 39.2,
+    "contraste_L_std": 18.4,
+    "saturacion_media": 0.262,
+    "ratio_rojo_azul": 1.044,
+    "lab_a_medio": 3.21,
+    "lab_b_medio": 0.95,
+    "negro_p2": 4.3,
+    "blanco_p98": 84.2,
+    "temperatura": "neutra"
+   },
+   "audio": {
+    "lufs_integrado": -18.4,
+    "true_peak_db": -0.0,
+    "rango_lra": 2.1,
+    "voz_rms_db": -18.3,
+    "fondo_en_pausas_rms_db": -24.8,
+    "musica_de_fondo": false,
+    "musica_bajo_voz_db": null,
+    "efectos": [
+     {
+      "t": 5.178,
+      "tipo": "impactos",
+      "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 12.469,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 13.119,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 13.7,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 14.303,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 14.907,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 15.279,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 15.906,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 16.463,
+      "tipo": "impactos",
+      "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 16.881,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 17.74,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 18.088,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 28.839,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 29.373,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 29.861,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 30.836,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 31.393,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 31.927,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 32.461,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 33.506,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 42.237,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 43.433,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+      "similitud": 0.69,
+      "confianza": "seguro",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 44.025,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 44.629,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 45.871,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 46.15,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/pack-07.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 46.463,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 47.16,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 50.387,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-wind.mp3",
+      "similitud": 0.54,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 55.914,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 59.791,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 60.929,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+      "similitud": 0.5,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 61.417,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/ding.mp3",
+      "similitud": 0.52,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 62.299,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 63.437,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 64.122,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+      "similitud": 0.47,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 64.459,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 64.807,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 65.248,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 67.129,
+      "tipo": "impactos",
+      "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 72.319,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/animal-crossing-05.mp3",
+      "similitud": 0.47,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 75.233,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 76.928,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 81.363,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 81.734,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     }
+    ],
+    "efectos_por_minuto": 31.6,
+    "separacion_demucs": {
+     "musica_de_fondo": false,
+     "voz_db": -18.6,
+     "musica_continua_db": -50.0,
+     "musica_bajo_voz_db": null,
+     "musica_lufs": null,
+     "pistas": "/home/user/Guiones-/analisis/ref1/sep/htdemucs/audio"
+    }
+   },
+   "gancho": {
+    "primera_palabra_s": 0.0,
+    "texto_3s": "5 zapatillas que si te veo usando para mí automáticamente",
+    "palabras_en_3s": 10,
+    "cortes_en_3s": 0,
+    "zooms_en_3s": 1,
+    "efectos_en_3s": [],
+    "subtitulo_desde_inicio": true
+   }
+  },
+  {
+   "archivo": "ref2.mp4",
+   "formato": {
+    "ancho": 576,
+    "alto": 1024,
+    "aspecto": "576:1024",
+    "es_9_16": true,
+    "fps": 29.82,
+    "codec_video": "h264",
+    "pix_fmt": "yuv420p",
+    "bitrate_video_kbps": 1578,
+    "bitrate_total_kbps": 1714,
+    "duracion_s": 72.305,
+    "codec_audio": "aac",
+    "audio_hz": 44100,
+    "canales": 2,
+    "color": "bt709"
+   },
+   "ritmo": {
+    "cortes": [
+     7.067,
+     15.433,
+     18.267,
+     27.033,
+     41.6,
+     51.233,
+     54.533,
+     61.3,
+     66.067,
+     68.267
+    ],
+    "num_cortes": 10,
+    "cortes_por_minuto": 8.3,
+    "plano_medio_s": 6.57,
+    "plano_mediana_s": 6.77,
+    "plano_min_s": 2.2,
+    "plano_max_s": 14.57,
+    "palabras_por_minuto": 156
+   },
+   "zooms": {
+    "eventos": [
+     {
+      "t": 3.75,
+      "fin": 4.05,
+      "tipo": "zoom_lento",
+      "escala": 1.041
+     },
+     {
+      "t": 7.317,
+      "fin": 8.017,
+      "tipo": "zoom_lento",
+      "escala": 0.919
+     },
+     {
+      "t": 8.117,
+      "fin": 10.617,
+      "tipo": "zoom_lento",
+      "escala": 1.04
+     },
+     {
+      "t": 9.117,
+      "tipo": "punch_out",
+      "escala": 0.95
+     },
+     {
+      "t": 10.617,
+      "fin": 11.817,
+      "tipo": "zoom_lento",
+      "escala": 0.92
+     },
+     {
+      "t": 13.617,
+      "fin": 14.817,
+      "tipo": "zoom_lento",
+      "escala": 0.941
+     },
+     {
+      "t": 14.817,
+      "fin": 15.353,
+      "tipo": "zoom_lento",
+      "escala": 1.039
+     },
+     {
+      "t": 15.583,
+      "fin": 15.883,
+      "tipo": "zoom_lento",
+      "escala": 1.04
+     },
+     {
+      "t": 19.117,
+      "fin": 20.217,
+      "tipo": "zoom_lento",
+      "escala": 1.148
+     },
+     {
+      "t": 30.083,
+      "fin": 31.383,
+      "tipo": "zoom_lento",
+      "escala": 1.04
+     },
+     {
+      "t": 32.083,
+      "fin": 32.683,
+      "tipo": "zoom_lento",
+      "escala": 0.899
+     },
+     {
+      "t": 32.683,
+      "fin": 32.983,
+      "tipo": "zoom_lento",
+      "escala": 0.958
+     },
+     {
+      "t": 32.983,
+      "fin": 33.883,
+      "tipo": "zoom_lento",
+      "escala": 0.885
+     },
+     {
+      "t": 34.683,
+      "fin": 34.983,
+      "tipo": "zoom_lento",
+      "escala": 1.044
+     },
+     {
+      "t": 35.583,
+      "tipo": "punch_in",
+      "escala": 1.035
+     },
+     {
+      "t": 36.783,
+      "fin": 37.383,
+      "tipo": "zoom_lento",
+      "escala": 1.03
+     },
+     {
+      "t": 42.25,
+      "tipo": "punch_out",
+      "escala": 0.964
+     },
+     {
+      "t": 42.75,
+      "fin": 44.45,
+      "tipo": "zoom_lento",
+      "escala": 1.155
+     },
+     {
+      "t": 44.45,
+      "fin": 45.15,
+      "tipo": "zoom_lento",
+      "escala": 1.055
+     },
+     {
+      "t": 45.15,
+      "fin": 46.15,
+      "tipo": "zoom_lento",
+      "escala": 1.039
+     },
+     {
+      "t": 45.55,
+      "tipo": "punch_in",
+      "escala": 1.044
+     },
+     {
+      "t": 46.35,
+      "fin": 46.95,
+      "tipo": "zoom_lento",
+      "escala": 1.073
+     },
+     {
+      "t": 47.35,
+      "fin": 48.05,
+      "tipo": "zoom_lento",
+      "escala": 1.061
+     },
+     {
+      "t": 48.05,
+      "fin": 51.153,
+      "tipo": "zoom_lento",
+      "escala": 1.071
+     }
+    ],
+    "por_minuto": 19.9,
+    "escala_media_punch_in": 1.06
+   },
+   "subtitulos": {
+    "detectados": true,
+    "cobertura_palabras": 0.9,
+    "centro_vertical_pct": 59.6,
+    "posicion": "centro",
+    "ancho_bloque_pct": 18.0,
+    "alto_letra_pct_alto": 2.14,
+    "alto_mayuscula_px_1920": 41,
+    "palabras_por_bloque_mediana": 18.5,
+    "palabras_por_bloque_max": 25,
+    "color_resaltado": null,
+    "color_base": "#FFFFFF",
+    "contorno": "negro (detectado por borde oscuro)",
+    "animacion": {
+     "tipo": "corte seco por palabra/bloque",
+     "escala_relativa_frames_0_2_4_8": [
+      0.998,
+      0.998,
+      1.0,
+      1.0
+     ]
+    },
+    "fuente": "ver analisis/<video>/subtitulos_recortes.png (identificación visual)"
+   },
+   "color": {
+    "brillo_L_medio": 40.9,
+    "contraste_L_std": 21.8,
+    "saturacion_media": 0.299,
+    "ratio_rojo_azul": 1.117,
+    "lab_a_medio": 9.52,
+    "lab_b_medio": 0.2,
+    "negro_p2": 4.2,
+    "blanco_p98": 86.4,
+    "temperatura": "neutra"
+   },
+   "audio": {
+    "lufs_integrado": -13.6,
+    "true_peak_db": 0.0,
+    "rango_lra": 3.5,
+    "voz_rms_db": -13.5,
+    "fondo_en_pausas_rms_db": -180.0,
+    "musica_de_fondo": false,
+    "musica_bajo_voz_db": null,
+    "efectos": [
+     {
+      "t": 4.899,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-wind.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 5.259,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/pack-06.mp3",
+      "similitud": 0.5,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 11.761,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+      "similitud": 0.47,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 17.09,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 18.112,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 18.622,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 19.83,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 54.787,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+      "similitud": 0.47,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 58.015,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+      "similitud": 0.54,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 66.107,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 66.618,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 68.336,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 68.708,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     }
+    ],
+    "efectos_por_minuto": 10.8,
+    "separacion_demucs": {
+     "musica_de_fondo": false,
+     "voz_db": -12.9,
+     "musica_continua_db": -42.1,
+     "musica_bajo_voz_db": null,
+     "musica_lufs": null,
+     "pistas": "/home/user/Guiones-/analisis/ref2/sep/htdemucs/audio"
+    }
+   },
+   "gancho": {
+    "primera_palabra_s": 0.0,
+    "texto_3s": "Cinco Snickers que deberías tener antes de que acabes de 2026.",
+    "palabras_en_3s": 11,
+    "cortes_en_3s": 0,
+    "zooms_en_3s": 0,
+    "efectos_en_3s": [],
+    "subtitulo_desde_inicio": true
+   }
+  },
+  {
+   "archivo": "ref3.mp4",
+   "formato": {
+    "ancho": 576,
+    "alto": 1024,
+    "aspecto": "576:1024",
+    "es_9_16": true,
+    "fps": 30.0,
+    "codec_video": "h264",
+    "pix_fmt": "yuv420p",
+    "bitrate_video_kbps": 508,
+    "bitrate_total_kbps": 645,
+    "duracion_s": 45.867,
+    "codec_audio": "aac",
+    "audio_hz": 44100,
+    "canales": 2,
+    "color": "bt709"
+   },
+   "ritmo": {
+    "cortes": [
+     41.867
+    ],
+    "num_cortes": 1,
+    "cortes_por_minuto": 1.3,
+    "plano_medio_s": 22.93,
+    "plano_mediana_s": 22.93,
+    "plano_min_s": 4.0,
+    "plano_max_s": 41.87,
+    "palabras_por_minuto": 234
+   },
+   "zooms": {
+    "eventos": [],
+    "por_minuto": 0.0,
+    "escala_media_punch_in": 1.0
+   },
+   "subtitulos": {
+    "detectados": true,
+    "cobertura_palabras": 0.87,
+    "centro_vertical_pct": 11.7,
+    "posicion": "arriba",
+    "ancho_bloque_pct": 59.4,
+    "alto_letra_pct_alto": 2.71,
+    "alto_mayuscula_px_1920": 52,
+    "palabras_por_bloque_mediana": 25.5,
+    "palabras_por_bloque_max": 29,
+    "color_resaltado": null,
+    "color_base": "#FFFFFF",
+    "contorno": "negro (detectado por borde oscuro)",
+    "animacion": {
+     "tipo": "corte seco por palabra/bloque",
+     "escala_relativa_frames_0_2_4_8": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "fuente": "ver analisis/<video>/subtitulos_recortes.png (identificación visual)"
+   },
+   "color": {
+    "brillo_L_medio": 42.3,
+    "contraste_L_std": 20.6,
+    "saturacion_media": 0.335,
+    "ratio_rojo_azul": 1.307,
+    "lab_a_medio": 3.44,
+    "lab_b_medio": 10.79,
+    "negro_p2": 3.6,
+    "blanco_p98": 92.4,
+    "temperatura": "cálida"
+   },
+   "audio": {
+    "lufs_integrado": -13.0,
+    "true_peak_db": 0.1,
+    "rango_lra": 1.1,
+    "voz_rms_db": -13.2,
+    "fondo_en_pausas_rms_db": -180.0,
+    "musica_de_fondo": false,
+    "musica_bajo_voz_db": null,
+    "efectos": [
+     {
+      "t": 4.447,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 8.673,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 15.673,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 37.431,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-wind.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 38.394,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 40.519,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/ding.mp3",
+      "similitud": 0.48,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 41.866,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 42.237,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     }
+    ],
+    "efectos_por_minuto": 10.5,
+    "separacion_demucs": {
+     "musica_de_fondo": false,
+     "voz_db": -12.9,
+     "musica_continua_db": -59.5,
+     "musica_bajo_voz_db": null,
+     "musica_lufs": null,
+     "pistas": "/home/user/Guiones-/analisis/ref3/sep/htdemucs/audio"
+    }
+   },
+   "gancho": {
+    "primera_palabra_s": 0.0,
+    "texto_3s": "Cinco pares esenciales para tu closet. Número uno, un par",
+    "palabras_en_3s": 10,
+    "cortes_en_3s": 0,
+    "zooms_en_3s": 0,
+    "efectos_en_3s": [],
+    "subtitulo_desde_inicio": true
+   }
+  },
+  {
+   "archivo": "ref4.mp4",
+   "formato": {
+    "ancho": 576,
+    "alto": 1024,
+    "aspecto": "576:1024",
+    "es_9_16": true,
+    "fps": 30.0,
+    "codec_video": "h264",
+    "pix_fmt": "yuv420p",
+    "bitrate_video_kbps": 609,
+    "bitrate_total_kbps": 746,
+    "duracion_s": 17.831,
+    "codec_audio": "aac",
+    "audio_hz": 44100,
+    "canales": 2,
+    "color": "bt709"
+   },
+   "ritmo": {
+    "cortes": [
+     13.8
+    ],
+    "num_cortes": 1,
+    "cortes_por_minuto": 3.4,
+    "plano_medio_s": 8.92,
+    "plano_mediana_s": 8.92,
+    "plano_min_s": 4.03,
+    "plano_max_s": 13.8,
+    "palabras_por_minuto": 131
+   },
+   "zooms": {
+    "eventos": [
+     {
+      "t": 12.65,
+      "fin": 13.35,
+      "tipo": "zoom_lento",
+      "escala": 0.945
+     },
+     {
+      "t": 13.45,
+      "fin": 13.72,
+      "tipo": "zoom_lento",
+      "escala": 1.032
+     },
+     {
+      "t": 13.65,
+      "tipo": "punch_in",
+      "escala": 1.052
+     }
+    ],
+    "por_minuto": 10.1,
+    "escala_media_punch_in": 1.042
+   },
+   "subtitulos": {
+    "detectados": true,
+    "cobertura_palabras": 1.0,
+    "centro_vertical_pct": 26.8,
+    "posicion": "arriba",
+    "ancho_bloque_pct": 52.0,
+    "alto_letra_pct_alto": 1.67,
+    "alto_mayuscula_px_1920": 32,
+    "palabras_por_bloque_mediana": 25.0,
+    "palabras_por_bloque_max": 29,
+    "color_resaltado": null,
+    "color_base": "#FFFFFF",
+    "contorno": "negro (detectado por borde oscuro)",
+    "animacion": {
+     "tipo": "corte seco por palabra/bloque",
+     "escala_relativa_frames_0_2_4_8": [
+      1.0,
+      1.019,
+      1.021,
+      1.0
+     ]
+    },
+    "fuente": "ver analisis/<video>/subtitulos_recortes.png (identificación visual)"
+   },
+   "color": {
+    "brillo_L_medio": 36.1,
+    "contraste_L_std": 20.5,
+    "saturacion_media": 0.299,
+    "ratio_rojo_azul": 1.132,
+    "lab_a_medio": 3.77,
+    "lab_b_medio": 5.48,
+    "negro_p2": 4.6,
+    "blanco_p98": 82.0,
+    "temperatura": "neutra"
+   },
+   "audio": {
+    "lufs_integrado": -16.2,
+    "true_peak_db": 0.0,
+    "rango_lra": 6.1,
+    "voz_rms_db": -18.1,
+    "fondo_en_pausas_rms_db": -180.0,
+    "musica_de_fondo": true,
+    "musica_bajo_voz_db": -13.2,
+    "efectos": [
+     {
+      "t": 1.672,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+      "similitud": 0.47,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 5.898,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/animal-crossing-12.mp3",
+      "similitud": 0.67,
+      "confianza": "seguro",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 11.146,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 13.862,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 14.234,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     }
+    ],
+    "efectos_por_minuto": 16.8,
+    "separacion_demucs": {
+     "musica_de_fondo": true,
+     "voz_db": -18.9,
+     "musica_continua_db": -32.1,
+     "musica_bajo_voz_db": -13.2,
+     "musica_lufs": -17.4,
+     "pistas": "/home/user/Guiones-/analisis/ref4/sep/htdemucs/audio"
+    }
+   },
+   "gancho": {
+    "primera_palabra_s": 0.0,
+    "texto_3s": "Tenéis que dar la pena a cada sentado versión Nike. Nike Air",
+    "palabras_en_3s": 12,
+    "cortes_en_3s": 0,
+    "zooms_en_3s": 0,
+    "efectos_en_3s": [
+     "clicks-ui"
+    ],
+    "subtitulo_desde_inicio": true
+   }
+  },
+  {
+   "archivo": "ref5.mp4",
+   "formato": {
+    "ancho": 576,
+    "alto": 1024,
+    "aspecto": "576:1024",
+    "es_9_16": true,
+    "fps": 30.0,
+    "codec_video": "h264",
+    "pix_fmt": "yuv420p",
+    "bitrate_video_kbps": 898,
+    "bitrate_total_kbps": 1034,
+    "duracion_s": 91.487,
+    "codec_audio": "aac",
+    "audio_hz": 44100,
+    "canales": 2,
+    "color": "bt709"
+   },
+   "ritmo": {
+    "cortes": [
+     3.5,
+     11.733,
+     12.233,
+     12.7,
+     13.167,
+     14.1,
+     15.033,
+     15.967,
+     16.9,
+     17.767,
+     18.5,
+     18.733,
+     27.3,
+     28.9,
+     29.267,
+     29.767,
+     30.267,
+     31.2,
+     31.667,
+     32.133,
+     32.6,
+     33.067,
+     33.833,
+     34.3,
+     42.167,
+     44.333,
+     45.467,
+     46.367,
+     49.133,
+     57.867,
+     59.267,
+     60.133,
+     61.067,
+     62.933,
+     63.867,
+     64.867,
+     76.233,
+     76.533,
+     77.5,
+     80.2,
+     80.833,
+     81.467,
+     82.167,
+     82.767,
+     83.467,
+     84.233,
+     87.467
+    ],
+    "num_cortes": 47,
+    "cortes_por_minuto": 30.8,
+    "plano_medio_s": 1.91,
+    "plano_mediana_s": 0.92,
+    "plano_min_s": 0.23,
+    "plano_max_s": 11.37,
+    "palabras_por_minuto": 111
+   },
+   "zooms": {
+    "eventos": [
+     {
+      "t": 0.05,
+      "fin": 0.95,
+      "tipo": "zoom_lento",
+      "escala": 1.047
+     },
+     {
+      "t": 16.9,
+      "tipo": "punch_in_en_corte",
+      "escala": 1.09
+     },
+     {
+      "t": 22.383,
+      "fin": 22.983,
+      "tipo": "zoom_lento",
+      "escala": 1.051
+     },
+     {
+      "t": 29.767,
+      "tipo": "punch_in_en_corte",
+      "escala": 1.328
+     },
+     {
+      "t": 33.067,
+      "tipo": "punch_out_en_corte",
+      "escala": 0.891
+     },
+     {
+      "t": 35.25,
+      "tipo": "punch_in",
+      "escala": 1.037
+     },
+     {
+      "t": 36.55,
+      "tipo": "punch_in",
+      "escala": 1.035
+     },
+     {
+      "t": 36.85,
+      "fin": 38.35,
+      "tipo": "zoom_lento",
+      "escala": 1.048
+     },
+     {
+      "t": 39.15,
+      "fin": 40.05,
+      "tipo": "zoom_lento",
+      "escala": 1.08
+     },
+     {
+      "t": 40.05,
+      "fin": 40.65,
+      "tipo": "zoom_lento",
+      "escala": 0.925
+     },
+     {
+      "t": 42.217,
+      "fin": 42.717,
+      "tipo": "zoom_lento",
+      "escala": 1.046
+     },
+     {
+      "t": 43.417,
+      "fin": 44.253,
+      "tipo": "zoom_lento",
+      "escala": 1.052
+     },
+     {
+      "t": 44.383,
+      "fin": 45.387,
+      "tipo": "zoom_lento",
+      "escala": 0.916
+     },
+     {
+      "t": 44.683,
+      "tipo": "punch_out",
+      "escala": 0.957
+     },
+     {
+      "t": 44.783,
+      "tipo": "punch_out",
+      "escala": 0.944
+     },
+     {
+      "t": 44.883,
+      "tipo": "punch_out",
+      "escala": 0.953
+     },
+     {
+      "t": 44.983,
+      "tipo": "punch_out",
+      "escala": 0.949
+     },
+     {
+      "t": 45.083,
+      "tipo": "punch_out",
+      "escala": 0.956
+     },
+     {
+      "t": 47.217,
+      "fin": 47.617,
+      "tipo": "zoom_lento",
+      "escala": 1.047
+     },
+     {
+      "t": 48.217,
+      "fin": 49.053,
+      "tipo": "zoom_lento",
+      "escala": 0.92
+     },
+     {
+      "t": 49.683,
+      "fin": 50.283,
+      "tipo": "zoom_lento",
+      "escala": 1.051
+     },
+     {
+      "t": 54.283,
+      "fin": 54.783,
+      "tipo": "zoom_lento",
+      "escala": 1.047
+     },
+     {
+      "t": 55.583,
+      "fin": 56.183,
+      "tipo": "zoom_lento",
+      "escala": 1.061
+     },
+     {
+      "t": 58.517,
+      "fin": 59.187,
+      "tipo": "zoom_lento",
+      "escala": 1.057
+     },
+     {
+      "t": 59.317,
+      "fin": 60.053,
+      "tipo": "zoom_lento",
+      "escala": 1.035
+     },
+     {
+      "t": 61.417,
+      "fin": 62.853,
+      "tipo": "zoom_lento",
+      "escala": 0.966
+     },
+     {
+      "t": 62.983,
+      "fin": 63.787,
+      "tipo": "zoom_lento",
+      "escala": 1.218
+     },
+     {
+      "t": 64.117,
+      "fin": 64.787,
+      "tipo": "zoom_lento",
+      "escala": 1.166
+     },
+     {
+      "t": 67.317,
+      "fin": 68.017,
+      "tipo": "zoom_lento",
+      "escala": 0.959
+     },
+     {
+      "t": 71.417,
+      "tipo": "punch_out",
+      "escala": 0.965
+     },
+     {
+      "t": 73.617,
+      "fin": 74.117,
+      "tipo": "zoom_lento",
+      "escala": 1.045
+     },
+     {
+      "t": 76.783,
+      "fin": 77.42,
+      "tipo": "zoom_lento",
+      "escala": 1.061
+     },
+     {
+      "t": 77.95,
+      "fin": 78.35,
+      "tipo": "zoom_lento",
+      "escala": 0.93
+     },
+     {
+      "t": 78.35,
+      "fin": 79.75,
+      "tipo": "zoom_lento",
+      "escala": 0.892
+     },
+     {
+      "t": 80.25,
+      "fin": 80.753,
+      "tipo": "zoom_lento",
+      "escala": 1.083
+     },
+     {
+      "t": 81.283,
+      "tipo": "punch_in",
+      "escala": 1.125
+     },
+     {
+      "t": 81.517,
+      "fin": 82.087,
+      "tipo": "zoom_lento",
+      "escala": 1.126
+     },
+     {
+      "t": 82.217,
+      "fin": 82.687,
+      "tipo": "zoom_lento",
+      "escala": 1.044
+     },
+     {
+      "t": 82.617,
+      "tipo": "punch_in",
+      "escala": 1.036
+     },
+     {
+      "t": 82.917,
+      "fin": 83.387,
+      "tipo": "zoom_lento",
+      "escala": 1.03
+     },
+     {
+      "t": 83.317,
+      "tipo": "punch_in",
+      "escala": 1.062
+     },
+     {
+      "t": 84.017,
+      "fin": 84.153,
+      "tipo": "zoom_lento",
+      "escala": 1.033
+     }
+    ],
+    "por_minuto": 27.5,
+    "escala_media_punch_in": 1.076
+   },
+   "subtitulos": {
+    "detectados": true,
+    "cobertura_palabras": 0.99,
+    "centro_vertical_pct": 28.9,
+    "posicion": "arriba",
+    "ancho_bloque_pct": 74.4,
+    "alto_letra_pct_alto": 2.86,
+    "alto_mayuscula_px_1920": 55,
+    "palabras_por_bloque_mediana": 22.5,
+    "palabras_por_bloque_max": 29,
+    "color_resaltado": null,
+    "color_base": "#FFFFFF",
+    "contorno": "negro (detectado por borde oscuro)",
+    "animacion": {
+     "tipo": "corte seco por palabra/bloque",
+     "escala_relativa_frames_0_2_4_8": [
+      0.996,
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "fuente": "ver analisis/<video>/subtitulos_recortes.png (identificación visual)"
+   },
+   "color": {
+    "brillo_L_medio": 48.0,
+    "contraste_L_std": 21.8,
+    "saturacion_media": 0.257,
+    "ratio_rojo_azul": 1.223,
+    "lab_a_medio": 5.19,
+    "lab_b_medio": 7.59,
+    "negro_p2": 5.3,
+    "blanco_p98": 87.0,
+    "temperatura": "cálida"
+   },
+   "audio": {
+    "lufs_integrado": -12.4,
+    "true_peak_db": 0.5,
+    "rango_lra": 8.4,
+    "voz_rms_db": -15.8,
+    "fondo_en_pausas_rms_db": -19.3,
+    "musica_de_fondo": false,
+    "musica_bajo_voz_db": null,
+    "efectos": [
+     {
+      "t": 9.485,
+      "tipo": "impactos",
+      "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 12.237,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 13.166,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 13.63,
+      "tipo": "impacto/golpe",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 14.095,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 15.163,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 15.952,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 16.649,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 17.345,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 18.019,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 27.678,
+      "tipo": "impactos",
+      "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 28.166,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 29.35,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 29.768,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 30.279,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 30.743,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 31.208,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 32.136,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 33.065,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+      "similitud": 0.59,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 33.53,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 34.621,
+      "tipo": "impactos",
+      "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+      "similitud": 0.62,
+      "confianza": "seguro",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 39.787,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/ding.mp3",
+      "similitud": 0.48,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 40.054,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+      "similitud": 0.53,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 40.995,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 58.143,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 59.269,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-wind.mp3",
+      "similitud": 0.5,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 60.279,
+      "tipo": "whoosh",
+      "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+      "similitud": 0.46,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 61.092,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 62.787,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 63.832,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 75.244,
+      "tipo": "clicks-ui",
+      "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+      "similitud": 0.47,
+      "confianza": "probable",
+      "sobre_voz": true,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 77.206,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 77.857,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 78.182,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 78.507,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 78.855,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 79.505,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 79.83,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 80.318,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 80.829,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 81.154,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 82.129,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 82.454,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 82.965,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 83.801,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 84.126,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 84.776,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 85.101,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 85.449,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 86.1,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 86.75,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 87.098,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     },
+     {
+      "t": 87.423,
+      "tipo": "riser",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": true
+     },
+     {
+      "t": 87.888,
+      "tipo": "ding/tono",
+      "coincide_biblioteca": null,
+      "similitud": null,
+      "confianza": "probable",
+      "sobre_voz": false,
+      "junto_a_corte_o_zoom": false
+     }
+    ],
+    "efectos_por_minuto": 35.4,
+    "separacion_demucs": {
+     "musica_de_fondo": false,
+     "voz_db": -15.4,
+     "musica_continua_db": -54.4,
+     "musica_bajo_voz_db": null,
+     "musica_lufs": null,
+     "pistas": "/home/user/Guiones-/analisis/ref5/sep/htdemucs/audio"
+    }
+   },
+   "gancho": {
+    "primera_palabra_s": 0.0,
+    "texto_3s": "Tapatillas que se te ve usando para mí automáticamente tienes buen",
+    "palabras_en_3s": 11,
+    "cortes_en_3s": 0,
+    "zooms_en_3s": 1,
+    "efectos_en_3s": [],
+    "subtitulo_desde_inicio": true
+   }
+  }
+ ]
+}
