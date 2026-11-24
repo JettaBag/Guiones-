@@ -27,7 +27,8 @@ Instaladas en `.claude/skills/` el 2026-11-24 y probadas con un video vertical d
 2. `cut-silences` → `cut-mistakes` (con revisión), o `video-use` con EDL para montar varias tomas.
 3. Color: `video-use/helpers/grade.py --preset …` o `ffmpeg-skill color.py --correct …`.
 4. Subtítulos: `ffmpeg-skill caption.py --karaoke` (rápido) o la plantilla Remotion (más animación).
-5. Sonido y entrega: `loudness.py -I -14 --sample-rate 48000` → `check.py --platform tiktok|reels|shorts`.
+5. Sonidos de retención (skill `sonidos-retencion`, biblioteca propia en `assets/sonidos-retencion/`).
+6. Sonido y entrega: `loudness.py -I -14 --sample-rate 48000` → `check.py --platform tiktok|reels|shorts`.
 
 ## Dependencias del sistema
 
