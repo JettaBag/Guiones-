@@ -6,3 +6,6 @@ matplotlib
 pillow
 numpy
 requests
+scenedetect[opencv-headless]==0.7.3
+pytesseract
+demucs==4.1.0
