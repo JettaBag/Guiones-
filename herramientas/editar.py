@@ -38,9 +38,18 @@ MUL = {"eh", "ehh", "em", "emm", "mmm", "mm", "ehm", "este...", "eeh"}
 GAP_MAX, PAD = 0.22, 0.07         # pausas > 0,22 s se recortan; margen alrededor de cada palabra
 
 
+LOG = None                                                # trabajo/<video>/editar.log
+
+
 def sh(cmd, **kw):
+    cmd = [str(c) for c in cmd]
+    if cmd[0] == "ffmpeg" and "-hide_banner" not in cmd: cmd.insert(1, "-hide_banner")
     r = subprocess.run(cmd, capture_output=True, text=True, **kw)
-    if r.returncode: sys.exit(f"falló: {' '.join(map(str, cmd))[:300]}\n{r.stderr[-1500:]}")
+    if LOG:
+        with open(LOG, "a") as f: f.write(f"$ {' '.join(cmd)[:400]}\n{r.stderr[-4000:]}\n")
+    if r.returncode:
+        cola = "\n".join(r.stderr.strip().splitlines()[-20:])
+        sys.exit(f"FALLÓ: {' '.join(cmd)[:200]}\n{cola}\n(log completo: {LOG})")
     return r.stdout
 
 
@@ -315,12 +324,74 @@ def bloques_subs(ws_final, tramos_habla, maxp=3):
     return out
 
 
+NUMS = {"uno": 1, "dos": 2, "tres": 3, "cuatro": 4, "cinco": 5, "seis": 6, "siete": 7, "ocho": 8, "nueve": 9, "diez": 10}
+ART = {"las", "los", "el", "la", "unas", "unos", "son", "es", "estas", "estos"}
+
+
+def config_auto(video, words):
+    """Arma el .json del video a partir de lo que se dice: título = 1ª frase; items = 'número N, las X'."""
+    txt = [w["text"] for w in limpiar(words)]             # sin muletillas ni repeticiones
+    fin = next((i for i, t in enumerate(txt) if re.search(r"[.!?]$", t)), min(9, len(txt) - 1))
+    frase = [t.strip(",.!?¿¡").upper() for t in txt[: fin + 1]][:12]
+    if frase and norm(frase[0]) in NUMS: frase[0] = str(NUMS[norm(frase[0])])
+    titulo = [" ".join(frase[:2]), " ".join(frase[2:7]), " ".join(frase[7:])]
+    titulo = [t for t in titulo if t] or ["TOP 5"]
+    items = []
+    for i, t in enumerate(txt[:-1]):
+        if norm(t) in ("numero", "top", "puesto"):
+            n = NUMS.get(norm(txt[i + 1])) or (int(norm(txt[i + 1])) if norm(txt[i + 1]).isdigit() else None)
+            if not n or any(x["numero"] == n for x in items): continue
+            nombre = []
+            for t2 in txt[i + 2: i + 9]:
+                if not nombre and (norm(t2) in ART or norm(t2) in {norm(m) for m in MUL}): continue
+                nombre.append(t2.strip(",.!?¿¡"))
+                if re.search(r"[.,!?]$", t2) or len(nombre) >= 5: break
+            nombre = " ".join(nombre).title() or f"Zapatilla {n}"
+            items.append({"numero": n, "nombre": nombre, "claves": [norm(x) for x in nombre.split() if len(norm(x)) > 2]})
+    st = Path(video).stem
+    for it in items:                                        # tomas y foto por convención de nombres
+        n = it["numero"]
+        br = sorted(ROOT.glob(f"crudos/{st}_broll/{n}*.mp4")) + sorted(ROOT.glob(f"crudos/{st}_broll/{n}*.mov")) + \
+             sorted(ROOT.glob(f"crudos/broll/{n}-*.mp4")) + sorted(ROOT.glob(f"crudos/broll/{n}-*.mov"))
+        if br: it["broll"] = [str(b.relative_to(ROOT)) for b in br]
+        foto = sorted(ROOT.glob(f"assets/productos/{n}-*.png"))
+        if foto: it["recorte"] = str(foto[0].relative_to(ROOT))
+    return {"video": str(Path(video).resolve().relative_to(ROOT)), "titulo": titulo, "items": items,
+            "musica": None, "subtitulos": True, "salida": f"salida/{st}.mp4"}
+
+
+def revisar(salida, plan, work):
+    """Hoja de revisión: 3 fotogramas a 480 px (gancho, tramo con lista, montaje o final)."""
+    T = dur(salida); m = plan["montajes"]
+    ts = [1.5, (plan["fin_titulo"] + (m[0][0] if m else T)) / 2, (m[0][0] + 1.5) if m else T - 1]
+    fr = []
+    cap = cv2.VideoCapture(str(salida))
+    for t in ts:
+        cap.set(cv2.CAP_PROP_POS_MSEC, min(t, T - 0.2) * 1000); ok, f = cap.read()
+        if ok: fr.append(cv2.resize(f, (480, 853)))
+    if fr: cv2.imwrite(str(work / "revision.jpg"), np.hstack(fr), [cv2.IMWRITE_JPEG_QUALITY, 70])
+    return work / "revision.jpg"
+
+
 # ------------------------------------------------------------------ principal
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("config"); ap.add_argument("--preview", action="store_true")
-    a = ap.parse_args()
-    cfg = json.loads(Path(a.config).read_text()); video = ROOT / cfg["video"]
-    nombre = Path(cfg["video"]).stem; work = ROOT / "trabajo" / nombre; work.mkdir(parents=True, exist_ok=True)
+    global LOG
+    ap = argparse.ArgumentParser(); ap.add_argument("entrada", help="crudos/video.mp4 o crudos/video.json")
+    ap.add_argument("--preview", action="store_true"); a = ap.parse_args()
+    ent = (ROOT / a.entrada) if not Path(a.entrada).is_absolute() else Path(a.entrada)
+    if ent.suffix.lower() == ".json":
+        cfg_path = ent
+    else:
+        cfg_path = ent.with_suffix(".json")
+    nombre = ent.stem; work = ROOT / "trabajo" / nombre; work.mkdir(parents=True, exist_ok=True)
+    LOG = work / "editar.log"; LOG.write_text("")
+    if cfg_path.exists():
+        cfg = json.loads(cfg_path.read_text())
+    else:
+        print("0/8 sin .json: armo título y lista desde lo que dices…", flush=True)
+        cfg = config_auto(ent, transcribir(ent, work))
+        cfg_path.write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
+    video = ROOT / cfg["video"]
     salida = ROOT / cfg.get("salida", f"salida/{nombre}.mp4"); salida.parent.mkdir(exist_ok=True)
     rep = {"video": cfg["video"]}
 
@@ -447,7 +518,11 @@ def main():
                 "montajes": [(round(x, 2), round(y, 2)) for x, y in plan["montajes"]],
                 "revelados_lista": plan["revelado"], "fin_titulo": plan["fin_titulo"]})
     (work / "reporte.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1))
-    print(json.dumps(rep, ensure_ascii=False, indent=1))
+    rep["revision"] = str(revisar(salida, plan, work).relative_to(ROOT))
+    (work / "reporte.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1))
+    print(f"OK {rep['salida']} | {rep['duracion_crudo_s']}s → {rep['duracion_final_s']}s | items {len(cfg['items'])} "
+          f"(revelados {len(plan['revelado'])}) | montajes {len(plan['montajes'])} | fotos {len(plan['recortes'])} | "
+          f"efectos {rep['efectos']} | revisión {rep['revision']} | config {cfg_path.relative_to(ROOT)}")
 
 
 def recortar(src, dst, ancho, alto_max=None):
