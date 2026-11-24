@@ -12,7 +12,7 @@ Editor automático de videos "Top N de zapatillas" para TikTok, Reels y Shorts.
 | `salida/` | Videos terminados, listos para subir (MP4 H.264, 1080x1920, −14 LUFS). |
 | `analisis/` | Lo que se midió de cada referencia (transcripción, recortes de texto, hojas de contacto). |
 | `herramientas/` | Los programas: `analizar_estilo.py` (Fase 1), `editar.py` (Fase 2), `organizar.ps1` (ordenar archivos en Windows). |
-| `assets/` | Fuentes (Montserrat, Anton, Barlow Condensed) y la biblioteca de sonidos. |
+| `assets/` | Fuentes (Montserrat, Anton, Barlow Condensed), biblioteca de sonidos y `productos/` (fotos de zapatillas sin fondo que entran con pop). |
 | `estilo.json` | El estilo medido de las referencias + tus decisiones. |
 
 ## Reglas
@@ -26,3 +26,6 @@ En PowerShell:
 powershell -ExecutionPolicy Bypass -File herramientas\organizar.ps1            # crea Escritorio\editor-videos y lista archivos recientes
 powershell -ExecutionPolicy Bypass -File herramientas\organizar.ps1 -Copiar     # copia según la lista que marcaste
 ```
+
+## Fotos de producto
+`assets/productos/N-nombre.png` (sin fondo). En el `.json` del video: `"recorte": "assets/productos/...png"` en cada item. Aparece con pop al nombrar la zapatilla (~2,5 s). Plantilla: `crudos/plantilla_top5.json`.

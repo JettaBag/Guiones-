@@ -56,7 +56,7 @@ def dur(p):
 def transcribir(video, work):
     out = work / "transcripcion.json"
     sh([sys.executable, str(TRANS), str(video), "--language", "es", "--model", "small", "-o", str(out),
-        "--prompt", "Eh, em, mmm... Bueno, número cinco: las Asics Gel Kayano, Nike, Jordan, Salomon XT-6, New Balance."])
+        "--prompt", "Eh, em, mmm... Bueno, número cinco: las burbuja negras, Jordan Retro 4 Black Cat, Off White, On Cloud, Asics Gel, Nike, Salomon XT-6, New Balance."])
     return [w for w in json.loads(out.read_text())["words"] if w.get("type", "word") == "word"]
 
 
@@ -271,11 +271,16 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 ev.append(f"Dialogue: 2,{ass_t(ini)},{ass_t(b)},ITEM,,0,0,0,,{{\\an4\\pos(228,{y}){glow}{anim}}}{it['nombre']}")
     # --- subtítulos: 3 palabras por bloque, palabra a palabra con pop; marcas/números en amarillo
     claves = {norm(c) for it in cfg["items"] for c in it.get("claves", []) + it["nombre"].split()}
+    ventanas = list(plan.get("recortes", {}).values())
     if cfg.get("subtitulos", True):
         for bloque in subs:
             fin = bloque[-1]["fin_bloque"]
             for j, w in enumerate(bloque):
                 ini = w["t"]; fin_w = bloque[j + 1]["t"] if j + 1 < len(bloque) else fin
+                for t0, t1, _ in ventanas:                    # la foto del producto ocupa esa zona
+                    if t0 - 0.02 <= ini < t1: fin_w = ini
+                    elif ini < t0 < fin_w: fin_w = t0
+                if fin_w - ini < 0.04: continue
                 partes = []
                 for q, x in enumerate(bloque[: j + 1]):
                     txt = x["text"].upper().strip(",.;:¡!¿?")
@@ -362,6 +367,14 @@ def main():
     for it in cfg["items"]:
         m = marcas[it["numero"]]["nombre_dicho"]
         if m is not None: plan["revelado"][it["numero"]] = round(a_final(m), 3)
+    plan["recortes"] = {}
+    for it in cfg["items"]:
+        tr = plan["revelado"].get(it["numero"])
+        if it.get("recorte") and tr is not None:
+            t1 = min([tr + 2.6] + [ma for ma, mb in plan["montajes"] if ma > tr] + [T])
+            if t1 - tr > 0.6:
+                png = recortar(ROOT / it["recorte"], work / f"recorte_{it['numero']}.png", ancho=820, alto_max=520)
+                plan["recortes"][it["numero"]] = (tr, t1, png)
     huecos = sorted(plan["montajes"]); cur = plan["fin_titulo"]
     for ma, mb in huecos:
         if ma > cur: plan["tramos_lista"].append((cur, ma))
@@ -373,17 +386,23 @@ def main():
     print("5/8 textos (ASS)…", flush=True)
     ass = work / "textos.ass"; generar_ass(cfg, plan, subs, ass)
     vid = work / "con_textos.mov"
-    filtros = f"subtitles='{ass}':fontsdir='{FONTS}'"
-    ins = ["-i", str(base)]
+    ins, cadena, ult, k = ["-i", str(base)], [], "0:v", 0
     if cfg.get("titulo_imagen"):                              # foto de zapatillas detrás del título (recortada)
         png = recortar(ROOT / cfg["titulo_imagen"], work / "titulo_recorte.png", ancho=860)
-        ins += ["-loop", "1", "-t", f"{plan['fin_titulo']:.2f}", "-i", str(png)]
-        filtros = (f"[1:v]format=rgba,fade=t=in:st=0:d=0.3:alpha=1,fade=t=out:st={plan['fin_titulo'] - 0.2:.2f}:d=0.2:alpha=1[img];"
-                   f"[0:v][img]overlay=(W-w)/2:140:enable='lt(t,{plan['fin_titulo']:.2f})':eof_action=pass[v0];[v0]{filtros}")
-    sh(["ffmpeg", "-nostdin", "-v", "error", "-y", *ins, "-filter_complex", filtros, "-map", "0:a", *VENC,
-        *(["-preset", "ultrafast"] if a.preview else []), *AENC, str(vid)] if not cfg.get("titulo_imagen") else
-       ["ffmpeg", "-nostdin", "-v", "error", "-y", *ins, "-filter_complex", filtros, "-map", "0:a", *VENC,
-        *(["-preset", "ultrafast"] if a.preview else []), *AENC, str(vid)])
+        ft = plan["fin_titulo"]; k += 1
+        ins += ["-loop", "1", "-t", f"{ft:.2f}", "-i", str(png)]
+        cadena.append(f"[{k}:v]format=rgba,fade=t=in:st=0:d=0.3:alpha=1,fade=t=out:st={ft - 0.2:.2f}:d=0.2:alpha=1[i{k}];"
+                      f"[{ult}][i{k}]overlay=(W-w)/2:140:eof_action=pass[v{k}]"); ult = f"v{k}"
+    for num, (t0, t1, png) in sorted(plan["recortes"].items()):   # foto del producto: entra con pop, sale con fundido
+        d = t1 - t0; k += 1
+        pop = "if(lt(t,0.09),0.55+t/0.09*0.53,if(lt(t,0.18),1.08-(t-0.09)/0.09*0.08,1))"
+        ins += ["-loop", "1", "-t", f"{d:.2f}", "-i", str(png)]
+        cadena.append(f"[{k}:v]format=rgba,scale=w='trunc(iw*{pop}/2)*2':h=-2:eval=frame,"
+                      f"fade=t=out:st={d - 0.15:.2f}:d=0.15:alpha=1,setpts=PTS+{t0:.3f}/TB[i{k}];"
+                      f"[{ult}][i{k}]overlay=x=(W-w)/2:y=1330-h/2:eof_action=pass[v{k}]"); ult = f"v{k}"
+    cadena.append(f"[{ult}]subtitles='{ass}':fontsdir='{FONTS}'[vout]")
+    sh(["ffmpeg", "-nostdin", "-v", "error", "-y", *ins, "-filter_complex", ";".join(cadena), "-map", "[vout]", "-map", "0:a",
+        *VENC, *(["-preset", "ultrafast"] if a.preview else []), *AENC, str(vid)])
 
     print("6/8 música…", flush=True)
     if musica and plan["montajes"]:
@@ -431,14 +450,15 @@ def main():
     print(json.dumps(rep, ensure_ascii=False, indent=1))
 
 
-def recortar(src, dst, ancho):
+def recortar(src, dst, ancho, alto_max=None):
     from rembg import remove, new_session
     from PIL import Image
     im = Image.open(src).convert("RGBA")
     if im.getextrema()[3][0] == 255:                         # sin transparencia → quitar fondo
         im = remove(im, session=new_session("isnet-general-use"))
     im = im.crop(im.getbbox()); r = ancho / im.width
-    im = im.resize((ancho, int(im.height * r))); im.save(dst); return dst
+    if alto_max and im.height * r > alto_max: r = alto_max / im.height
+    im = im.resize((int(im.width * r) // 2 * 2, int(im.height * r) // 2 * 2)); im.save(dst); return dst
 
 
 if __name__ == "__main__":
