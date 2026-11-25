@@ -169,7 +169,7 @@ def construir_timeline(rangos, items, marcas, total, ws):
 
 
 # ------------------------------------------------------------------ 5. render de segmentos
-VENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-r", str(FPS)]
+VENC = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "17", "-pix_fmt", "yuv420p", "-r", str(FPS)]
 AENC = ["-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2"]
 
 
