@@ -1,0 +1,369 @@
+{
+ "language_code": "es",
+ "language_probability": 1,
+ "text": "Tenéis que dar la pena a cada sentado versión Nike. Nike Air Max 1 Blancos, Jordan 1 MidX Ray, Nike Air Max DNA Black White, Noctajos Z Black, Nike Tung Kakao, Nike Air Max Portal, Nike Air Max 95.",
+ "words": [
+  {
+   "text": "Tenéis",
+   "start": 0.0,
+   "end": 0.36,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.38
+  },
+  {
+   "text": "que",
+   "start": 0.36,
+   "end": 0.44,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.453
+  },
+  {
+   "text": "dar",
+   "start": 0.44,
+   "end": 0.52,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.37
+  },
+  {
+   "text": "la",
+   "start": 0.52,
+   "end": 0.64,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.936
+  },
+  {
+   "text": "pena",
+   "start": 0.64,
+   "end": 0.8,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.997
+  },
+  {
+   "text": "a",
+   "start": 0.8,
+   "end": 1.0,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.316
+  },
+  {
+   "text": "cada",
+   "start": 1.0,
+   "end": 1.18,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.971
+  },
+  {
+   "text": "sentado",
+   "start": 1.18,
+   "end": 1.78,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.564
+  },
+  {
+   "text": "versión",
+   "start": 1.78,
+   "end": 2.06,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.599
+  },
+  {
+   "text": "Nike.",
+   "start": 2.06,
+   "end": 2.38,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.787
+  },
+  {
+   "text": " ",
+   "start": 2.38,
+   "end": 2.54,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Nike",
+   "start": 2.54,
+   "end": 2.86,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.995
+  },
+  {
+   "text": "Air",
+   "start": 2.86,
+   "end": 3.0,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.882
+  },
+  {
+   "text": "Max",
+   "start": 3.0,
+   "end": 3.08,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.063
+  },
+  {
+   "text": "1",
+   "start": 3.08,
+   "end": 3.3,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.622
+  },
+  {
+   "text": "Blancos,",
+   "start": 3.3,
+   "end": 3.88,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.727
+  },
+  {
+   "text": " ",
+   "start": 3.88,
+   "end": 3.98,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Jordan",
+   "start": 3.98,
+   "end": 4.26,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.859
+  },
+  {
+   "text": "1",
+   "start": 4.26,
+   "end": 4.48,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.724
+  },
+  {
+   "text": "MidX",
+   "start": 4.48,
+   "end": 4.94,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.303
+  },
+  {
+   "text": "Ray,",
+   "start": 4.94,
+   "end": 5.12,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.322
+  },
+  {
+   "text": " ",
+   "start": 5.12,
+   "end": 5.5,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Nike",
+   "start": 5.5,
+   "end": 5.74,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.993
+  },
+  {
+   "text": "Air",
+   "start": 5.74,
+   "end": 5.92,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.996
+  },
+  {
+   "text": "Max",
+   "start": 5.92,
+   "end": 6.04,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.963
+  },
+  {
+   "text": "DNA",
+   "start": 6.04,
+   "end": 6.3,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.137
+  },
+  {
+   "text": "Black",
+   "start": 6.3,
+   "end": 6.58,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.955
+  },
+  {
+   "text": "White,",
+   "start": 6.58,
+   "end": 6.98,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.854
+  },
+  {
+   "text": " ",
+   "start": 6.98,
+   "end": 7.3,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Noctajos",
+   "start": 7.3,
+   "end": 7.92,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.655
+  },
+  {
+   "text": "Z",
+   "start": 7.92,
+   "end": 8.14,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.651
+  },
+  {
+   "text": "Black,",
+   "start": 8.14,
+   "end": 8.44,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.838
+  },
+  {
+   "text": " ",
+   "start": 8.44,
+   "end": 8.88,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Nike",
+   "start": 8.88,
+   "end": 9.06,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.991
+  },
+  {
+   "text": "Tung",
+   "start": 9.06,
+   "end": 9.26,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.365
+  },
+  {
+   "text": "Kakao,",
+   "start": 9.26,
+   "end": 9.9,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.86
+  },
+  {
+   "text": " ",
+   "start": 9.9,
+   "end": 10.18,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Nike",
+   "start": 10.18,
+   "end": 10.36,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.995
+  },
+  {
+   "text": "Air",
+   "start": 10.36,
+   "end": 10.54,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.997
+  },
+  {
+   "text": "Max",
+   "start": 10.54,
+   "end": 10.68,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.974
+  },
+  {
+   "text": "Portal,",
+   "start": 10.68,
+   "end": 11.08,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.987
+  },
+  {
+   "text": " ",
+   "start": 11.08,
+   "end": 11.58,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Nike",
+   "start": 11.58,
+   "end": 11.72,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.995
+  },
+  {
+   "text": "Air",
+   "start": 11.72,
+   "end": 12.04,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.995
+  },
+  {
+   "text": "Max",
+   "start": 12.04,
+   "end": 12.16,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.985
+  },
+  {
+   "text": "95.",
+   "start": 12.16,
+   "end": 12.66,
+   "type": "word",
+   "speaker_id": "speaker_0",
+   "logprob": 0.986
+  }
+ ],
+ "engine": "faster-whisper/small"
+}

@@ -1,0 +1,766 @@
+{
+ "archivo": "ref1.mp4",
+ "formato": {
+  "ancho": 576,
+  "alto": 1024,
+  "aspecto": "576:1024",
+  "es_9_16": true,
+  "fps": 30.0,
+  "codec_video": "h264",
+  "pix_fmt": "yuv420p",
+  "bitrate_video_kbps": 862,
+  "bitrate_total_kbps": 998,
+  "duracion_s": 85.333,
+  "codec_audio": "aac",
+  "audio_hz": 44100,
+  "canales": 2,
+  "color": "bt709"
+ },
+ "ritmo": {
+  "cortes": [
+   4.633,
+   12.8,
+   13.1,
+   14.033,
+   15.5,
+   16.367,
+   17.233,
+   17.933,
+   18.8,
+   28.333,
+   29.4,
+   30.367,
+   31.267,
+   32.133,
+   32.833,
+   33.433,
+   34.333,
+   41.8,
+   42.167,
+   42.767,
+   43.367,
+   43.967,
+   44.567,
+   45.167,
+   45.8,
+   46.4,
+   47.033,
+   47.633,
+   48.233,
+   59.4,
+   60.533,
+   61.6,
+   62.533,
+   63.467,
+   64.533,
+   65.2,
+   65.4,
+   73.367,
+   74.767,
+   75.4,
+   75.933,
+   76.167,
+   76.533,
+   77.3,
+   77.933,
+   78.3,
+   78.7,
+   78.933,
+   79.333,
+   81.3
+  ],
+  "num_cortes": 50,
+  "cortes_por_minuto": 35.2,
+  "plano_medio_s": 1.67,
+  "plano_mediana_s": 0.7,
+  "plano_min_s": 0.2,
+  "plano_max_s": 11.17,
+  "palabras_por_minuto": 120
+ },
+ "zooms": {
+  "eventos": [
+   {
+    "t": 0.05,
+    "fin": 0.95,
+    "tipo": "zoom_lento",
+    "escala": 1.046
+   },
+   {
+    "t": 4.633,
+    "tipo": "punch_out_en_corte",
+    "escala": 0.834
+   },
+   {
+    "t": 5.483,
+    "fin": 6.683,
+    "tipo": "zoom_lento",
+    "escala": 1.072
+   },
+   {
+    "t": 10.483,
+    "fin": 11.183,
+    "tipo": "zoom_lento",
+    "escala": 1.035
+   },
+   {
+    "t": 13.1,
+    "tipo": "punch_out_en_corte",
+    "escala": 0.684
+   },
+   {
+    "t": 13.85,
+    "tipo": "punch_out",
+    "escala": 0.96
+   },
+   {
+    "t": 15.85,
+    "fin": 16.15,
+    "tipo": "zoom_lento",
+    "escala": 1.046
+   },
+   {
+    "t": 17.233,
+    "tipo": "punch_out_en_corte",
+    "escala": 0.942
+   },
+   {
+    "t": 17.783,
+    "tipo": "punch_in",
+    "escala": 1.044
+   },
+   {
+    "t": 19.75,
+    "fin": 21.05,
+    "tipo": "zoom_lento",
+    "escala": 1.081
+   },
+   {
+    "t": 21.65,
+    "fin": 22.25,
+    "tipo": "zoom_lento",
+    "escala": 0.944
+   },
+   {
+    "t": 23.55,
+    "fin": 24.25,
+    "tipo": "zoom_lento",
+    "escala": 0.938
+   },
+   {
+    "t": 26.85,
+    "fin": 27.55,
+    "tipo": "zoom_lento",
+    "escala": 1.045
+   },
+   {
+    "t": 28.383,
+    "fin": 29.083,
+    "tipo": "zoom_lento",
+    "escala": 1.05
+   },
+   {
+    "t": 29.55,
+    "fin": 30.287,
+    "tipo": "zoom_lento",
+    "escala": 1.04
+   },
+   {
+    "t": 30.417,
+    "fin": 31.017,
+    "tipo": "zoom_lento",
+    "escala": 1.06
+   },
+   {
+    "t": 31.267,
+    "tipo": "punch_in_en_corte",
+    "escala": 1.049
+   },
+   {
+    "t": 32.883,
+    "fin": 33.353,
+    "tipo": "zoom_lento",
+    "escala": 1.044
+   },
+   {
+    "t": 33.283,
+    "tipo": "punch_in",
+    "escala": 1.042
+   },
+   {
+    "t": 34.383,
+    "fin": 34.783,
+    "tipo": "zoom_lento",
+    "escala": 0.967
+   },
+   {
+    "t": 34.983,
+    "fin": 36.283,
+    "tipo": "zoom_lento",
+    "escala": 1.067
+   },
+   {
+    "t": 37.383,
+    "tipo": "punch_out",
+    "escala": 0.958
+   },
+   {
+    "t": 39.083,
+    "fin": 39.883,
+    "tipo": "zoom_lento",
+    "escala": 0.945
+   },
+   {
+    "t": 39.883,
+    "fin": 41.283,
+    "tipo": "zoom_lento",
+    "escala": 1.129
+   },
+   {
+    "t": 48.283,
+    "fin": 48.883,
+    "tipo": "zoom_lento",
+    "escala": 0.918
+   },
+   {
+    "t": 49.183,
+    "tipo": "punch_in",
+    "escala": 1.044
+   },
+   {
+    "t": 49.183,
+    "fin": 50.883,
+    "tipo": "zoom_lento",
+    "escala": 1.177
+   },
+   {
+    "t": 62.05,
+    "fin": 62.453,
+    "tipo": "zoom_lento",
+    "escala": 1.044
+   },
+   {
+    "t": 63.467,
+    "tipo": "punch_out_en_corte",
+    "escala": 0.669
+   },
+   {
+    "t": 64.417,
+    "tipo": "punch_out",
+    "escala": 0.904
+   },
+   {
+    "t": 68.35,
+    "fin": 68.85,
+    "tipo": "zoom_lento",
+    "escala": 0.969
+   },
+   {
+    "t": 70.35,
+    "fin": 70.95,
+    "tipo": "zoom_lento",
+    "escala": 0.952
+   },
+   {
+    "t": 71.45,
+    "fin": 72.65,
+    "tipo": "zoom_lento",
+    "escala": 1.063
+   },
+   {
+    "t": 74.817,
+    "fin": 75.32,
+    "tipo": "zoom_lento",
+    "escala": 1.137
+   },
+   {
+    "t": 75.45,
+    "fin": 75.853,
+    "tipo": "zoom_lento",
+    "escala": 1.079
+   },
+   {
+    "t": 76.583,
+    "fin": 77.22,
+    "tipo": "zoom_lento",
+    "escala": 1.052
+   },
+   {
+    "t": 77.35,
+    "fin": 77.853,
+    "tipo": "zoom_lento",
+    "escala": 1.083
+   }
+  ],
+  "por_minuto": 26.0,
+  "escala_media_punch_in": 1.066
+ },
+ "subtitulos": {
+  "detectados": true,
+  "cobertura_palabras": 0.92,
+  "centro_vertical_pct": 27.9,
+  "posicion": "arriba",
+  "ancho_bloque_pct": 75.6,
+  "alto_letra_pct_alto": 2.86,
+  "alto_mayuscula_px_1920": 55,
+  "palabras_por_bloque_mediana": 22.0,
+  "palabras_por_bloque_max": 28,
+  "color_resaltado": null,
+  "color_base": "#FFFFFF",
+  "contorno": "negro (detectado por borde oscuro)",
+  "animacion": {
+   "tipo": "corte seco por palabra/bloque",
+   "escala_relativa_frames_0_2_4_8": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "fuente": "ver analisis/<video>/subtitulos_recortes.png (identificación visual)"
+ },
+ "color": {
+  "brillo_L_medio": 39.2,
+  "contraste_L_std": 18.4,
+  "saturacion_media": 0.262,
+  "ratio_rojo_azul": 1.044,
+  "lab_a_medio": 3.21,
+  "lab_b_medio": 0.95,
+  "negro_p2": 4.3,
+  "blanco_p98": 84.2,
+  "temperatura": "neutra"
+ },
+ "audio": {
+  "lufs_integrado": -18.4,
+  "true_peak_db": -0.0,
+  "rango_lra": 2.1,
+  "voz_rms_db": -18.3,
+  "fondo_en_pausas_rms_db": -24.8,
+  "musica_de_fondo": false,
+  "musica_bajo_voz_db": null,
+  "efectos": [
+   {
+    "t": 5.178,
+    "tipo": "impactos",
+    "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 12.469,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 13.119,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 13.7,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 14.303,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 14.907,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 15.279,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 15.906,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 16.463,
+    "tipo": "impactos",
+    "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 16.881,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 17.74,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 18.088,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 28.839,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 29.373,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 29.861,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 30.836,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 31.393,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 31.927,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 32.461,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 33.506,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 42.237,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 43.433,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+    "similitud": 0.69,
+    "confianza": "seguro",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 44.025,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 44.629,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 45.871,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 46.15,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/pack-07.mp3",
+    "similitud": 0.46,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 46.463,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 47.16,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 50.387,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-wind.mp3",
+    "similitud": 0.54,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 55.914,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 59.791,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+    "similitud": 0.46,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 60.929,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+    "similitud": 0.5,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 61.417,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/ding.mp3",
+    "similitud": 0.52,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 62.299,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 63.437,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 64.122,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+    "similitud": 0.47,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 64.459,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 64.807,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 65.248,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 67.129,
+    "tipo": "impactos",
+    "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 72.319,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/animal-crossing-05.mp3",
+    "similitud": 0.47,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 75.233,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 76.928,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 81.363,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 81.734,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   }
+  ],
+  "efectos_por_minuto": 31.6,
+  "separacion_demucs": {
+   "musica_de_fondo": false,
+   "voz_db": -18.6,
+   "musica_continua_db": -50.0,
+   "musica_bajo_voz_db": null,
+   "musica_lufs": null,
+   "pistas": "/home/user/Guiones-/analisis/ref1/sep/htdemucs/audio"
+  }
+ },
+ "gancho": {
+  "primera_palabra_s": 0.0,
+  "texto_3s": "5 zapatillas que si te veo usando para mí automáticamente",
+  "palabras_en_3s": 10,
+  "cortes_en_3s": 0,
+  "zooms_en_3s": 1,
+  "efectos_en_3s": [],
+  "subtitulo_desde_inicio": true
+ }
+}

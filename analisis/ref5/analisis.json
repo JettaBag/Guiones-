@@ -1,0 +1,871 @@
+{
+ "archivo": "ref5.mp4",
+ "formato": {
+  "ancho": 576,
+  "alto": 1024,
+  "aspecto": "576:1024",
+  "es_9_16": true,
+  "fps": 30.0,
+  "codec_video": "h264",
+  "pix_fmt": "yuv420p",
+  "bitrate_video_kbps": 898,
+  "bitrate_total_kbps": 1034,
+  "duracion_s": 91.487,
+  "codec_audio": "aac",
+  "audio_hz": 44100,
+  "canales": 2,
+  "color": "bt709"
+ },
+ "ritmo": {
+  "cortes": [
+   3.5,
+   11.733,
+   12.233,
+   12.7,
+   13.167,
+   14.1,
+   15.033,
+   15.967,
+   16.9,
+   17.767,
+   18.5,
+   18.733,
+   27.3,
+   28.9,
+   29.267,
+   29.767,
+   30.267,
+   31.2,
+   31.667,
+   32.133,
+   32.6,
+   33.067,
+   33.833,
+   34.3,
+   42.167,
+   44.333,
+   45.467,
+   46.367,
+   49.133,
+   57.867,
+   59.267,
+   60.133,
+   61.067,
+   62.933,
+   63.867,
+   64.867,
+   76.233,
+   76.533,
+   77.5,
+   80.2,
+   80.833,
+   81.467,
+   82.167,
+   82.767,
+   83.467,
+   84.233,
+   87.467
+  ],
+  "num_cortes": 47,
+  "cortes_por_minuto": 30.8,
+  "plano_medio_s": 1.91,
+  "plano_mediana_s": 0.92,
+  "plano_min_s": 0.23,
+  "plano_max_s": 11.37,
+  "palabras_por_minuto": 111
+ },
+ "zooms": {
+  "eventos": [
+   {
+    "t": 0.05,
+    "fin": 0.95,
+    "tipo": "zoom_lento",
+    "escala": 1.047
+   },
+   {
+    "t": 16.9,
+    "tipo": "punch_in_en_corte",
+    "escala": 1.09
+   },
+   {
+    "t": 22.383,
+    "fin": 22.983,
+    "tipo": "zoom_lento",
+    "escala": 1.051
+   },
+   {
+    "t": 29.767,
+    "tipo": "punch_in_en_corte",
+    "escala": 1.328
+   },
+   {
+    "t": 33.067,
+    "tipo": "punch_out_en_corte",
+    "escala": 0.891
+   },
+   {
+    "t": 35.25,
+    "tipo": "punch_in",
+    "escala": 1.037
+   },
+   {
+    "t": 36.55,
+    "tipo": "punch_in",
+    "escala": 1.035
+   },
+   {
+    "t": 36.85,
+    "fin": 38.35,
+    "tipo": "zoom_lento",
+    "escala": 1.048
+   },
+   {
+    "t": 39.15,
+    "fin": 40.05,
+    "tipo": "zoom_lento",
+    "escala": 1.08
+   },
+   {
+    "t": 40.05,
+    "fin": 40.65,
+    "tipo": "zoom_lento",
+    "escala": 0.925
+   },
+   {
+    "t": 42.217,
+    "fin": 42.717,
+    "tipo": "zoom_lento",
+    "escala": 1.046
+   },
+   {
+    "t": 43.417,
+    "fin": 44.253,
+    "tipo": "zoom_lento",
+    "escala": 1.052
+   },
+   {
+    "t": 44.383,
+    "fin": 45.387,
+    "tipo": "zoom_lento",
+    "escala": 0.916
+   },
+   {
+    "t": 44.683,
+    "tipo": "punch_out",
+    "escala": 0.957
+   },
+   {
+    "t": 44.783,
+    "tipo": "punch_out",
+    "escala": 0.944
+   },
+   {
+    "t": 44.883,
+    "tipo": "punch_out",
+    "escala": 0.953
+   },
+   {
+    "t": 44.983,
+    "tipo": "punch_out",
+    "escala": 0.949
+   },
+   {
+    "t": 45.083,
+    "tipo": "punch_out",
+    "escala": 0.956
+   },
+   {
+    "t": 47.217,
+    "fin": 47.617,
+    "tipo": "zoom_lento",
+    "escala": 1.047
+   },
+   {
+    "t": 48.217,
+    "fin": 49.053,
+    "tipo": "zoom_lento",
+    "escala": 0.92
+   },
+   {
+    "t": 49.683,
+    "fin": 50.283,
+    "tipo": "zoom_lento",
+    "escala": 1.051
+   },
+   {
+    "t": 54.283,
+    "fin": 54.783,
+    "tipo": "zoom_lento",
+    "escala": 1.047
+   },
+   {
+    "t": 55.583,
+    "fin": 56.183,
+    "tipo": "zoom_lento",
+    "escala": 1.061
+   },
+   {
+    "t": 58.517,
+    "fin": 59.187,
+    "tipo": "zoom_lento",
+    "escala": 1.057
+   },
+   {
+    "t": 59.317,
+    "fin": 60.053,
+    "tipo": "zoom_lento",
+    "escala": 1.035
+   },
+   {
+    "t": 61.417,
+    "fin": 62.853,
+    "tipo": "zoom_lento",
+    "escala": 0.966
+   },
+   {
+    "t": 62.983,
+    "fin": 63.787,
+    "tipo": "zoom_lento",
+    "escala": 1.218
+   },
+   {
+    "t": 64.117,
+    "fin": 64.787,
+    "tipo": "zoom_lento",
+    "escala": 1.166
+   },
+   {
+    "t": 67.317,
+    "fin": 68.017,
+    "tipo": "zoom_lento",
+    "escala": 0.959
+   },
+   {
+    "t": 71.417,
+    "tipo": "punch_out",
+    "escala": 0.965
+   },
+   {
+    "t": 73.617,
+    "fin": 74.117,
+    "tipo": "zoom_lento",
+    "escala": 1.045
+   },
+   {
+    "t": 76.783,
+    "fin": 77.42,
+    "tipo": "zoom_lento",
+    "escala": 1.061
+   },
+   {
+    "t": 77.95,
+    "fin": 78.35,
+    "tipo": "zoom_lento",
+    "escala": 0.93
+   },
+   {
+    "t": 78.35,
+    "fin": 79.75,
+    "tipo": "zoom_lento",
+    "escala": 0.892
+   },
+   {
+    "t": 80.25,
+    "fin": 80.753,
+    "tipo": "zoom_lento",
+    "escala": 1.083
+   },
+   {
+    "t": 81.283,
+    "tipo": "punch_in",
+    "escala": 1.125
+   },
+   {
+    "t": 81.517,
+    "fin": 82.087,
+    "tipo": "zoom_lento",
+    "escala": 1.126
+   },
+   {
+    "t": 82.217,
+    "fin": 82.687,
+    "tipo": "zoom_lento",
+    "escala": 1.044
+   },
+   {
+    "t": 82.617,
+    "tipo": "punch_in",
+    "escala": 1.036
+   },
+   {
+    "t": 82.917,
+    "fin": 83.387,
+    "tipo": "zoom_lento",
+    "escala": 1.03
+   },
+   {
+    "t": 83.317,
+    "tipo": "punch_in",
+    "escala": 1.062
+   },
+   {
+    "t": 84.017,
+    "fin": 84.153,
+    "tipo": "zoom_lento",
+    "escala": 1.033
+   }
+  ],
+  "por_minuto": 27.5,
+  "escala_media_punch_in": 1.076
+ },
+ "subtitulos": {
+  "detectados": true,
+  "cobertura_palabras": 0.99,
+  "centro_vertical_pct": 28.9,
+  "posicion": "arriba",
+  "ancho_bloque_pct": 74.4,
+  "alto_letra_pct_alto": 2.86,
+  "alto_mayuscula_px_1920": 55,
+  "palabras_por_bloque_mediana": 22.5,
+  "palabras_por_bloque_max": 29,
+  "color_resaltado": null,
+  "color_base": "#FFFFFF",
+  "contorno": "negro (detectado por borde oscuro)",
+  "animacion": {
+   "tipo": "corte seco por palabra/bloque",
+   "escala_relativa_frames_0_2_4_8": [
+    0.996,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "fuente": "ver analisis/<video>/subtitulos_recortes.png (identificación visual)"
+ },
+ "color": {
+  "brillo_L_medio": 48.0,
+  "contraste_L_std": 21.8,
+  "saturacion_media": 0.257,
+  "ratio_rojo_azul": 1.223,
+  "lab_a_medio": 5.19,
+  "lab_b_medio": 7.59,
+  "negro_p2": 5.3,
+  "blanco_p98": 87.0,
+  "temperatura": "cálida"
+ },
+ "audio": {
+  "lufs_integrado": -12.4,
+  "true_peak_db": 0.5,
+  "rango_lra": 8.4,
+  "voz_rms_db": -15.8,
+  "fondo_en_pausas_rms_db": -19.3,
+  "musica_de_fondo": false,
+  "musica_bajo_voz_db": null,
+  "efectos": [
+   {
+    "t": 9.485,
+    "tipo": "impactos",
+    "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 12.237,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 13.166,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 13.63,
+    "tipo": "impacto/golpe",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 14.095,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 15.163,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/nintendo-09.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 15.952,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 16.649,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 17.345,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 18.019,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 27.678,
+    "tipo": "impactos",
+    "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 28.166,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 29.35,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 29.768,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 30.279,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 30.743,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 31.208,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 32.136,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 33.065,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+    "similitud": 0.59,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 33.53,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 34.621,
+    "tipo": "impactos",
+    "coincide_biblioteca": "impactos/bamboo-hit.mp3",
+    "similitud": 0.62,
+    "confianza": "seguro",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 39.787,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/ding.mp3",
+    "similitud": 0.48,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 40.054,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+    "similitud": 0.53,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 40.995,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+    "similitud": 0.46,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 58.143,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 59.269,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-wind.mp3",
+    "similitud": 0.5,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 60.279,
+    "tipo": "whoosh",
+    "coincide_biblioteca": "whoosh/whoosh-clean.mp3",
+    "similitud": 0.46,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 61.092,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 62.787,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 63.832,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 75.244,
+    "tipo": "clicks-ui",
+    "coincide_biblioteca": "clicks-ui/animal-crossing-04.mp3",
+    "similitud": 0.47,
+    "confianza": "probable",
+    "sobre_voz": true,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 77.206,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 77.857,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 78.182,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 78.507,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 78.855,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 79.505,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 79.83,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 80.318,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 80.829,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 81.154,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 82.129,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 82.454,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 82.965,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 83.801,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 84.126,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 84.776,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 85.101,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 85.449,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 86.1,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 86.75,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 87.098,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   },
+   {
+    "t": 87.423,
+    "tipo": "riser",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": true
+   },
+   {
+    "t": 87.888,
+    "tipo": "ding/tono",
+    "coincide_biblioteca": null,
+    "similitud": null,
+    "confianza": "probable",
+    "sobre_voz": false,
+    "junto_a_corte_o_zoom": false
+   }
+  ],
+  "efectos_por_minuto": 35.4,
+  "separacion_demucs": {
+   "musica_de_fondo": false,
+   "voz_db": -15.4,
+   "musica_continua_db": -54.4,
+   "musica_bajo_voz_db": null,
+   "musica_lufs": null,
+   "pistas": "/home/user/Guiones-/analisis/ref5/sep/htdemucs/audio"
+  }
+ },
+ "gancho": {
+  "primera_palabra_s": 0.0,
+  "texto_3s": "Tapatillas que se te ve usando para mí automáticamente tienes buen",
+  "palabras_en_3s": 11,
+  "cortes_en_3s": 0,
+  "zooms_en_3s": 1,
+  "efectos_en_3s": [],
+  "subtitulo_desde_inicio": true
+ }
+}

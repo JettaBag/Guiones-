@@ -1,0 +1,14 @@
+{
+ "video": "crudos/TU_VIDEO.mp4",
+ "titulo": ["5 ZAPATILLAS", "QUE SI TE VEO USANDO", "TIENES BUEN GUSTO"],
+ "items": [
+  {"numero": 5, "nombre": "Burbuja Negro Todo", "claves": ["burbuja"], "recorte": "assets/productos/5-burbuja-negro.png", "broll": []},
+  {"numero": 4, "nombre": "Jordan Retro 4 Black Cat", "claves": ["jordan", "black", "cat"], "recorte": "assets/productos/4-jordan-retro-4-black-cat.png", "broll": []},
+  {"numero": 3, "nombre": "Off White", "claves": ["off", "white", "soft"], "recorte": "assets/productos/3-off-white.png", "broll": []},
+  {"numero": 2, "nombre": "On Cloud", "claves": ["cloud", "clau", "claud"], "recorte": "assets/productos/2-on-cloud.png", "broll": []},
+  {"numero": 1, "nombre": "Asics Gel", "claves": ["asics", "gel"], "recorte": "assets/productos/1-asics-gel.png", "broll": []}
+ ],
+ "musica": null,
+ "subtitulos": true,
+ "salida": "salida/TU_VIDEO.mp4"
+}
