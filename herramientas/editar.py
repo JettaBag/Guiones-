@@ -374,6 +374,43 @@ def revisar(salida, plan, work):
 
 
 # ------------------------------------------------------------------ principal
+# ------------------------------------------------------------------ modo sketch (varios clips, sin lista)
+def tramos_sonido(clip, total, ruido="-32dB", min_sil=0.9, deja=0.3):
+    """Quita solo el aire muerto largo (> min_sil); deja `deja` s de cada silencio para no cortar la acción."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostdin", "-i", str(clip), "-af",
+                        f"silencedetect=n={ruido}:d={min_sil}", "-f", "null", "-"], capture_output=True, text=True).stderr
+    ini = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", r)]
+    fin = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", r)] + [total]
+    rs, cur = [], 0.0
+    for a, b in zip(ini, fin):
+        a2, b2 = a + deja / 2, b - deja / 2
+        if a2 > cur + 0.15: rs.append((cur, a2))
+        cur = max(cur, b2)
+    if total - cur > 0.15: rs.append((cur, total))
+    return rs or [(0.0, total)]
+
+
+def sketch(cfg, work, salida, cfg_path, preview):
+    """Sketch de comedia (estilo referencias/ref_nueva.mp4): une los clips en orden, quita aire muerto,
+    color hacia estilo.json, cortes con punch-in alterno, sin título ni subtítulos, -14 LUFS."""
+    partes, crudo, n = [], 0.0, 0
+    for i, c in enumerate(cfg["clips"]):
+        clip = ROOT / c; total = dur(clip); crudo += total
+        rs = tramos_sonido(clip, total)
+        lut = work / f"color_{i}.cube"; crear_lut(clip, rs, lut)
+        for a, b in rs:
+            z = 1.0 if n % 2 == 0 else 1.08                     # punch-in alterno en cada corte
+            out = work / f"s{n:03d}.mov"; render_habla(clip, a, b, z, z + 0.02, lut, out, preview)
+            partes.append(out); n += 1
+    unido = work / "unido.mov"; concat(partes, unido)
+    pista = work / "pista.mp4"
+    sh(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(unido), "-c:v", "copy", "-c:a", "pcm_s16le", str(pista.with_suffix(".mov"))])
+    sh([sys.executable, str(LOUD), str(pista.with_suffix(".mov")), "-o", str(salida), "-I", "-14", "--tp", "-1.5",
+        "--sample-rate", "48000", "--overwrite"])
+    print(f"OK {salida.relative_to(ROOT)} | {crudo:.1f}s → {dur(salida):.1f}s | clips {len(cfg['clips'])} | cortes {n} "
+          f"| sin música | config {cfg_path.relative_to(ROOT)}")
+
+
 def main():
     global LOG
     ap = argparse.ArgumentParser(); ap.add_argument("entrada", help="crudos/video.mp4 o crudos/video.json")
@@ -393,6 +430,7 @@ def main():
         cfg_path.write_text(json.dumps(cfg, ensure_ascii=False, indent=1))
     video = ROOT / cfg["video"]
     salida = ROOT / cfg.get("salida", f"salida/{nombre}.mp4"); salida.parent.mkdir(exist_ok=True)
+    if cfg.get("modo") == "sketch": return sketch(cfg, work, salida, cfg_path, a.preview)
     rep = {"video": cfg["video"]}
 
     print("1/8 transcribiendo…", flush=True)

@@ -1,0 +1,11 @@
+{
+ "modo": "sketch",
+ "video": "crudos/nuevo_3.mov",
+ "clips": [
+  "crudos/nuevo_3.mov",
+  "crudos/nuevo_2.mp4",
+  "crudos/nuevo_1.mov"
+ ],
+ "musica": null,
+ "salida": "salida/sketch_tienda.mp4"
+}

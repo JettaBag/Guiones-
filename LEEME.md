@@ -29,3 +29,8 @@ powershell -ExecutionPolicy Bypass -File herramientas\organizar.ps1 -Copiar     
 
 ## Fotos de producto
 `assets/productos/N-nombre.png` (sin fondo). En el `.json` del video: `"recorte": "assets/productos/...png"` en cada item. Aparece con pop al nombrar la zapatilla (~2,5 s). Plantilla: `crudos/plantilla_top5.json`.
+
+## Modo sketch (varios clips, sin lista)
+Para sketches de comedia tipo `referencias/ref_nueva.mp4`: crea `crudos/<nombre>.json` con
+`"modo": "sketch"`, `"video"` (el primer clip) y `"clips"` en el orden de la historia. Luego corre `python editar.py crudos/<nombre>.json`.
+Une los clips, quita el aire muerto largo, aplica color, alterna el zoom en cada corte, va sin título ni subtítulos y normaliza el audio a -14 LUFS.
