@@ -1,0 +1,4200 @@
+{
+ "descripcion": "Historial permanente de contactos ya entregados. Antes de entregar clientes nuevos, compararlos contra este archivo con scripts/revisar_duplicados.py.",
+ "contactos": [
+  {
+   "id": "a01",
+   "lista": "Lista 1",
+   "nombre": "Bodega Tenis",
+   "perfil": "https://www.tiktok.com/@bodegatenisoficial",
+   "telefonos": [
+    "3226757872"
+   ],
+   "usuarios": [
+    "@bodegatenisoficial"
+   ],
+   "nombre_normalizado": "bodegatenis",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a02",
+   "lista": "Lista 1",
+   "nombre": "Tennis Medellín",
+   "perfil": "https://www.tennismedellin.com/",
+   "telefonos": [
+    "3146064543"
+   ],
+   "usuarios": [
+    "web:tennismedellin.com"
+   ],
+   "nombre_normalizado": "tennismedellin",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a04",
+   "lista": "Lista 1",
+   "nombre": "Urban Tenis Medellín",
+   "perfil": "https://www.instagram.com/urban_tenis_medellin/",
+   "telefonos": [],
+   "usuarios": [
+    "@urban_tenis_medellin"
+   ],
+   "nombre_normalizado": "urbantenismedellin",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a06",
+   "lista": "Lista 1",
+   "nombre": "Tenis Moda Medellin",
+   "perfil": "https://www.facebook.com/Tenismoda.medellin2/",
+   "telefonos": [
+    "3147125665"
+   ],
+   "usuarios": [
+    "@tenismoda.medellin",
+    "@tenismoda.medellin2"
+   ],
+   "nombre_normalizado": "tenismodamedellin",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a07",
+   "lista": "Lista 1",
+   "nombre": "Finalgoods",
+   "perfil": "https://finalgoods.co/",
+   "telefonos": [
+    "3005222620"
+   ],
+   "usuarios": [
+    "web:finalgoods.co"
+   ],
+   "nombre_normalizado": "finalgoods",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a08",
+   "lista": "Lista 1",
+   "nombre": "Tenis al por mayor Medellín",
+   "perfil": "https://tenisalpormayormedellin.com/",
+   "telefonos": [
+    "3023952675"
+   ],
+   "usuarios": [
+    "web:tenisalpormayormedellin.com"
+   ],
+   "nombre_normalizado": "tenisalpormayormedellin",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a09",
+   "lista": "Lista 1",
+   "nombre": "Pídelo del Centro",
+   "perfil": "https://delcentropidelo.com/",
+   "telefonos": [
+    "3017756581",
+    "3229130997"
+   ],
+   "usuarios": [
+    "web:delcentropidelo.com"
+   ],
+   "nombre_normalizado": "pidelodelcentro",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a10",
+   "lista": "Lista 1",
+   "nombre": "Tiendas Branchos",
+   "perfil": "https://www.tiktok.com/@tiendasbranchos",
+   "telefonos": [
+    "3183728409"
+   ],
+   "usuarios": [
+    "@tiendasbranchos"
+   ],
+   "nombre_normalizado": "tiendasbranchos",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a11",
+   "lista": "Lista 1",
+   "nombre": "Benditos Tennis",
+   "perfil": "https://www.tiktok.com/@benditostennis",
+   "telefonos": [
+    "3128994203",
+    "3234509366"
+   ],
+   "usuarios": [
+    "@benditostennis"
+   ],
+   "nombre_normalizado": "benditostennis",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a12",
+   "lista": "Lista 1",
+   "nombre": "El Hueco Número Uno (C.C. mayorista)",
+   "perfil": "https://elhueco.com.co/contactenos/",
+   "telefonos": [
+    "3218843976"
+   ],
+   "usuarios": [
+    "web:elhueco.com.co"
+   ],
+   "nombre_normalizado": "elhueconumerouno",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a13",
+   "lista": "Lista 1",
+   "nombre": "El Hueco de Medellín",
+   "perfil": "https://www.instagram.com/elhuecodemedellin/",
+   "telefonos": [
+    "3005368730"
+   ],
+   "usuarios": [
+    "@elhuecodemedellin"
+   ],
+   "nombre_normalizado": "elhuecodemedellin",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a14",
+   "lista": "Lista 1",
+   "nombre": "Urban Medellín",
+   "perfil": "https://www.instagram.com/urbanshoesmedellin/",
+   "telefonos": [
+    "3014972177"
+   ],
+   "usuarios": [
+    "@urbanshoesmedellin"
+   ],
+   "nombre_normalizado": "urbanmedellin",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a15",
+   "lista": "Lista 1",
+   "nombre": "Tenis Urban Store",
+   "perfil": "https://www.instagram.com/tenisurbanstore/",
+   "telefonos": [
+    "3027675408"
+   ],
+   "usuarios": [
+    "@tenisurbanstore"
+   ],
+   "nombre_normalizado": "tenisurbanstore",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a16",
+   "lista": "Lista 1",
+   "nombre": "Tenis Crown",
+   "perfil": "https://www.instagram.com/teniscrownmedellin/",
+   "telefonos": [
+    "3127945500"
+   ],
+   "usuarios": [
+    "@teniscrownmedellin"
+   ],
+   "nombre_normalizado": "teniscrown",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a17",
+   "lista": "Lista 1",
+   "nombre": "Acucura Calzado",
+   "perfil": "https://www.tiktok.com/@acucuracalzado",
+   "telefonos": [
+    "3233578310"
+   ],
+   "usuarios": [
+    "@acucuracalzado"
+   ],
+   "nombre_normalizado": "acucuracalzado",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a18",
+   "lista": "Lista 1",
+   "nombre": "Leoma Creative",
+   "perfil": "https://www.tiktok.com/@leomacreative",
+   "telefonos": [
+    "3015695031"
+   ],
+   "usuarios": [
+    "@leoma.creative",
+    "@leomacreative"
+   ],
+   "nombre_normalizado": "leomacreative",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a19",
+   "lista": "Lista 1",
+   "nombre": "Calzado D Moda",
+   "perfil": "https://calzadodmoda.com/",
+   "telefonos": [
+    "3022718723",
+    "3135213559"
+   ],
+   "usuarios": [
+    "web:calzadodmoda.com"
+   ],
+   "nombre_normalizado": "calzadodmoda",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a20",
+   "lista": "Lista 1",
+   "nombre": "Tenis Footten",
+   "perfil": "https://www.facebook.com/Footten21/",
+   "telefonos": [
+    "3017021088"
+   ],
+   "usuarios": [
+    "@footten21"
+   ],
+   "nombre_normalizado": "tenisfootten",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a22",
+   "lista": "Lista 1",
+   "nombre": "Urban Tenis (Facebook)",
+   "perfil": "https://www.facebook.com/p/Urban-tenis-100065173913690/",
+   "telefonos": [
+    "3042735587"
+   ],
+   "usuarios": [
+    "fb:100065173913690"
+   ],
+   "nombre_normalizado": "urbantenis",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a23",
+   "lista": "Lista 1",
+   "nombre": "HYPE",
+   "perfil": "https://www.tiktok.com/@hype.com.co",
+   "telefonos": [
+    "3007281471"
+   ],
+   "usuarios": [
+    "@hype.com.co"
+   ],
+   "nombre_normalizado": "hype",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a24",
+   "lista": "Lista 1",
+   "nombre": "Universal Sneakers",
+   "perfil": "https://www.tiktok.com/@universalsneakersbogota",
+   "telefonos": [
+    "3102280760"
+   ],
+   "usuarios": [
+    "@universalsneakersbogota"
+   ],
+   "nombre_normalizado": "universalsneakers",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a25",
+   "lista": "Lista 1",
+   "nombre": "Tenis JF",
+   "perfil": "https://www.tiktok.com/@tenis.jf",
+   "telefonos": [
+    "3214089358"
+   ],
+   "usuarios": [
+    "@tenis.jf"
+   ],
+   "nombre_normalizado": "tenisjf",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a26",
+   "lista": "Lista 1",
+   "nombre": "Zapatillas Importadas (Mundo Tennis)",
+   "perfil": "https://www.instagram.com/mundo.tennis7/",
+   "telefonos": [],
+   "usuarios": [
+    "@mundo.tennis7"
+   ],
+   "nombre_normalizado": "zapatillasimportadas",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a27",
+   "lista": "Lista 1",
+   "nombre": "Outlet Bogotá Tenis",
+   "perfil": "https://www.instagram.com/outletbogotatenis/",
+   "telefonos": [],
+   "usuarios": [
+    "@outletbogotatenis"
+   ],
+   "nombre_normalizado": "outletbogotatenis",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a28",
+   "lista": "Lista 1",
+   "nombre": "Fábrica de Calzado Restrepo",
+   "perfil": "https://www.facebook.com/FabricaCalzadoRestrepo/",
+   "telefonos": [
+    "3163845114"
+   ],
+   "usuarios": [
+    "@fabricacalzadorestrepo"
+   ],
+   "nombre_normalizado": "fabricadecalzadorestrepo",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a29",
+   "lista": "Lista 1",
+   "nombre": "Calzado por mayor Bogotá",
+   "perfil": "https://www.facebook.com/Fabricadecalzadobogota/",
+   "telefonos": [
+    "3023284558"
+   ],
+   "usuarios": [
+    "@fabricadecalzadobogota"
+   ],
+   "nombre_normalizado": "calzadopormayorbogota",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a30",
+   "lista": "Lista 1",
+   "nombre": "Calzado Pastorelly",
+   "perfil": "https://www.instagram.com/calzadopastorelly/",
+   "telefonos": [
+    "3103110018"
+   ],
+   "usuarios": [
+    "@calzadopastorelly"
+   ],
+   "nombre_normalizado": "calzadopastorelly",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a31",
+   "lista": "Lista 1",
+   "nombre": "Calzado Bracosta",
+   "perfil": "https://fabricas.co/fabrica/calzado-bracosta/",
+   "telefonos": [
+    "3125429639",
+    "3132412801"
+   ],
+   "usuarios": [
+    "web:fabricas.co"
+   ],
+   "nombre_normalizado": "calzadobracosta",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a32",
+   "lista": "Lista 1",
+   "nombre": "Dunia Shoes",
+   "perfil": "https://duniashoes.online/",
+   "telefonos": [
+    "3209137210"
+   ],
+   "usuarios": [
+    "web:duniashoes.online"
+   ],
+   "nombre_normalizado": "duniashoes",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a33",
+   "lista": "Lista 1",
+   "nombre": "TEI Zapatos",
+   "perfil": "https://www.facebook.com/teizapatos/",
+   "telefonos": [
+    "3143654558"
+   ],
+   "usuarios": [
+    "@teizapatos"
+   ],
+   "nombre_normalizado": "teizapatos",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a34",
+   "lista": "Lista 1",
+   "nombre": "Calzado Nueva Moda",
+   "perfil": "https://calzadonuevamoda.com.co/",
+   "telefonos": [
+    "3102448250"
+   ],
+   "usuarios": [
+    "web:calzadonuevamoda.com.co"
+   ],
+   "nombre_normalizado": "calzadonuevamoda",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a35",
+   "lista": "Lista 1",
+   "nombre": "Santorini",
+   "perfil": "https://www.tiktok.com/@santorini_shoes",
+   "telefonos": [
+    "3104888452"
+   ],
+   "usuarios": [
+    "@santorini_shoes"
+   ],
+   "nombre_normalizado": "santorini",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a36",
+   "lista": "Lista 1",
+   "nombre": "Peich Shoes",
+   "perfil": "https://linktr.ee/peichshoes",
+   "telefonos": [
+    "3229656282"
+   ],
+   "usuarios": [
+    "web:linktr.ee"
+   ],
+   "nombre_normalizado": "peichshoes",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a37",
+   "lista": "Lista 1",
+   "nombre": "Otelo Shoes",
+   "perfil": "https://www.tiktok.com/@oteloshoes",
+   "telefonos": [
+    "3202508352"
+   ],
+   "usuarios": [
+    "@oteloshoes"
+   ],
+   "nombre_normalizado": "oteloshoes",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a38",
+   "lista": "Lista 1",
+   "nombre": "Dream Shoes",
+   "perfil": "https://dream-shoes.ueniweb.com/",
+   "telefonos": [
+    "3112856507"
+   ],
+   "usuarios": [
+    "web:dream-shoes.ueniweb.com"
+   ],
+   "nombre_normalizado": "dreamshoes",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a39",
+   "lista": "Lista 1",
+   "nombre": "Calzado El Gamo",
+   "perfil": "https://calzadoelgamo.com/",
+   "telefonos": [
+    "3186177861"
+   ],
+   "usuarios": [
+    "web:calzadoelgamo.com"
+   ],
+   "nombre_normalizado": "calzadoelgamo",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a40",
+   "lista": "Lista 1",
+   "nombre": "King Pieces",
+   "perfil": "https://kingpieces.co/",
+   "telefonos": [
+    "3108747089"
+   ],
+   "usuarios": [
+    "web:kingpieces.co"
+   ],
+   "nombre_normalizado": "kingpieces",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a41",
+   "lista": "Lista 1",
+   "nombre": "Style Shoes Colombia",
+   "perfil": "https://www.instagram.com/styleshoescolombia/",
+   "telefonos": [],
+   "usuarios": [
+    "@styleshoescolombia"
+   ],
+   "nombre_normalizado": "styleshoescolombia",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a42",
+   "lista": "Lista 1",
+   "nombre": "Atómico",
+   "perfil": "https://www.tiktok.com/@atomico1.1",
+   "telefonos": [
+    "3104788200"
+   ],
+   "usuarios": [
+    "@atomico1.1"
+   ],
+   "nombre_normalizado": "atomico",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a43",
+   "lista": "Lista 1",
+   "nombre": "Calzado Orpar",
+   "perfil": "https://www.tiktok.com/@calzado.orpar",
+   "telefonos": [],
+   "usuarios": [
+    "@calzado.orpar"
+   ],
+   "nombre_normalizado": "calzadoorpar",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a44",
+   "lista": "Lista 1",
+   "nombre": "Bogotá venta de Tenis Og",
+   "perfil": "https://www.facebook.com/people/Bogota-venta-de-Tenis-Og/100064161181776/",
+   "telefonos": [
+    "3132760679"
+   ],
+   "usuarios": [
+    "fb:100064161181776"
+   ],
+   "nombre_normalizado": "bogotaventadetenisog",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a45",
+   "lista": "Lista 1",
+   "nombre": "Tienda bck tenis",
+   "perfil": "https://www.facebook.com/tiendabcktenis/",
+   "telefonos": [
+    "3205218522"
+   ],
+   "usuarios": [
+    "@tiendabcktenis"
+   ],
+   "nombre_normalizado": "tiendabcktenis",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a46",
+   "lista": "Lista 1",
+   "nombre": "Tennis importados Bogotá",
+   "perfil": "https://www.facebook.com/p/Tennis-importados-Bogota-100063671823323/",
+   "telefonos": [
+    "3125911866"
+   ],
+   "usuarios": [
+    "fb:100063671823323"
+   ],
+   "nombre_normalizado": "tennisimportadosbogota",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a47",
+   "lista": "Lista 1",
+   "nombre": "Sports Shop (Tienda deportiva Steven)",
+   "perfil": "https://www.facebook.com/TiendadeportivaSteven/",
+   "telefonos": [
+    "3178207803"
+   ],
+   "usuarios": [
+    "@tiendadeportivasteven"
+   ],
+   "nombre_normalizado": "sportsshop",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a48",
+   "lista": "Lista 1",
+   "nombre": "Zapatillas en Cali / Tenis En Cali",
+   "perfil": "https://www.tiktok.com/@tenisencalij",
+   "telefonos": [
+    "3168985857"
+   ],
+   "usuarios": [
+    "@teniscalishop",
+    "@tenisencalij"
+   ],
+   "nombre_normalizado": "zapatillasencalitenisencali",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a49",
+   "lista": "Lista 1",
+   "nombre": "Shop Tennis Cali",
+   "perfil": "https://www.instagram.com/shoptennis.cali/",
+   "telefonos": [
+    "3106643500"
+   ],
+   "usuarios": [
+    "@shoptennis.cali"
+   ],
+   "nombre_normalizado": "shoptenniscali",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a50",
+   "lista": "Lista 1",
+   "nombre": "Tenis Market Cali",
+   "perfil": "https://www.facebook.com/tenismarketcali/",
+   "telefonos": [
+    "3122303410"
+   ],
+   "usuarios": [
+    "@tenismarketcali"
+   ],
+   "nombre_normalizado": "tenismarketcali",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a51",
+   "lista": "Lista 1",
+   "nombre": "Tenis Mall (Centro Comercial)",
+   "perfil": "https://www.tiktok.com/@centrocomercialtenismall",
+   "telefonos": [],
+   "usuarios": [
+    "@centrocomercialtenismall"
+   ],
+   "nombre_normalizado": "tenismall",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a52",
+   "lista": "Lista 1",
+   "nombre": "Tenis Cali",
+   "perfil": "https://www.tiktok.com/@tenis.cali",
+   "telefonos": [
+    "3148957076"
+   ],
+   "usuarios": [
+    "@tenis.cali"
+   ],
+   "nombre_normalizado": "teniscali",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a53",
+   "lista": "Lista 1",
+   "nombre": "Shoes Center Cali",
+   "perfil": "https://www.instagram.com/shoescentercali/",
+   "telefonos": [
+    "3178729339"
+   ],
+   "usuarios": [
+    "@shoescentercali"
+   ],
+   "nombre_normalizado": "shoescentercali",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a54",
+   "lista": "Lista 1",
+   "nombre": "Moda 20 Oficial",
+   "perfil": "https://wa.me/moda20oficial",
+   "telefonos": [
+    "3103679811"
+   ],
+   "usuarios": [
+    "@moda20oficial"
+   ],
+   "nombre_normalizado": "moda20oficial",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a55",
+   "lista": "Lista 1",
+   "nombre": "Tenis Cali Oficial",
+   "perfil": "https://www.instagram.com/shoescontraentrega.cali/",
+   "telefonos": [],
+   "usuarios": [
+    "@shoescontraentrega.cali"
+   ],
+   "nombre_normalizado": "teniscalioficial",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a56",
+   "lista": "Lista 1",
+   "nombre": "Signature Sneakers",
+   "perfil": "https://www.facebook.com/signaturesneakersco/",
+   "telefonos": [
+    "3052564373"
+   ],
+   "usuarios": [
+    "@signaturesneakersco"
+   ],
+   "nombre_normalizado": "signaturesneakers",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a57",
+   "lista": "Lista 1",
+   "nombre": "Baskets Wear",
+   "perfil": "https://basketswear.com/",
+   "telefonos": [
+    "3127765820"
+   ],
+   "usuarios": [
+    "web:basketswear.com"
+   ],
+   "nombre_normalizado": "basketswear",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a58",
+   "lista": "Lista 1",
+   "nombre": "ZapatillasColombia.com",
+   "perfil": "https://www.zapatillascolombia.com/",
+   "telefonos": [
+    "3108959405"
+   ],
+   "usuarios": [
+    "web:zapatillascolombia.com"
+   ],
+   "nombre_normalizado": "zapatillascolombiacom",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a59",
+   "lista": "Lista 1",
+   "nombre": "Tenis-Zapatillas.com",
+   "perfil": "https://www.tenis-zapatillas.com/",
+   "telefonos": [
+    "3128499290"
+   ],
+   "usuarios": [
+    "web:tenis-zapatillas.com"
+   ],
+   "nombre_normalizado": "teniszapatillascom",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a60",
+   "lista": "Lista 1",
+   "nombre": "Store Tennis Cali",
+   "perfil": "https://www.instagram.com/kyestore_tennis_cali/",
+   "telefonos": [],
+   "usuarios": [
+    "@kyestore_tennis_cali"
+   ],
+   "nombre_normalizado": "storetenniscali",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a62",
+   "lista": "Lista 1",
+   "nombre": "Luna Sport Cali",
+   "perfil": "https://www.tiktok.com/@lunasportcalioficial08",
+   "telefonos": [
+    "3114062922",
+    "3216673827",
+    "3226576694",
+    "3234972973"
+   ],
+   "usuarios": [
+    "@lunasportcalioficial08"
+   ],
+   "nombre_normalizado": "lunasportcali",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a63",
+   "lista": "Lista 1",
+   "nombre": "SneakersP",
+   "perfil": "https://www.tiktok.com/@sneakers.paisa",
+   "telefonos": [
+    "3112092661",
+    "3241110104"
+   ],
+   "usuarios": [
+    "@sneakers.paisa"
+   ],
+   "nombre_normalizado": "sneakersp",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a64",
+   "lista": "Lista 1",
+   "nombre": "Exclusive Store Cali 98",
+   "perfil": "https://www.tiktok.com/@exclusivestorecali98",
+   "telefonos": [
+    "3176174286"
+   ],
+   "usuarios": [
+    "@exclusivestorecali98"
+   ],
+   "nombre_normalizado": "exclusivestorecali98",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a65",
+   "lista": "Lista 1",
+   "nombre": "Tiendas Madi",
+   "perfil": "https://www.tiktok.com/@tiendasmadi",
+   "telefonos": [],
+   "usuarios": [
+    "@tiendasmadi"
+   ],
+   "nombre_normalizado": "tiendasmadi",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a66",
+   "lista": "Lista 1",
+   "nombre": "Tatan Store",
+   "perfil": "https://www.tiktok.com/@tatan.store1",
+   "telefonos": [],
+   "usuarios": [
+    "@tatan.store1"
+   ],
+   "nombre_normalizado": "tatanstore",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a67",
+   "lista": "Lista 1",
+   "nombre": "Zapatillas Cali Yhon",
+   "perfil": "https://wa.me/zapatillascaliyhon",
+   "telefonos": [
+    "3122744964"
+   ],
+   "usuarios": [
+    "@zapatillascaliyhon"
+   ],
+   "nombre_normalizado": "zapatillascaliyhon",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a68",
+   "lista": "Lista 1",
+   "nombre": "Cattleya Fashion Store",
+   "perfil": "https://www.facebook.com/catlleyafashionstore/",
+   "telefonos": [
+    "3153934457"
+   ],
+   "usuarios": [
+    "@catlleyafashionstore"
+   ],
+   "nombre_normalizado": "cattleyafashionstore",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a69",
+   "lista": "Lista 1",
+   "nombre": "Saxy Shoes Cali",
+   "perfil": "https://www.facebook.com/people/SAXY-SHOES-CALI/100031368106448/",
+   "telefonos": [
+    "3148883785"
+   ],
+   "usuarios": [
+    "fb:100031368106448"
+   ],
+   "nombre_normalizado": "saxyshoescali",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a70",
+   "lista": "Lista 1",
+   "nombre": "Calzado para Dama (NABH)",
+   "perfil": "https://www.facebook.com/calzadosNABH/",
+   "telefonos": [
+    "3105012282"
+   ],
+   "usuarios": [
+    "@calzadosnabh"
+   ],
+   "nombre_normalizado": "calzadoparadama",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a71",
+   "lista": "Lista 1",
+   "nombre": "Calzado Cali Bella",
+   "perfil": "https://www.facebook.com/calzadocalibella/",
+   "telefonos": [
+    "3165770308"
+   ],
+   "usuarios": [
+    "@calzadocalibella"
+   ],
+   "nombre_normalizado": "calzadocalibella",
+   "entregado": "2026-11-22"
+  },
+  {
+   "id": "a03",
+   "lista": "Lista 1",
+   "nombre": "Tenis Medellín (oficial)",
+   "perfil": "https://www.instagram.com/tenismedellin__oficial/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenismedellin__oficial"
+   ],
+   "nombre_normalizado": "tenismedellin",
+   "entregado": "2026-11-22",
+   "posible_repetido_de": "Tennis Medellín",
+   "motivo": "nombre muy parecido"
+  },
+  {
+   "id": "a05",
+   "lista": "Lista 1",
+   "nombre": "Tenis Medellin",
+   "perfil": "https://www.instagram.com/tenis_medellin2/",
+   "telefonos": [
+    "3003625193"
+   ],
+   "usuarios": [
+    "@tenis_medellin2"
+   ],
+   "nombre_normalizado": "tenismedellin",
+   "entregado": "2026-11-22",
+   "posible_repetido_de": "Tennis Medellín",
+   "motivo": "nombre muy parecido"
+  },
+  {
+   "id": "a21",
+   "lista": "Lista 1",
+   "nombre": "Tenis Medellín (Facebook)",
+   "perfil": "https://www.facebook.com/tenispidanpues/",
+   "telefonos": [
+    "3127430235"
+   ],
+   "usuarios": [
+    "@tenispidanpues"
+   ],
+   "nombre_normalizado": "tenismedellin",
+   "entregado": "2026-11-22",
+   "posible_repetido_de": "Tennis Medellín",
+   "motivo": "nombre muy parecido"
+  },
+  {
+   "id": "a61",
+   "lista": "Lista 1",
+   "nombre": "Tennis Cali",
+   "perfil": "https://www.instagram.com/tenniscalicol/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenniscalicol"
+   ],
+   "nombre_normalizado": "tenniscali",
+   "entregado": "2026-11-22",
+   "posible_repetido_de": "Tenis Cali",
+   "motivo": "nombre muy parecido"
+  },
+  {
+   "id": "n01",
+   "lista": "Lista 2",
+   "nombre": "Viste La Moda",
+   "perfil": "https://www.tiktok.com/@vistelamoda",
+   "telefonos": [
+    "3014486727"
+   ],
+   "usuarios": [
+    "@vistelamoda"
+   ],
+   "nombre_normalizado": "vistelamoda",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n02",
+   "lista": "Lista 2",
+   "nombre": "Calzado Dwalem",
+   "perfil": "https://www.tiktok.com/@calzado.dwalem",
+   "telefonos": [
+    "3006409427",
+    "3045957855"
+   ],
+   "usuarios": [
+    "@calzado.dwalem"
+   ],
+   "nombre_normalizado": "calzadodwalem",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n03",
+   "lista": "Lista 2",
+   "nombre": "YH Tienda",
+   "perfil": "https://www.tiktok.com/@yh.tienda",
+   "telefonos": [
+    "3161410772"
+   ],
+   "usuarios": [
+    "@yh.tienda"
+   ],
+   "nombre_normalizado": "yhtienda",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n04",
+   "lista": "Lista 2",
+   "nombre": "EME Tenis",
+   "perfil": "https://www.tiktok.com/@eme.tenis",
+   "telefonos": [
+    "3234367087"
+   ],
+   "usuarios": [
+    "@eme.tenis"
+   ],
+   "nombre_normalizado": "emetenis",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n05",
+   "lista": "Lista 2",
+   "nombre": "Babilon Shoes",
+   "perfil": "https://www.tiktok.com/@babilon.shoes",
+   "telefonos": [
+    "3146140847"
+   ],
+   "usuarios": [
+    "@babilon.shoes"
+   ],
+   "nombre_normalizado": "babilonshoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n06",
+   "lista": "Lista 2",
+   "nombre": "K&N Footwear",
+   "perfil": "https://www.tiktok.com/@footwearitagui",
+   "telefonos": [
+    "3005594124"
+   ],
+   "usuarios": [
+    "@footwearitagui"
+   ],
+   "nombre_normalizado": "knfootwear",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n07",
+   "lista": "Lista 2",
+   "nombre": "Moda Cosmos",
+   "perfil": "https://www.tiktok.com/@modacosmos",
+   "telefonos": [
+    "3225427911"
+   ],
+   "usuarios": [
+    "@modacosmos"
+   ],
+   "nombre_normalizado": "modacosmos",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n08",
+   "lista": "Lista 2",
+   "nombre": "Max Sport",
+   "perfil": "https://www.tiktok.com/@maxsport.com.co",
+   "telefonos": [
+    "3208673627"
+   ],
+   "usuarios": [
+    "@maxsport.com.co"
+   ],
+   "nombre_normalizado": "maxsport",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n09",
+   "lista": "Lista 2",
+   "nombre": "Buzzer Shoes",
+   "perfil": "https://www.tiktok.com/@buzzershoes",
+   "telefonos": [
+    "3042976002"
+   ],
+   "usuarios": [
+    "@buzzershoes"
+   ],
+   "nombre_normalizado": "buzzershoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n10",
+   "lista": "Lista 2",
+   "nombre": "Megatenis 82",
+   "perfil": "https://www.tiktok.com/@megatenis82",
+   "telefonos": [
+    "3001710496"
+   ],
+   "usuarios": [
+    "@megatenis82"
+   ],
+   "nombre_normalizado": "megatenis82",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n11",
+   "lista": "Lista 2",
+   "nombre": "Xceso Calzado",
+   "perfil": "https://www.tiktok.com/@xcesocalzado",
+   "telefonos": [
+    "3053248421",
+    "3176401669"
+   ],
+   "usuarios": [
+    "@xcesocalzado"
+   ],
+   "nombre_normalizado": "xcesocalzado",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n12",
+   "lista": "Lista 2",
+   "nombre": "Tenis Bogotá",
+   "perfil": "https://www.tiktok.com/@tenis_bogota",
+   "telefonos": [
+    "3124764196"
+   ],
+   "usuarios": [
+    "@tenis_bogota"
+   ],
+   "nombre_normalizado": "tenisbogota",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n13",
+   "lista": "Lista 2",
+   "nombre": "Distrito Sneakers Bogotá",
+   "perfil": "https://www.tiktok.com/@distrito.sneakers",
+   "telefonos": [
+    "3024043040"
+   ],
+   "usuarios": [
+    "@distrito.sneakers"
+   ],
+   "nombre_normalizado": "distritosneakersbogota",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n14",
+   "lista": "Lista 2",
+   "nombre": "Tienda Tenis Bogotá",
+   "perfil": "https://www.tiktok.com/@tiendatenisbogota",
+   "telefonos": [
+    "3157435546"
+   ],
+   "usuarios": [
+    "@tiendatenisbogota"
+   ],
+   "nombre_normalizado": "tiendatenisbogota",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n15",
+   "lista": "Lista 2",
+   "nombre": "Los Tenis",
+   "perfil": "https://www.tiktok.com/@los.tenis5",
+   "telefonos": [
+    "3212812328"
+   ],
+   "usuarios": [
+    "@los.tenis5"
+   ],
+   "nombre_normalizado": "lostenis",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n16",
+   "lista": "Lista 2",
+   "nombre": "Cokeit Sneakers",
+   "perfil": "https://www.tiktok.com/@cokeit.sneakers",
+   "telefonos": [
+    "3195879867"
+   ],
+   "usuarios": [
+    "@cokeit.sneakers"
+   ],
+   "nombre_normalizado": "cokeitsneakers",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n17",
+   "lista": "Lista 2",
+   "nombre": "Futsal Colombia",
+   "perfil": "https://www.tiktok.com/@futsal.colombia",
+   "telefonos": [
+    "3105559059"
+   ],
+   "usuarios": [
+    "@futsal.colombia"
+   ],
+   "nombre_normalizado": "futsalcolombia",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n18",
+   "lista": "Lista 2",
+   "nombre": "Pisafino",
+   "perfil": "https://www.tiktok.com/@_pisafino",
+   "telefonos": [
+    "3204827208"
+   ],
+   "usuarios": [
+    "@_pisafino"
+   ],
+   "nombre_normalizado": "pisafino",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n19",
+   "lista": "Lista 2",
+   "nombre": "Vintage Shoes 2.0",
+   "perfil": "https://www.tiktok.com/@vintageshoes2.0",
+   "telefonos": [
+    "3015652905",
+    "3144303297"
+   ],
+   "usuarios": [
+    "@vintageshoes2.0"
+   ],
+   "nombre_normalizado": "vintageshoes20",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n20",
+   "lista": "Lista 2",
+   "nombre": "Calzado Ángeles",
+   "perfil": "https://www.tiktok.com/@calzado_angeles",
+   "telefonos": [
+    "3502761531"
+   ],
+   "usuarios": [
+    "@calzado_angeles"
+   ],
+   "nombre_normalizado": "calzadoangeles",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n21",
+   "lista": "Lista 2",
+   "nombre": "Dacana Tenis",
+   "perfil": "https://www.tiktok.com/@dacana_tenis_",
+   "telefonos": [
+    "3170506651"
+   ],
+   "usuarios": [
+    "@dacana_tenis_"
+   ],
+   "nombre_normalizado": "dacanatenis",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n22",
+   "lista": "Lista 2",
+   "nombre": "Replick Store",
+   "perfil": "https://www.tiktok.com/@replick_store",
+   "telefonos": [
+    "3002968717",
+    "3105213020",
+    "3165635846"
+   ],
+   "usuarios": [
+    "@replick_store"
+   ],
+   "nombre_normalizado": "replickstore",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n23",
+   "lista": "Lista 2",
+   "nombre": "Style10 Store",
+   "perfil": "https://www.tiktok.com/@style10_store",
+   "telefonos": [
+    "3169074335"
+   ],
+   "usuarios": [
+    "@style10_store"
+   ],
+   "nombre_normalizado": "style10store",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n24",
+   "lista": "Lista 2",
+   "nombre": "Tendencia Sneaker",
+   "perfil": "https://www.tiktok.com/@tendenciasneakers",
+   "telefonos": [
+    "3236595548"
+   ],
+   "usuarios": [
+    "@tendenciasneakers"
+   ],
+   "nombre_normalizado": "tendenciasneaker",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n25",
+   "lista": "Lista 2",
+   "nombre": "Store 615",
+   "perfil": "https://www.tiktok.com/@store615_cali",
+   "telefonos": [
+    "3116203309"
+   ],
+   "usuarios": [
+    "@store615_cali"
+   ],
+   "nombre_normalizado": "store615",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n26",
+   "lista": "Lista 2",
+   "nombre": "Jason Sport",
+   "perfil": "https://www.tiktok.com/@zapatillasjasonsport",
+   "telefonos": [
+    "3025770969"
+   ],
+   "usuarios": [
+    "@zapatillasjasonsport"
+   ],
+   "nombre_normalizado": "jasonsport",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n27",
+   "lista": "Lista 2",
+   "nombre": "La Línea Cali Shop",
+   "perfil": "https://www.tiktok.com/@la_lineacalishop1",
+   "telefonos": [
+    "3026247779",
+    "3225196243"
+   ],
+   "usuarios": [
+    "@la_lineacalishop1"
+   ],
+   "nombre_normalizado": "lalineacalishop",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n28",
+   "lista": "Lista 2",
+   "nombre": "JP Store Zapatillas",
+   "perfil": "https://www.tiktok.com/@jpstore.zapatillas.cali",
+   "telefonos": [
+    "3008603661"
+   ],
+   "usuarios": [
+    "@jpstore.zapatillas.cali"
+   ],
+   "nombre_normalizado": "jpstorezapatillas",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n29",
+   "lista": "Lista 2",
+   "nombre": "OQ Shoes",
+   "perfil": "https://www.tiktok.com/@oq_shoes",
+   "telefonos": [
+    "3150715724",
+    "3185325555"
+   ],
+   "usuarios": [
+    "@oq_shoes"
+   ],
+   "nombre_normalizado": "oqshoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n30",
+   "lista": "Lista 2",
+   "nombre": "Zshop Cali",
+   "perfil": "https://www.tiktok.com/@zshopcali",
+   "telefonos": [
+    "3206155199"
+   ],
+   "usuarios": [
+    "@zshopcali"
+   ],
+   "nombre_normalizado": "zshopcali",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n31",
+   "lista": "Lista 2",
+   "nombre": "Tenis Ateneas Medellín",
+   "perfil": "https://www.instagram.com/tenisateneas_medellin/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenisateneas_medellin"
+   ],
+   "nombre_normalizado": "tenisateneasmedellin",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n32",
+   "lista": "Lista 2",
+   "nombre": "Zapatos Medellín Oficial",
+   "perfil": "https://www.instagram.com/zapatosmedellinoficial/",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatosmedellinoficial"
+   ],
+   "nombre_normalizado": "zapatosmedellinoficial",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n33",
+   "lista": "Lista 2",
+   "nombre": "Tenis Medellín Oficial (04)",
+   "perfil": "https://www.instagram.com/tenismedellin04/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenismedellin04"
+   ],
+   "nombre_normalizado": "tenismedellinoficial",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n34",
+   "lista": "Lista 2",
+   "nombre": "Empoderada",
+   "perfil": "https://www.instagram.com/empoderada_by_aleja/",
+   "telefonos": [],
+   "usuarios": [
+    "@empoderada_by_aleja"
+   ],
+   "nombre_normalizado": "empoderada",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n35",
+   "lista": "Lista 2",
+   "nombre": "Shoes Medellín",
+   "perfil": "https://www.instagram.com/shoesmedellincol/",
+   "telefonos": [],
+   "usuarios": [
+    "@shoesmedellincol"
+   ],
+   "nombre_normalizado": "shoesmedellin",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n36",
+   "lista": "Lista 2",
+   "nombre": "Calzado Liliana Ramírez",
+   "perfil": "https://www.instagram.com/liliana_ramirez_calzado/",
+   "telefonos": [],
+   "usuarios": [
+    "@liliana_ramirez_calzado"
+   ],
+   "nombre_normalizado": "calzadolilianaramirez",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n37",
+   "lista": "Lista 2",
+   "nombre": "Calzado Europeo Medellín",
+   "perfil": "https://www.instagram.com/calzadomedellim/",
+   "telefonos": [],
+   "usuarios": [
+    "@calzadomedellim"
+   ],
+   "nombre_normalizado": "calzadoeuropeomedellin",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n38",
+   "lista": "Lista 2",
+   "nombre": "Rosse Store Medellín",
+   "perfil": "https://www.instagram.com/rosse_store_medellin/",
+   "telefonos": [],
+   "usuarios": [
+    "@rosse_store_medellin"
+   ],
+   "nombre_normalizado": "rossestoremedellin",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n39",
+   "lista": "Lista 2",
+   "nombre": "Shoes Colombia",
+   "perfil": "https://www.instagram.com/shoescolombia_4/",
+   "telefonos": [],
+   "usuarios": [
+    "@shoescolombia_4"
+   ],
+   "nombre_normalizado": "shoescolombia",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n40",
+   "lista": "Lista 2",
+   "nombre": "Tenis Colombia 2",
+   "perfil": "https://www.instagram.com/tenis.col2/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenis.col2"
+   ],
+   "nombre_normalizado": "teniscolombia2",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n41",
+   "lista": "Lista 2",
+   "nombre": "Tu Zapato Contraentrega",
+   "perfil": "https://www.instagram.com/tz_contraentrega/",
+   "telefonos": [],
+   "usuarios": [
+    "@tz_contraentrega"
+   ],
+   "nombre_normalizado": "tuzapatocontraentrega",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n42",
+   "lista": "Lista 2",
+   "nombre": "Zapatos Bogotá Importaciones",
+   "perfil": "https://www.instagram.com/zapatos_bogota_importaciones/",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatos_bogota_importaciones"
+   ],
+   "nombre_normalizado": "zapatosbogotaimportaciones",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n43",
+   "lista": "Lista 2",
+   "nombre": "Merr Store",
+   "perfil": "https://www.instagram.com/merrstore2019/",
+   "telefonos": [],
+   "usuarios": [
+    "@merrstore2019"
+   ],
+   "nombre_normalizado": "merrstore",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n44",
+   "lista": "Lista 2",
+   "nombre": "DF Shoes",
+   "perfil": "https://www.instagram.com/tenis.dfshoes/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenis.dfshoes"
+   ],
+   "nombre_normalizado": "dfshoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n45",
+   "lista": "Lista 2",
+   "nombre": "Botas Bogotá C",
+   "perfil": "https://www.instagram.com/botasbogotac/",
+   "telefonos": [],
+   "usuarios": [
+    "@botasbogotac"
+   ],
+   "nombre_normalizado": "botasbogotac",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n46",
+   "lista": "Lista 2",
+   "nombre": "Cali Shoes",
+   "perfil": "https://www.instagram.com/calishoes/",
+   "telefonos": [],
+   "usuarios": [
+    "@calishoes"
+   ],
+   "nombre_normalizado": "calishoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n47",
+   "lista": "Lista 2",
+   "nombre": "Container Store Cali",
+   "perfil": "https://www.instagram.com/containerstore_cali/",
+   "telefonos": [],
+   "usuarios": [
+    "@containerstore_cali"
+   ],
+   "nombre_normalizado": "containerstorecali",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n48",
+   "lista": "Lista 2",
+   "nombre": "Mundo Crocs Cali",
+   "perfil": "https://www.instagram.com/mundo_crocs_cali/",
+   "telefonos": [],
+   "usuarios": [
+    "@mundo_crocs_cali"
+   ],
+   "nombre_normalizado": "mundocrocscali",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n49",
+   "lista": "Lista 2",
+   "nombre": "Sneakers Importadas Cali JV",
+   "perfil": "https://www.instagram.com/sneakersimpotadasjv/",
+   "telefonos": [],
+   "usuarios": [
+    "@sneakersimpotadasjv"
+   ],
+   "nombre_normalizado": "sneakersimportadascalijv",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n50",
+   "lista": "Lista 2",
+   "nombre": "Tacones Cali",
+   "perfil": "https://www.instagram.com/tacones__cali/",
+   "telefonos": [],
+   "usuarios": [
+    "@tacones__cali"
+   ],
+   "nombre_normalizado": "taconescali",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n51",
+   "lista": "Lista 2",
+   "nombre": "Stand Shop",
+   "perfil": "https://www.tiktok.com/@standshop_",
+   "telefonos": [],
+   "usuarios": [
+    "@standshop_"
+   ],
+   "nombre_normalizado": "standshop",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n52",
+   "lista": "Lista 2",
+   "nombre": "KMJ Sneakers",
+   "perfil": "https://www.tiktok.com/@lomejorentuspies",
+   "telefonos": [],
+   "usuarios": [
+    "@lomejorentuspies"
+   ],
+   "nombre_normalizado": "kmjsneakers",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n53",
+   "lista": "Lista 2",
+   "nombre": "Sam Store",
+   "perfil": "https://www.tiktok.com/@sam_store.co",
+   "telefonos": [],
+   "usuarios": [
+    "@sam_store.co"
+   ],
+   "nombre_normalizado": "samstore",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n54",
+   "lista": "Lista 2",
+   "nombre": "Sandrelly Calzado",
+   "perfil": "https://www.tiktok.com/@sandrelly.calzado",
+   "telefonos": [],
+   "usuarios": [
+    "@sandrelly.calzado"
+   ],
+   "nombre_normalizado": "sandrellycalzado",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n55",
+   "lista": "Lista 2",
+   "nombre": "Calzado Larcs",
+   "perfil": "https://www.tiktok.com/@calzadolarcs",
+   "telefonos": [],
+   "usuarios": [
+    "@calzadolarcs"
+   ],
+   "nombre_normalizado": "calzadolarcs",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n56",
+   "lista": "Lista 2",
+   "nombre": "Freshka",
+   "perfil": "https://www.tiktok.com/@freshka.co",
+   "telefonos": [],
+   "usuarios": [
+    "@freshka.co"
+   ],
+   "nombre_normalizado": "freshka",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n57",
+   "lista": "Lista 2",
+   "nombre": "Alto Nivel Oficial",
+   "perfil": "https://www.tiktok.com/@altoniveloficial",
+   "telefonos": [],
+   "usuarios": [
+    "@altoniveloficial"
+   ],
+   "nombre_normalizado": "altoniveloficial",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n58",
+   "lista": "Lista 2",
+   "nombre": "Tenis LNM",
+   "perfil": "https://www.tiktok.com/@tenislnm",
+   "telefonos": [],
+   "usuarios": [
+    "@tenislnm"
+   ],
+   "nombre_normalizado": "tenislnm",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n59",
+   "lista": "Lista 2",
+   "nombre": "Goat Wear",
+   "perfil": "https://www.tiktok.com/@goatwearshop",
+   "telefonos": [],
+   "usuarios": [
+    "@goatwearshop"
+   ],
+   "nombre_normalizado": "goatwear",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n60",
+   "lista": "Lista 2",
+   "nombre": "Apolo Store",
+   "perfil": "https://www.tiktok.com/@apolostore277",
+   "telefonos": [],
+   "usuarios": [
+    "@apolostore277"
+   ],
+   "nombre_normalizado": "apolostore",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n61",
+   "lista": "Lista 2",
+   "nombre": "Zapatos Cali es Cali",
+   "perfil": "https://www.tiktok.com/@zapatoscaliescali",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatoscaliescali"
+   ],
+   "nombre_normalizado": "zapatoscaliescali",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n62",
+   "lista": "Lista 2",
+   "nombre": "Único Outlet",
+   "perfil": "https://www.tiktok.com/@unicooutlet",
+   "telefonos": [],
+   "usuarios": [
+    "@unicooutlet"
+   ],
+   "nombre_normalizado": "unicooutlet",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n63",
+   "lista": "Lista 2",
+   "nombre": "Starboots",
+   "perfil": "https://www.tiktok.com/@starbootscol",
+   "telefonos": [],
+   "usuarios": [
+    "@starbootscol"
+   ],
+   "nombre_normalizado": "starboots",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n64",
+   "lista": "Lista 2",
+   "nombre": "Tennistavo",
+   "perfil": "https://www.tiktok.com/@tennistavo",
+   "telefonos": [],
+   "usuarios": [
+    "@tennistavo"
+   ],
+   "nombre_normalizado": "tennistavo",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n65",
+   "lista": "Lista 2",
+   "nombre": "Pisos Shoes",
+   "perfil": "https://www.tiktok.com/@pisos_shoes",
+   "telefonos": [],
+   "usuarios": [
+    "@pisos_shoes"
+   ],
+   "nombre_normalizado": "pisosshoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n66",
+   "lista": "Lista 2",
+   "nombre": "Bona Calzature",
+   "perfil": "https://www.tiktok.com/@bonacalzature.oficial",
+   "telefonos": [],
+   "usuarios": [
+    "@bonacalzature.oficial"
+   ],
+   "nombre_normalizado": "bonacalzature",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n67",
+   "lista": "Lista 2",
+   "nombre": "ToryVic",
+   "perfil": "https://www.tiktok.com/@toryvic.colombia",
+   "telefonos": [],
+   "usuarios": [
+    "@toryvic.colombia"
+   ],
+   "nombre_normalizado": "toryvic",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n68",
+   "lista": "Lista 2",
+   "nombre": "Ultracómodos",
+   "perfil": "https://www.tiktok.com/@ultracomodos",
+   "telefonos": [],
+   "usuarios": [
+    "@ultracomodos"
+   ],
+   "nombre_normalizado": "ultracomodos",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n69",
+   "lista": "Lista 2",
+   "nombre": "Theory Shoes",
+   "perfil": "https://www.tiktok.com/@theoryshoes",
+   "telefonos": [],
+   "usuarios": [
+    "@theoryshoes"
+   ],
+   "nombre_normalizado": "theoryshoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "n70",
+   "lista": "Lista 2",
+   "nombre": "Dicreem",
+   "perfil": "https://www.tiktok.com/@dicreem",
+   "telefonos": [],
+   "usuarios": [
+    "@dicreem"
+   ],
+   "nombre_normalizado": "dicreem",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c01",
+   "lista": "Lista 3",
+   "nombre": "Zapatillas Cali Juanda Store",
+   "perfil": "https://www.tiktok.com/@zapatillascali_",
+   "telefonos": [
+    "3153398956"
+   ],
+   "usuarios": [
+    "@zapatillascali_"
+   ],
+   "nombre_normalizado": "zapatillascalijuandastore",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c02",
+   "lista": "Lista 3",
+   "nombre": "Zapatillas Cali Yeiko",
+   "perfil": "https://www.tiktok.com/@zapatillasencali",
+   "telefonos": [
+    "3189998530"
+   ],
+   "usuarios": [
+    "@zapatillasencali"
+   ],
+   "nombre_normalizado": "zapatillascaliyeiko",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c03",
+   "lista": "Lista 3",
+   "nombre": "Zapatos Cali",
+   "perfil": "https://www.tiktok.com/@zapatoscali",
+   "telefonos": [
+    "3206580684"
+   ],
+   "usuarios": [
+    "@zapatoscali"
+   ],
+   "nombre_normalizado": "zapatoscali",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c05",
+   "lista": "Lista 3",
+   "nombre": "Tenis Importados Cali",
+   "perfil": "https://www.tiktok.com/@tenisimportadoscali",
+   "telefonos": [
+    "3011343404",
+    "3153710108"
+   ],
+   "usuarios": [
+    "@tenisimportadoscali"
+   ],
+   "nombre_normalizado": "tenisimportadoscali",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c06",
+   "lista": "Lista 3",
+   "nombre": "Zapatillas Importadas Cali",
+   "perfil": "https://www.tiktok.com/@zapatillasimportadascali",
+   "telefonos": [
+    "3152979270",
+    "3161919329"
+   ],
+   "usuarios": [
+    "@zapatillasimportadascali"
+   ],
+   "nombre_normalizado": "zapatillasimportadascali",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c07",
+   "lista": "Lista 3",
+   "nombre": "Soñador Sneakers",
+   "perfil": "https://www.tiktok.com/@sneakers.cali",
+   "telefonos": [
+    "3136885046"
+   ],
+   "usuarios": [
+    "@sneakers.cali"
+   ],
+   "nombre_normalizado": "sonadorsneakers",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c08",
+   "lista": "Lista 3",
+   "nombre": "La Guaca del Tenis",
+   "perfil": "https://www.tiktok.com/@laguacadeltenis2",
+   "telefonos": [
+    "3004364735"
+   ],
+   "usuarios": [
+    "@laguacadeltenis2"
+   ],
+   "nombre_normalizado": "laguacadeltenis",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c09",
+   "lista": "Lista 3",
+   "nombre": "La Oculta Shoes",
+   "perfil": "https://www.tiktok.com/@laocultashoes",
+   "telefonos": [
+    "3104392430"
+   ],
+   "usuarios": [
+    "@laocultashoes",
+    "@ocultashoes"
+   ],
+   "nombre_normalizado": "laocultashoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c10",
+   "lista": "Lista 3",
+   "nombre": "Calzado Cozzi",
+   "perfil": "https://www.tiktok.com/@calzadocozzi",
+   "telefonos": [
+    "3004404698"
+   ],
+   "usuarios": [
+    "@calzadocozzi"
+   ],
+   "nombre_normalizado": "calzadocozzi",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c11",
+   "lista": "Lista 3",
+   "nombre": "Plataformas y Tacones",
+   "perfil": "https://www.tiktok.com/@plataformasytacones",
+   "telefonos": [
+    "3042480632"
+   ],
+   "usuarios": [
+    "@plataformasytacones"
+   ],
+   "nombre_normalizado": "plataformasytacones",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c12",
+   "lista": "Lista 3",
+   "nombre": "Sneakers La Colmena",
+   "perfil": "https://www.tiktok.com/@sneakersbarranquilla",
+   "telefonos": [
+    "3005698919"
+   ],
+   "usuarios": [
+    "@lacolmena_sneakers",
+    "@sneakersbarranquilla"
+   ],
+   "nombre_normalizado": "sneakerslacolmena",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c13",
+   "lista": "Lista 3",
+   "nombre": "Zapatos Barranquilla (TikTok)",
+   "perfil": "https://www.tiktok.com/@zapatos_barranquilla",
+   "telefonos": [
+    "3018097352",
+    "3044418006"
+   ],
+   "usuarios": [
+    "@zapatos_barranquilla"
+   ],
+   "nombre_normalizado": "zapatosbarranquilla",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c14",
+   "lista": "Lista 3",
+   "nombre": "Le Petit Shop",
+   "perfil": "https://www.tiktok.com/@lepetitshop",
+   "telefonos": [
+    "3114326407"
+   ],
+   "usuarios": [
+    "@lepetitshop",
+    "@lepetitshop_1"
+   ],
+   "nombre_normalizado": "lepetitshop",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c15",
+   "lista": "Lista 3",
+   "nombre": "Nalu Sport",
+   "perfil": "https://www.tiktok.com/@nalu_sport19",
+   "telefonos": [
+    "3246464670"
+   ],
+   "usuarios": [
+    "@nalu_sport19"
+   ],
+   "nombre_normalizado": "nalusport",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c16",
+   "lista": "Lista 3",
+   "nombre": "Pulido Store",
+   "perfil": "https://www.tiktok.com/@pulido_store",
+   "telefonos": [
+    "3227906161"
+   ],
+   "usuarios": [
+    "@pulido_store"
+   ],
+   "nombre_normalizado": "pulidostore",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c17",
+   "lista": "Lista 3",
+   "nombre": "Costa Sneakers",
+   "perfil": "https://www.tiktok.com/@costa__sneakers",
+   "telefonos": [
+    "3014573881"
+   ],
+   "usuarios": [
+    "@costa__sneakers"
+   ],
+   "nombre_normalizado": "costasneakers",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c18",
+   "lista": "Lista 3",
+   "nombre": "GS Tenis",
+   "perfil": "https://www.tiktok.com/@gstenis_",
+   "telefonos": [],
+   "usuarios": [
+    "@gstenis_"
+   ],
+   "nombre_normalizado": "gstenis",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c19",
+   "lista": "Lista 3",
+   "nombre": "Tennis Cartagena",
+   "perfil": "https://www.tiktok.com/@tennis.cartagena",
+   "telefonos": [],
+   "usuarios": [
+    "@tennis.cartagena"
+   ],
+   "nombre_normalizado": "tenniscartagena",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c20",
+   "lista": "Lista 3",
+   "nombre": "Tenis La23",
+   "perfil": "https://www.tiktok.com/@tenis.la23",
+   "telefonos": [],
+   "usuarios": [
+    "@tenis.la23"
+   ],
+   "nombre_normalizado": "tenisla23",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c21",
+   "lista": "Lista 3",
+   "nombre": "Cali Zapatillas",
+   "perfil": "https://www.tiktok.com/@calizapatillas",
+   "telefonos": [],
+   "usuarios": [
+    "@calizapatillas"
+   ],
+   "nombre_normalizado": "calizapatillas",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c22",
+   "lista": "Lista 3",
+   "nombre": "Cali Sneakers",
+   "perfil": "https://www.tiktok.com/@cali_sneakers",
+   "telefonos": [],
+   "usuarios": [
+    "@cali_sneakers"
+   ],
+   "nombre_normalizado": "calisneakers",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c26",
+   "lista": "Lista 3",
+   "nombre": "NikyShoes",
+   "perfil": "https://www.instagram.com/nikyshoes_store/",
+   "telefonos": [],
+   "usuarios": [
+    "@nikyshoes_store"
+   ],
+   "nombre_normalizado": "nikyshoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c27",
+   "lista": "Lista 3",
+   "nombre": "Tus Tenis Tu Tienda Virtual",
+   "perfil": "https://www.instagram.com/tustenistutiendavirtual/",
+   "telefonos": [],
+   "usuarios": [
+    "@tustenistutiendavirtual"
+   ],
+   "nombre_normalizado": "tustenistutiendavirtual",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c28",
+   "lista": "Lista 3",
+   "nombre": "Tennis Cali 22",
+   "perfil": "https://www.instagram.com/tennis_cali22/",
+   "telefonos": [],
+   "usuarios": [
+    "@tennis_cali22"
+   ],
+   "nombre_normalizado": "tenniscali22",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c29",
+   "lista": "Lista 3",
+   "nombre": "World Tennis Cali",
+   "perfil": "https://www.instagram.com/worldtennis.cali/",
+   "telefonos": [],
+   "usuarios": [
+    "@worldtennis.cali"
+   ],
+   "nombre_normalizado": "worldtenniscali",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c30",
+   "lista": "Lista 3",
+   "nombre": "Tienda Virtual H",
+   "perfil": "https://www.instagram.com/tienda_virtual_h/",
+   "telefonos": [],
+   "usuarios": [
+    "@tienda_virtual_h"
+   ],
+   "nombre_normalizado": "tiendavirtualh",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c32",
+   "lista": "Lista 3",
+   "nombre": "Alex Zapatos Grandes",
+   "perfil": "https://www.instagram.com/alex_zapatos_grandes_de_mujer/",
+   "telefonos": [],
+   "usuarios": [
+    "@alex_zapatos_grandes_de_mujer"
+   ],
+   "nombre_normalizado": "alexzapatosgrandes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c33",
+   "lista": "Lista 3",
+   "nombre": "Chalala Shoes",
+   "perfil": "https://www.instagram.com/chalala.shoes_/",
+   "telefonos": [],
+   "usuarios": [
+    "@chalala.shoes_"
+   ],
+   "nombre_normalizado": "chalalashoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c34",
+   "lista": "Lista 3",
+   "nombre": "Container Shoes BAQ",
+   "perfil": "https://www.instagram.com/containershoesbaq/",
+   "telefonos": [],
+   "usuarios": [
+    "@containershoesbaq"
+   ],
+   "nombre_normalizado": "containershoesbaq",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c35",
+   "lista": "Lista 3",
+   "nombre": "Bunker Shoes",
+   "perfil": "https://www.instagram.com/bunker__shoes/",
+   "telefonos": [],
+   "usuarios": [
+    "@bunker__shoes"
+   ],
+   "nombre_normalizado": "bunkershoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c36",
+   "lista": "Lista 3",
+   "nombre": "Zapatos y Marroquinería Napoli",
+   "perfil": "https://www.instagram.com/cnapoli72/",
+   "telefonos": [],
+   "usuarios": [
+    "@cnapoli72"
+   ],
+   "nombre_normalizado": "zapatosymarroquinerianapoli",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c37",
+   "lista": "Lista 3",
+   "nombre": "Champs Store",
+   "perfil": "https://www.instagram.com/champsstorecol/",
+   "telefonos": [],
+   "usuarios": [
+    "@champsstorecol"
+   ],
+   "nombre_normalizado": "champsstore",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c38",
+   "lista": "Lista 3",
+   "nombre": "Santi Sport",
+   "perfil": "https://www.instagram.com/santi_sport_tienda/",
+   "telefonos": [],
+   "usuarios": [
+    "@santi_sport_tienda"
+   ],
+   "nombre_normalizado": "santisport",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c39",
+   "lista": "Lista 3",
+   "nombre": "Tennisi Store",
+   "perfil": "https://www.instagram.com/tennisi_store/",
+   "telefonos": [],
+   "usuarios": [
+    "@tennisi_store"
+   ],
+   "nombre_normalizado": "tennisistore",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c40",
+   "lista": "Lista 3",
+   "nombre": "Tienda de Tenis Cartagena",
+   "perfil": "https://www.instagram.com/cartagenasshoes/",
+   "telefonos": [
+    "3052278427"
+   ],
+   "usuarios": [
+    "@cartagenasshoes"
+   ],
+   "nombre_normalizado": "tiendadeteniscartagena",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c41",
+   "lista": "Lista 3",
+   "nombre": "CG Cartagena",
+   "perfil": "https://www.instagram.com/cg.cartagena/",
+   "telefonos": [],
+   "usuarios": [
+    "@cg.cartagena"
+   ],
+   "nombre_normalizado": "cgcartagena",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c42",
+   "lista": "Lista 3",
+   "nombre": "Calzado de Moda CTG",
+   "perfil": "https://www.instagram.com/calzadodemodactg/",
+   "telefonos": [],
+   "usuarios": [
+    "@calzadodemodactg"
+   ],
+   "nombre_normalizado": "calzadodemodactg",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c43",
+   "lista": "Lista 3",
+   "nombre": "Lola Shoes",
+   "perfil": "https://www.instagram.com/lolashoes__/",
+   "telefonos": [],
+   "usuarios": [
+    "@lolashoes__"
+   ],
+   "nombre_normalizado": "lolashoes",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c44",
+   "lista": "Lista 3",
+   "nombre": "Moda Fashion Bazurto",
+   "perfil": "https://www.instagram.com/modafashionbazurto/",
+   "telefonos": [],
+   "usuarios": [
+    "@modafashionbazurto"
+   ],
+   "nombre_normalizado": "modafashionbazurto",
+   "entregado": "2026-11-23"
+  },
+  {
+   "id": "c04",
+   "lista": "Lista 3",
+   "nombre": "Zapatillas Cali (CC Mío)",
+   "perfil": "https://www.tiktok.com/@zapatillas.cali",
+   "telefonos": [
+    "3160822365"
+   ],
+   "usuarios": [
+    "@zapatillas.cali"
+   ],
+   "nombre_normalizado": "zapatillascali",
+   "entregado": "2026-11-23",
+   "posible_repetido_de": "Zapatillas Cali Juanda Store",
+   "motivo": "usuario casi igual"
+  },
+  {
+   "id": "c23",
+   "lista": "Lista 3",
+   "nombre": "C&D Tenis Cali",
+   "perfil": "https://www.tiktok.com/@tenis_cali",
+   "telefonos": [],
+   "usuarios": [
+    "@tenis_cali"
+   ],
+   "nombre_normalizado": "cdteniscali",
+   "entregado": "2026-11-23",
+   "posible_repetido_de": "Tenis Cali",
+   "motivo": "usuario casi igual"
+  },
+  {
+   "id": "c24",
+   "lista": "Lista 3",
+   "nombre": "Zapatillas Cali AAA",
+   "perfil": "https://www.tiktok.com/@zapatillas_cali_",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatillas_cali_"
+   ],
+   "nombre_normalizado": "zapatillascaliaaa",
+   "entregado": "2026-11-23",
+   "posible_repetido_de": "Zapatillas Cali Juanda Store",
+   "motivo": "usuario casi igual"
+  },
+  {
+   "id": "c25",
+   "lista": "Lista 3",
+   "nombre": "Zapatos Cali D.C",
+   "perfil": "https://www.tiktok.com/@zapatos.cali",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatos.cali"
+   ],
+   "nombre_normalizado": "zapatoscalidc",
+   "entregado": "2026-11-23",
+   "posible_repetido_de": "Zapatos Cali",
+   "motivo": "usuario casi igual"
+  },
+  {
+   "id": "c31",
+   "lista": "Lista 3",
+   "nombre": "Zapatos Barranquilla",
+   "perfil": "https://www.instagram.com/zapatos.barrquilla/",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatos.barrquilla"
+   ],
+   "nombre_normalizado": "zapatosbarranquilla",
+   "entregado": "2026-11-23",
+   "posible_repetido_de": "Zapatos Barranquilla (TikTok)",
+   "motivo": "mismo nombre de negocio"
+  },
+  {
+   "id": "m01",
+   "lista": "Lista 4",
+   "nombre": "Storos",
+   "perfil": "https://www.facebook.com/61591284246920/",
+   "telefonos": [
+    "3134406050",
+    "3232516014"
+   ],
+   "usuarios": [
+    "@ldstoros",
+    "fb:61591284246920"
+   ],
+   "nombre_normalizado": "storos",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m02",
+   "lista": "Lista 4",
+   "nombre": "Tendencia Cali",
+   "perfil": "https://www.facebook.com/61573332017180/",
+   "telefonos": [
+    "3155517740"
+   ],
+   "usuarios": [
+    "fb:61573332017180"
+   ],
+   "nombre_normalizado": "tendenciacali",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m03",
+   "lista": "Lista 4",
+   "nombre": "Brooklyn Shop Col",
+   "perfil": "https://www.facebook.com/61563428874732/",
+   "telefonos": [
+    "3143323112",
+    "3214534143"
+   ],
+   "usuarios": [
+    "@brooklyn_shop_col",
+    "fb:61563428874732"
+   ],
+   "nombre_normalizado": "brooklynshopcol",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m04",
+   "lista": "Lista 4",
+   "nombre": "Boutique K Barranquilla",
+   "perfil": "https://www.facebook.com/boutiquek.bq/",
+   "telefonos": [
+    "3167501891"
+   ],
+   "usuarios": [
+    "@boutiquek.bq"
+   ],
+   "nombre_normalizado": "boutiquekbarranquilla",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m05",
+   "lista": "Lista 4",
+   "nombre": "Superstarscarpe",
+   "perfil": "https://www.facebook.com/61588983926671/",
+   "telefonos": [
+    "3159025290"
+   ],
+   "usuarios": [
+    "fb:61588983926671"
+   ],
+   "nombre_normalizado": "superstarscarpe",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m06",
+   "lista": "Lista 4",
+   "nombre": "Tenis Cúcuta (Maya)",
+   "perfil": "https://www.facebook.com/mayacucuta/",
+   "telefonos": [
+    "3017049367"
+   ],
+   "usuarios": [
+    "@cucutamaya",
+    "@mayacucuta"
+   ],
+   "nombre_normalizado": "teniscucuta",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m07",
+   "lista": "Lista 4",
+   "nombre": "High Store Viral",
+   "perfil": "https://www.tiktok.com/@highstoreviral",
+   "telefonos": [
+    "3016643733"
+   ],
+   "usuarios": [
+    "@highstoreviral"
+   ],
+   "nombre_normalizado": "highstoreviral",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m08",
+   "lista": "Lista 4",
+   "nombre": "Joss Class",
+   "perfil": "https://www.tiktok.com/@jossclass.col",
+   "telefonos": [
+    "3185796566"
+   ],
+   "usuarios": [
+    "@jossclass.col"
+   ],
+   "nombre_normalizado": "jossclass",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m09",
+   "lista": "Lista 4",
+   "nombre": "Kick House",
+   "perfil": "https://kickhouse.co/",
+   "telefonos": [
+    "3226125890"
+   ],
+   "usuarios": [
+    "@kickhouse.col",
+    "web:kickhouse.co"
+   ],
+   "nombre_normalizado": "kickhouse",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m10",
+   "lista": "Lista 4",
+   "nombre": "Mukak",
+   "perfil": "https://mukak.com/",
+   "telefonos": [
+    "3137970828"
+   ],
+   "usuarios": [
+    "@mukak_tienda",
+    "web:mukak.com"
+   ],
+   "nombre_normalizado": "mukak",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m11",
+   "lista": "Lista 4",
+   "nombre": "Tennis Premium",
+   "perfil": "https://www.tennispremium.co/",
+   "telefonos": [
+    "3215852776"
+   ],
+   "usuarios": [
+    "@tennisp.col",
+    "web:tennispremium.co"
+   ],
+   "nombre_normalizado": "tennispremium",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m12",
+   "lista": "Lista 4",
+   "nombre": "Import Tennis",
+   "perfil": "https://www.tiktok.com/@importenniscol",
+   "telefonos": [
+    "3213346579"
+   ],
+   "usuarios": [
+    "@importenniscol"
+   ],
+   "nombre_normalizado": "importtennis",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m13",
+   "lista": "Lista 4",
+   "nombre": "Tienda 527",
+   "perfil": "https://www.tiktok.com/@tienda527",
+   "telefonos": [
+    "3173317358"
+   ],
+   "usuarios": [
+    "@tienda527"
+   ],
+   "nombre_normalizado": "tienda527",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m14",
+   "lista": "Lista 4",
+   "nombre": "Sneakers BGA",
+   "perfil": "https://www.tiktok.com/@sneakers.bga",
+   "telefonos": [
+    "3125734344"
+   ],
+   "usuarios": [
+    "@sneakers.bga"
+   ],
+   "nombre_normalizado": "sneakersbga",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m15",
+   "lista": "Lista 4",
+   "nombre": "Letkicks",
+   "perfil": "https://www.tiktok.com/@letkicks",
+   "telefonos": [
+    "3173370561"
+   ],
+   "usuarios": [
+    "@letkicks"
+   ],
+   "nombre_normalizado": "letkicks",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m16",
+   "lista": "Lista 4",
+   "nombre": "La Tienda de Óscar y Mateo",
+   "perfil": "https://www.tiktok.com/@latiendadeoscarymateo",
+   "telefonos": [
+    "3227178413"
+   ],
+   "usuarios": [
+    "@latiendadeoscarymateo"
+   ],
+   "nombre_normalizado": "latiendadeoscarymateo",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m17",
+   "lista": "Lista 4",
+   "nombre": "Tenis Medellín CO",
+   "perfil": "https://www.tiktok.com/@tenis_medellin",
+   "telefonos": [
+    "3017278435"
+   ],
+   "usuarios": [
+    "@tenis_medellin",
+    "@tenis_medellin.co"
+   ],
+   "nombre_normalizado": "tenismedellinco",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m19",
+   "lista": "Lista 4",
+   "nombre": "Tenis Bucaramanga",
+   "perfil": "https://www.tiktok.com/@tenisbucaramanga",
+   "telefonos": [
+    "3232182436"
+   ],
+   "usuarios": [
+    "@tenisbucaramanga"
+   ],
+   "nombre_normalizado": "tenisbucaramanga",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m20",
+   "lista": "Lista 4",
+   "nombre": "Zapatillas Neiva",
+   "perfil": "https://www.tiktok.com/@zapatillasneiva",
+   "telefonos": [
+    "3236046636"
+   ],
+   "usuarios": [
+    "@zapatillasneiva"
+   ],
+   "nombre_normalizado": "zapatillasneiva",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m21",
+   "lista": "Lista 4",
+   "nombre": "Sneakers Store Col",
+   "perfil": "https://www.tiktok.com/@sneakers_storecol",
+   "telefonos": [
+    "3157599855"
+   ],
+   "usuarios": [
+    "@sneakers_storecol"
+   ],
+   "nombre_normalizado": "sneakersstorecol",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m22",
+   "lista": "Lista 4",
+   "nombre": "Moca Shoes",
+   "perfil": "https://www.tiktok.com/@mocashoesoficial",
+   "telefonos": [
+    "3021277075"
+   ],
+   "usuarios": [
+    "@mocashoesoficial"
+   ],
+   "nombre_normalizado": "mocashoes",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m23",
+   "lista": "Lista 4",
+   "nombre": "Miguel Store",
+   "perfil": "https://www.tiktok.com/@miguel_store01",
+   "telefonos": [
+    "3107277150"
+   ],
+   "usuarios": [
+    "@miguel_store01"
+   ],
+   "nombre_normalizado": "miguelstore",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m24",
+   "lista": "Lista 4",
+   "nombre": "Nexus Sneakers",
+   "perfil": "https://www.facebook.com/61587209804387/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61587209804387"
+   ],
+   "nombre_normalizado": "nexussneakers",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m25",
+   "lista": "Lista 4",
+   "nombre": "Urban Sneakers (bodega)",
+   "perfil": "https://www.facebook.com/61587578797788/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61587578797788"
+   ],
+   "nombre_normalizado": "urbansneakers",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m26",
+   "lista": "Lista 4",
+   "nombre": "Infinity Store",
+   "perfil": "https://www.facebook.com/61575698481678/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61575698481678"
+   ],
+   "nombre_normalizado": "infinitystore",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m27",
+   "lista": "Lista 4",
+   "nombre": "Prestige Center",
+   "perfil": "https://www.facebook.com/61591718590425/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61591718590425"
+   ],
+   "nombre_normalizado": "prestigecenter",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m28",
+   "lista": "Lista 4",
+   "nombre": "La Isla de la Moda",
+   "perfil": "https://www.facebook.com/61588562572716/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61588562572716"
+   ],
+   "nombre_normalizado": "laisladelamoda",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m29",
+   "lista": "Lista 4",
+   "nombre": "Titán Store",
+   "perfil": "https://www.facebook.com/61579957571132/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61579957571132"
+   ],
+   "nombre_normalizado": "titanstore",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m30",
+   "lista": "Lista 4",
+   "nombre": "Tiendas Juanjo Shop",
+   "perfil": "https://www.facebook.com/61584182564095/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61584182564095"
+   ],
+   "nombre_normalizado": "tiendasjuanjoshop",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m31",
+   "lista": "Lista 4",
+   "nombre": "Calzado Secret AyS Store",
+   "perfil": "https://www.facebook.com/calzadosecretays/",
+   "telefonos": [],
+   "usuarios": [
+    "@calzadosecretays"
+   ],
+   "nombre_normalizado": "calzadosecretaysstore",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m32",
+   "lista": "Lista 4",
+   "nombre": "Calzado Milán",
+   "perfil": "https://www.facebook.com/100088069849161/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:100088069849161"
+   ],
+   "nombre_normalizado": "calzadomilan",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m33",
+   "lista": "Lista 4",
+   "nombre": "JDS Shoes Sport (Mary Jds)",
+   "perfil": "https://www.facebook.com/jdsshoesport/",
+   "telefonos": [],
+   "usuarios": [
+    "@jdsshoesport"
+   ],
+   "nombre_normalizado": "jdsshoessport",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m34",
+   "lista": "Lista 4",
+   "nombre": "Mafalda Shoes 20",
+   "perfil": "https://www.facebook.com/mafal2.0/",
+   "telefonos": [],
+   "usuarios": [
+    "@mafal2.0"
+   ],
+   "nombre_normalizado": "mafaldashoes20",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m35",
+   "lista": "Lista 4",
+   "nombre": "Calzado Glow",
+   "perfil": "https://www.facebook.com/100092496494477/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:100092496494477"
+   ],
+   "nombre_normalizado": "calzadoglow",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m36",
+   "lista": "Lista 4",
+   "nombre": "Parceros Fútbol",
+   "perfil": "https://www.facebook.com/61558449680724/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61558449680724"
+   ],
+   "nombre_normalizado": "parcerosfutbol",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m37",
+   "lista": "Lista 4",
+   "nombre": "Calzado D&D",
+   "perfil": "https://www.facebook.com/calzadodyd/",
+   "telefonos": [],
+   "usuarios": [
+    "@calzadodyd"
+   ],
+   "nombre_normalizado": "calzadodd",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m38",
+   "lista": "Lista 4",
+   "nombre": "Pontiak",
+   "perfil": "https://www.facebook.com/Pontiak.com.co/",
+   "telefonos": [],
+   "usuarios": [
+    "@pontiak.com.co"
+   ],
+   "nombre_normalizado": "pontiak",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m39",
+   "lista": "Lista 4",
+   "nombre": "Calikicks Worldshoes",
+   "perfil": "https://www.facebook.com/Alejocifuentes98/",
+   "telefonos": [],
+   "usuarios": [
+    "@alejocifuentes98",
+    "@theworldshoes23"
+   ],
+   "nombre_normalizado": "calikicksworldshoes",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m40",
+   "lista": "Lista 4",
+   "nombre": "Tenis Colombia S.R",
+   "perfil": "https://www.facebook.com/teniscolombia10/",
+   "telefonos": [],
+   "usuarios": [
+    "@teniscolombia10"
+   ],
+   "nombre_normalizado": "teniscolombiasr",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m41",
+   "lista": "Lista 4",
+   "nombre": "Optimus Store Medellín",
+   "perfil": "https://www.facebook.com/Optimusstoremed/",
+   "telefonos": [],
+   "usuarios": [
+    "@optimusstoremed"
+   ],
+   "nombre_normalizado": "optimusstoremedellin",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m42",
+   "lista": "Lista 4",
+   "nombre": "Tenis Jamundí",
+   "perfil": "https://www.facebook.com/p/Tenis-Jamund%C3%AD-100068332765991/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:100068332765991"
+   ],
+   "nombre_normalizado": "tenisjamundi",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m43",
+   "lista": "Lista 4",
+   "nombre": "Shopping Shoes Cúcuta",
+   "perfil": "https://www.facebook.com/SHOPPINGSHOESQQTA/",
+   "telefonos": [],
+   "usuarios": [
+    "@shoppingshoesqqta"
+   ],
+   "nombre_normalizado": "shoppingshoescucuta",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m44",
+   "lista": "Lista 4",
+   "nombre": "Sneakers Bogotá",
+   "perfil": "https://www.tiktok.com/@sneakers_bogota",
+   "telefonos": [],
+   "usuarios": [
+    "@sneakers_bogota"
+   ],
+   "nombre_normalizado": "sneakersbogota",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m45",
+   "lista": "Lista 4",
+   "nombre": "Zapatillas Bogotá",
+   "perfil": "https://www.tiktok.com/@zapatillasbogota",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatillasbogota"
+   ],
+   "nombre_normalizado": "zapatillasbogota",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m46",
+   "lista": "Lista 4",
+   "nombre": "Tenis Pereira",
+   "perfil": "https://www.tiktok.com/@tenis_pereira",
+   "telefonos": [],
+   "usuarios": [
+    "@mat_million",
+    "@tenis_pereira"
+   ],
+   "nombre_normalizado": "tenispereira",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m47",
+   "lista": "Lista 4",
+   "nombre": "Need Shop Col",
+   "perfil": "https://www.tiktok.com/@needshopcol",
+   "telefonos": [],
+   "usuarios": [
+    "@needshopcol"
+   ],
+   "nombre_normalizado": "needshopcol",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m48",
+   "lista": "Lista 4",
+   "nombre": "Athletic Sports",
+   "perfil": "https://www.tiktok.com/@athleticsports.col",
+   "telefonos": [],
+   "usuarios": [
+    "@athleticsports.col"
+   ],
+   "nombre_normalizado": "athleticsports",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m49",
+   "lista": "Lista 4",
+   "nombre": "CoolTienda",
+   "perfil": "https://www.tiktok.com/@cooltienda.co",
+   "telefonos": [],
+   "usuarios": [
+    "@cooltienda.co"
+   ],
+   "nombre_normalizado": "cooltienda",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m50",
+   "lista": "Lista 4",
+   "nombre": "Sneakers Medellín",
+   "perfil": "https://www.tiktok.com/@sneakers_medellin",
+   "telefonos": [],
+   "usuarios": [
+    "@sneakers_medellin"
+   ],
+   "nombre_normalizado": "sneakersmedellin",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m51",
+   "lista": "Lista 4",
+   "nombre": "US Shoes Store",
+   "perfil": "https://usshoesstore.com/",
+   "telefonos": [],
+   "usuarios": [
+    "web:usshoesstore.com"
+   ],
+   "nombre_normalizado": "usshoesstore",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m52",
+   "lista": "Lista 4",
+   "nombre": "AlanStore",
+   "perfil": "https://www.alanstore.com.co/",
+   "telefonos": [],
+   "usuarios": [
+    "web:alanstore.com.co"
+   ],
+   "nombre_normalizado": "alanstore",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m53",
+   "lista": "Lista 4",
+   "nombre": "Tenis Luxury Popayán",
+   "perfil": "https://tenisluxury-popayan.jumpseller.com/",
+   "telefonos": [],
+   "usuarios": [
+    "web:tenisluxury-popayan.jumpseller.com"
+   ],
+   "nombre_normalizado": "tenisluxurypopayan",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m54",
+   "lista": "Lista 4",
+   "nombre": "Tenis Zone",
+   "perfil": "https://www.instagram.com/tenis_zone1/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenis_zone1"
+   ],
+   "nombre_normalizado": "teniszone",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m55",
+   "lista": "Lista 4",
+   "nombre": "Bucaramanga Tenis",
+   "perfil": "https://www.instagram.com/bucaramanga.tenis/",
+   "telefonos": [],
+   "usuarios": [
+    "@bucaramanga.tenis"
+   ],
+   "nombre_normalizado": "bucaramangatenis",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m57",
+   "lista": "Lista 4",
+   "nombre": "Ava Sport",
+   "perfil": "https://www.instagram.com/avasportoficial1/",
+   "telefonos": [],
+   "usuarios": [
+    "@avasportoficial1"
+   ],
+   "nombre_normalizado": "avasport",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m58",
+   "lista": "Lista 4",
+   "nombre": "Tenis Medellín 2021",
+   "perfil": "https://www.instagram.com/tenismedellin2021_2/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenismedellin2021_2"
+   ],
+   "nombre_normalizado": "tenismedellin2021",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m59",
+   "lista": "Lista 4",
+   "nombre": "Tenis Cúcuta Prados Norte",
+   "perfil": "https://tenis-cucuta-1.ueniweb.com/",
+   "telefonos": [],
+   "usuarios": [
+    "web:tenis-cucuta-1.ueniweb.com"
+   ],
+   "nombre_normalizado": "teniscucutapradosnorte",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m60",
+   "lista": "Lista 4",
+   "nombre": "Calzado Status",
+   "perfil": "https://calzadostatus.store.link/",
+   "telefonos": [],
+   "usuarios": [
+    "web:calzadostatus.store.link"
+   ],
+   "nombre_normalizado": "calzadostatus",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m61",
+   "lista": "Lista 4",
+   "nombre": "Zavatty",
+   "perfil": "https://www.zavatty.com/",
+   "telefonos": [
+    "3175920970"
+   ],
+   "usuarios": [
+    "web:zavatty.com"
+   ],
+   "nombre_normalizado": "zavatty",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m62",
+   "lista": "Lista 4",
+   "nombre": "Aloha Shoes",
+   "perfil": "https://alohashoes.co/",
+   "telefonos": [],
+   "usuarios": [
+    "@alohashoesofficial_",
+    "web:alohashoes.co"
+   ],
+   "nombre_normalizado": "alohashoes",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m63",
+   "lista": "Lista 4",
+   "nombre": "Victoriosa Shoes",
+   "perfil": "https://www.facebook.com/100078671029046/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:100078671029046"
+   ],
+   "nombre_normalizado": "victoriosashoes",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m64",
+   "lista": "Lista 4",
+   "nombre": "Pava Boutique",
+   "perfil": "https://www.tiktok.com/@pavaboutique",
+   "telefonos": [
+    "3225719763"
+   ],
+   "usuarios": [
+    "@pavaboutique"
+   ],
+   "nombre_normalizado": "pavaboutique",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m65",
+   "lista": "Lista 4",
+   "nombre": "Madison Store",
+   "perfil": "https://storemadison.co/",
+   "telefonos": [
+    "3132493823",
+    "3222704879"
+   ],
+   "usuarios": [
+    "web:storemadison.co"
+   ],
+   "nombre_normalizado": "madisonstore",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m66",
+   "lista": "Lista 4",
+   "nombre": "Tellenzi",
+   "perfil": "https://www.tellenzi.com/",
+   "telefonos": [],
+   "usuarios": [
+    "@tellenzi_",
+    "web:tellenzi.com"
+   ],
+   "nombre_normalizado": "tellenzi",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m67",
+   "lista": "Lista 4",
+   "nombre": "Tenis AW",
+   "perfil": "https://tenisaw.com/",
+   "telefonos": [
+    "3003517097"
+   ],
+   "usuarios": [
+    "web:tenisaw.com"
+   ],
+   "nombre_normalizado": "tenisaw",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m68",
+   "lista": "Lista 4",
+   "nombre": "Calzado Ttonnos",
+   "perfil": "https://www.tiktok.com/@ttonnos",
+   "telefonos": [
+    "3232377348"
+   ],
+   "usuarios": [
+    "@ttonnos"
+   ],
+   "nombre_normalizado": "calzadottonnos",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m69",
+   "lista": "Lista 4",
+   "nombre": "Shoes Sunsport",
+   "perfil": "https://www.facebook.com/61566589964779/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61566589964779"
+   ],
+   "nombre_normalizado": "shoessunsport",
+   "entregado": "2026-11-24"
+  },
+  {
+   "id": "m18",
+   "lista": "Lista 4",
+   "nombre": "Tenis Medellín 1.1",
+   "perfil": "https://www.tiktok.com/@tenis.medellin",
+   "telefonos": [
+    "3161776015"
+   ],
+   "usuarios": [
+    "@tenis.medellin"
+   ],
+   "nombre_normalizado": "tenismedellin11",
+   "entregado": "2026-11-24",
+   "posible_repetido_de": "Tenis Medellín CO",
+   "motivo": "usuario casi igual"
+  },
+  {
+   "id": "m56",
+   "lista": "Lista 4",
+   "nombre": "Tenis Cúcuta (pedidos)",
+   "perfil": "https://www.instagram.com/cucuta_tenis/",
+   "telefonos": [],
+   "usuarios": [
+    "@cucuta_tenis"
+   ],
+   "nombre_normalizado": "teniscucuta",
+   "entregado": "2026-11-24",
+   "posible_repetido_de": "Tenis Cúcuta (Maya)",
+   "motivo": "mismo nombre de negocio"
+  },
+  {
+   "id": "q01",
+   "lista": "Lista 5",
+   "nombre": "El Rey de las Zapatillas",
+   "perfil": "https://www.tiktok.com/@elrey1925",
+   "telefonos": [
+    "3157869794"
+   ],
+   "usuarios": [
+    "@elrey1925"
+   ],
+   "nombre_normalizado": "elreydelaszapatillas",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q02",
+   "lista": "Lista 5",
+   "nombre": "MK Sneakers",
+   "perfil": "https://www.tiktok.com/@mk.sneakers.co",
+   "telefonos": [
+    "3225044212"
+   ],
+   "usuarios": [
+    "@mk.sneakers.co"
+   ],
+   "nombre_normalizado": "mksneakers",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q03",
+   "lista": "Lista 5",
+   "nombre": "Panitas Guayos",
+   "perfil": "https://www.tiktok.com/@panitas_guayos",
+   "telefonos": [
+    "3239313580"
+   ],
+   "usuarios": [
+    "@panitas_guayos",
+    "@panitas_guayos_"
+   ],
+   "nombre_normalizado": "panitasguayos",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q04",
+   "lista": "Lista 5",
+   "nombre": "Dairito's Sneakers",
+   "perfil": "https://www.tiktok.com/@dairitossneakers",
+   "telefonos": [
+    "3219650169"
+   ],
+   "usuarios": [
+    "@dairitossneakers"
+   ],
+   "nombre_normalizado": "dairitossneakers",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q05",
+   "lista": "Lista 5",
+   "nombre": "La Tienda del 10",
+   "perfil": "https://www.tiktok.com/@latiendadel10colombia",
+   "telefonos": [
+    "3043770100",
+    "3157076616"
+   ],
+   "usuarios": [
+    "@latiendadel10colombia"
+   ],
+   "nombre_normalizado": "latiendadel10",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q06",
+   "lista": "Lista 5",
+   "nombre": "Mundo Tenis (tienda virtual)",
+   "perfil": "https://www.tiktok.com/@mundotenisrespaldo",
+   "telefonos": [
+    "3204062104"
+   ],
+   "usuarios": [
+    "@mundotenisrespaldo"
+   ],
+   "nombre_normalizado": "mundotenis",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q07",
+   "lista": "Lista 5",
+   "nombre": "Latino Sports",
+   "perfil": "https://www.tiktok.com/@latino_sports20",
+   "telefonos": [
+    "3205405133"
+   ],
+   "usuarios": [
+    "@latino_sports20"
+   ],
+   "nombre_normalizado": "latinosports",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q08",
+   "lista": "Lista 5",
+   "nombre": "Ali Store Cali",
+   "perfil": "https://www.tiktok.com/@ali.store.cali",
+   "telefonos": [
+    "3114861293"
+   ],
+   "usuarios": [
+    "@ali.store.cali"
+   ],
+   "nombre_normalizado": "alistorecali",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q09",
+   "lista": "Lista 5",
+   "nombre": "Zapatos Pilin",
+   "perfil": "https://www.tiktok.com/@zapatospilin",
+   "telefonos": [
+    "3173000139"
+   ],
+   "usuarios": [
+    "@zapatospilin"
+   ],
+   "nombre_normalizado": "zapatospilin",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q10",
+   "lista": "Lista 5",
+   "nombre": "Shoes by Ash",
+   "perfil": "https://www.tiktok.com/@shoesbyash",
+   "telefonos": [
+    "3115956448"
+   ],
+   "usuarios": [
+    "@shoesbyash",
+    "@shoesbyash_"
+   ],
+   "nombre_normalizado": "shoesbyash",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q11",
+   "lista": "Lista 5",
+   "nombre": "Paisa Tenis",
+   "perfil": "https://www.tiktok.com/@paisatenis",
+   "telefonos": [
+    "3105050037"
+   ],
+   "usuarios": [
+    "@paisatenis"
+   ],
+   "nombre_normalizado": "paisatenis",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q12",
+   "lista": "Lista 5",
+   "nombre": "Tuttos Sport Caribe",
+   "perfil": "https://www.tuttossport.com.co/",
+   "telefonos": [
+    "3128737490"
+   ],
+   "usuarios": [
+    "web:tuttossport.com.co"
+   ],
+   "nombre_normalizado": "tuttossportcaribe",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q13",
+   "lista": "Lista 5",
+   "nombre": "Zapatillas Importadas Villavicencio",
+   "perfil": "https://zapatillas-importadas.ueniweb.com/",
+   "telefonos": [
+    "3204075483"
+   ],
+   "usuarios": [
+    "web:zapatillas-importadas.ueniweb.com"
+   ],
+   "nombre_normalizado": "zapatillasimportadasvillavicencio",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q14",
+   "lista": "Lista 5",
+   "nombre": "Tenis Triple A Medellín",
+   "perfil": "https://www.facebook.com/tenisimportadosmedellinAAA/",
+   "telefonos": [
+    "3006844468"
+   ],
+   "usuarios": [
+    "@tenisimportadosmedellinaaa"
+   ],
+   "nombre_normalizado": "tenistripleamedellin",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q15",
+   "lista": "Lista 5",
+   "nombre": "Tenis Importados Triple A Medellín",
+   "perfil": "https://www.facebook.com/p/Tenis-importados-triple-A-medellin-100054250880539/",
+   "telefonos": [
+    "3015340553"
+   ],
+   "usuarios": [
+    "fb:100054250880539"
+   ],
+   "nombre_normalizado": "tenisimportadostripleamedellin",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q16",
+   "lista": "Lista 5",
+   "nombre": "Juancho Tennis Medellín",
+   "perfil": "https://www.facebook.com/people/Juancho-Tennis-Medellin/100063495672883/",
+   "telefonos": [
+    "3015129469"
+   ],
+   "usuarios": [
+    "fb:100063495672883"
+   ],
+   "nombre_normalizado": "juanchotennismedellin",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q17",
+   "lista": "Lista 5",
+   "nombre": "Remat Zapatillas Ibagué",
+   "perfil": "https://www.facebook.com/rematibague/",
+   "telefonos": [
+    "3187083998"
+   ],
+   "usuarios": [
+    "@rematibague"
+   ],
+   "nombre_normalizado": "rematzapatillasibague",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q18",
+   "lista": "Lista 5",
+   "nombre": "Tienda Pausof Store",
+   "perfil": "https://www.facebook.com/tiendapausofstore/",
+   "telefonos": [
+    "3002502843"
+   ],
+   "usuarios": [
+    "@tiendapausofstore"
+   ],
+   "nombre_normalizado": "tiendapausofstore",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q19",
+   "lista": "Lista 5",
+   "nombre": "Calzashop",
+   "perfil": "https://www.facebook.com/calzashopbucaramanga/",
+   "telefonos": [
+    "3144432212"
+   ],
+   "usuarios": [
+    "@calzashopbucaramanga"
+   ],
+   "nombre_normalizado": "calzashop",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q20",
+   "lista": "Lista 5",
+   "nombre": "Tenishuda",
+   "perfil": "https://www.facebook.com/people/Tenishuda0001/61551875609169/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:61551875609169"
+   ],
+   "nombre_normalizado": "tenishuda",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q21",
+   "lista": "Lista 5",
+   "nombre": "Tennis Importados Medellín",
+   "perfil": "https://www.facebook.com/tennismedellin15",
+   "telefonos": [],
+   "usuarios": [
+    "@tennismedellin15"
+   ],
+   "nombre_normalizado": "tennisimportadosmedellin",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q22",
+   "lista": "Lista 5",
+   "nombre": "Tenis Underground",
+   "perfil": "https://www.facebook.com/Tenis.underground/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenis.underground"
+   ],
+   "nombre_normalizado": "tenisunderground",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q23",
+   "lista": "Lista 5",
+   "nombre": "Tenis Bogotá Impo",
+   "perfil": "https://www.facebook.com/p/TenisBogotaImpo-100063973330287/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:100063973330287"
+   ],
+   "nombre_normalizado": "tenisbogotaimpo",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q24",
+   "lista": "Lista 5",
+   "nombre": "Solo Tenis Santa Marta",
+   "perfil": "https://www.facebook.com/people/Solo-Tenis-Santa-Marta/100063702893920/",
+   "telefonos": [],
+   "usuarios": [
+    "fb:100063702893920"
+   ],
+   "nombre_normalizado": "solotenissantamarta",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q25",
+   "lista": "Lista 5",
+   "nombre": "Costa-Tenis",
+   "perfil": "https://www.facebook.com/villasportR/",
+   "telefonos": [],
+   "usuarios": [
+    "@villasportr"
+   ],
+   "nombre_normalizado": "costatenis",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q26",
+   "lista": "Lista 5",
+   "nombre": "Quality Shop",
+   "perfil": "https://www.facebook.com/qualityshop777/",
+   "telefonos": [],
+   "usuarios": [
+    "@qualityshop777"
+   ],
+   "nombre_normalizado": "qualityshop",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q27",
+   "lista": "Lista 5",
+   "nombre": "Luxury Tennis",
+   "perfil": "https://www.facebook.com/luxurytennis/",
+   "telefonos": [],
+   "usuarios": [
+    "@luxurytennis"
+   ],
+   "nombre_normalizado": "luxurytennis",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q28",
+   "lista": "Lista 5",
+   "nombre": "J-Tennis Bga",
+   "perfil": "https://www.facebook.com/Deportivosenbucaramanga/",
+   "telefonos": [],
+   "usuarios": [
+    "@deportivosenbucaramanga"
+   ],
+   "nombre_normalizado": "jtennisbga",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q29",
+   "lista": "Lista 5",
+   "nombre": "Frida's Sport",
+   "perfil": "https://www.facebook.com/p/Fridas-Sport-100064630730972",
+   "telefonos": [],
+   "usuarios": [
+    "fb:100064630730972"
+   ],
+   "nombre_normalizado": "fridassport",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q30",
+   "lista": "Lista 5",
+   "nombre": "Conor Sport",
+   "perfil": "https://www.facebook.com/conorsport/",
+   "telefonos": [],
+   "usuarios": [
+    "@conorsport"
+   ],
+   "nombre_normalizado": "conorsport",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q31",
+   "lista": "Lista 5",
+   "nombre": "Tienda de Zapatillas 1",
+   "perfil": "https://www.facebook.com/tiendadezapatillasvcio/",
+   "telefonos": [],
+   "usuarios": [
+    "@tiendadezapatillasvcio"
+   ],
+   "nombre_normalizado": "tiendadezapatillas1",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q32",
+   "lista": "Lista 5",
+   "nombre": "Zapatillas y Tenis 369",
+   "perfil": "https://www.facebook.com/lemanegocios/",
+   "telefonos": [],
+   "usuarios": [
+    "@lemanegocios"
+   ],
+   "nombre_normalizado": "zapatillasytenis369",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q33",
+   "lista": "Lista 5",
+   "nombre": "D.O Sport",
+   "perfil": "https://www.facebook.com/zapatillasfutsalyguayos/",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatillasfutsalyguayos"
+   ],
+   "nombre_normalizado": "dosport",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q34",
+   "lista": "Lista 5",
+   "nombre": "ONL Fútbol",
+   "perfil": "https://www.facebook.com/onltiendadeportiva/",
+   "telefonos": [],
+   "usuarios": [
+    "@onltiendadeportiva"
+   ],
+   "nombre_normalizado": "onlfutbol",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q35",
+   "lista": "Lista 5",
+   "nombre": "El Mundo de las Zapatillas Cali",
+   "perfil": "https://www.facebook.com/elmundodelaszapatillascali/",
+   "telefonos": [],
+   "usuarios": [
+    "@elmundodelaszapatillascali"
+   ],
+   "nombre_normalizado": "elmundodelaszapatillascali",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q36",
+   "lista": "Lista 5",
+   "nombre": "Zapatillas Originales Importadas Cali",
+   "perfil": "https://www.facebook.com/tiendaOnLineCali/",
+   "telefonos": [],
+   "usuarios": [
+    "@tiendaonlinecali"
+   ],
+   "nombre_normalizado": "zapatillasoriginalesimportadascali",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q37",
+   "lista": "Lista 5",
+   "nombre": "RR Sport",
+   "perfil": "https://www.tiktok.com/@rrsport21",
+   "telefonos": [],
+   "usuarios": [
+    "@rrsport21"
+   ],
+   "nombre_normalizado": "rrsport",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q38",
+   "lista": "Lista 5",
+   "nombre": "Total Guayos Colombia",
+   "perfil": "https://www.tiktok.com/@total.guayos.colo",
+   "telefonos": [],
+   "usuarios": [
+    "@total.guayos.colo"
+   ],
+   "nombre_normalizado": "totalguayoscolombia",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q39",
+   "lista": "Lista 5",
+   "nombre": "E2S Sport",
+   "perfil": "https://www.tiktok.com/@e2s_sport",
+   "telefonos": [],
+   "usuarios": [
+    "@e2s_sport"
+   ],
+   "nombre_normalizado": "e2ssport",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q40",
+   "lista": "Lista 5",
+   "nombre": "Sneakers BQ",
+   "perfil": "https://www.tiktok.com/@sneakers.bq",
+   "telefonos": [],
+   "usuarios": [
+    "@sneakers.bq"
+   ],
+   "nombre_normalizado": "sneakersbq",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q41",
+   "lista": "Lista 5",
+   "nombre": "Tenis Unidos",
+   "perfil": "https://www.instagram.com/tenisunidos/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenisunidos"
+   ],
+   "nombre_normalizado": "tenisunidos",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q42",
+   "lista": "Lista 5",
+   "nombre": "RS Medellín",
+   "perfil": "https://www.instagram.com/rs.medellin/",
+   "telefonos": [],
+   "usuarios": [
+    "@rs.medellin"
+   ],
+   "nombre_normalizado": "rsmedellin",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q43",
+   "lista": "Lista 5",
+   "nombre": "Tenis Contraentrega Med",
+   "perfil": "https://www.instagram.com/tenismedellin94/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenismedellin94"
+   ],
+   "nombre_normalizado": "teniscontraentregamed",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q45",
+   "lista": "Lista 5",
+   "nombre": "Shoes Medellín 27",
+   "perfil": "https://www.instagram.com/shoesmedellin27/",
+   "telefonos": [],
+   "usuarios": [
+    "@shoesmedellin27"
+   ],
+   "nombre_normalizado": "shoesmedellin27",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q46",
+   "lista": "Lista 5",
+   "nombre": "Tenis Importados Baratos",
+   "perfil": "https://www.instagram.com/tenisimportadosbaratos.co/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenisimportadosbaratos.co"
+   ],
+   "nombre_normalizado": "tenisimportadosbaratos",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q47",
+   "lista": "Lista 5",
+   "nombre": "Zapatos Cúcuta Online",
+   "perfil": "https://www.instagram.com/zapatoscucutaonline/",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatoscucutaonline"
+   ],
+   "nombre_normalizado": "zapatoscucutaonline",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q48",
+   "lista": "Lista 5",
+   "nombre": "Tenis Shop Pereira",
+   "perfil": "https://www.instagram.com/tenisshoppereiraa/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenisshoppereiraa"
+   ],
+   "nombre_normalizado": "tenisshoppereira",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q49",
+   "lista": "Lista 5",
+   "nombre": "Tenis Láser",
+   "perfil": "https://www.instagram.com/tenislaser/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenislaser"
+   ],
+   "nombre_normalizado": "tenislaser",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q50",
+   "lista": "Lista 5",
+   "nombre": "Rivelino Store",
+   "perfil": "https://www.instagram.com/rivelino_store/",
+   "telefonos": [],
+   "usuarios": [
+    "@rivelino_store"
+   ],
+   "nombre_normalizado": "rivelinostore",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q51",
+   "lista": "Lista 5",
+   "nombre": "Tus Tennis Montería",
+   "perfil": "https://www.instagram.com/tustennismonteriaa2/",
+   "telefonos": [],
+   "usuarios": [
+    "@tustennismonteriaa2"
+   ],
+   "nombre_normalizado": "tustennismonteria",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q52",
+   "lista": "Lista 5",
+   "nombre": "Zapatillas Popayán",
+   "perfil": "https://www.instagram.com/zapatillaspopayan10/",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatillaspopayan10"
+   ],
+   "nombre_normalizado": "zapatillaspopayan",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q53",
+   "lista": "Lista 5",
+   "nombre": "Afsport Shop",
+   "perfil": "https://www.instagram.com/afsport_shop/",
+   "telefonos": [],
+   "usuarios": [
+    "@afsport_shop"
+   ],
+   "nombre_normalizado": "afsportshop",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q54",
+   "lista": "Lista 5",
+   "nombre": "Foot Locker Store BAQ",
+   "perfil": "https://www.instagram.com/footlockerstore01/",
+   "telefonos": [],
+   "usuarios": [
+    "@footlockerstore01"
+   ],
+   "nombre_normalizado": "footlockerstorebaq",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q55",
+   "lista": "Lista 5",
+   "nombre": "Wear Store Barranquilla",
+   "perfil": "https://www.instagram.com/wearstore_bq/",
+   "telefonos": [],
+   "usuarios": [
+    "@wearstore_bq"
+   ],
+   "nombre_normalizado": "wearstorebarranquilla",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q56",
+   "lista": "Lista 5",
+   "nombre": "Tierra Sagrada Soledad",
+   "perfil": "https://www.instagram.com/tierrasagradasoledad/",
+   "telefonos": [],
+   "usuarios": [
+    "@tierrasagradasoledad"
+   ],
+   "nombre_normalizado": "tierrasagradasoledad",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q58",
+   "lista": "Lista 5",
+   "nombre": "Clandestine Virtual Shop",
+   "perfil": "https://clandestine-virtual-shop.ueniweb.com/",
+   "telefonos": [],
+   "usuarios": [
+    "web:clandestine-virtual-shop.ueniweb.com"
+   ],
+   "nombre_normalizado": "clandestinevirtualshop",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q59",
+   "lista": "Lista 5",
+   "nombre": "La Bodega Cali",
+   "perfil": "https://labodegastorecali.kyte.site/",
+   "telefonos": [],
+   "usuarios": [
+    "web:labodegastorecali.kyte.site"
+   ],
+   "nombre_normalizado": "labodegacali",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q60",
+   "lista": "Lista 5",
+   "nombre": "Calzashop BAQ",
+   "perfil": "https://www.tiktok.com/@calzashop",
+   "telefonos": [],
+   "usuarios": [
+    "@calzashop"
+   ],
+   "nombre_normalizado": "calzashopbaq",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q61",
+   "lista": "Lista 5",
+   "nombre": "Armori Shoes",
+   "perfil": "https://www.tiktok.com/@armori.shoes",
+   "telefonos": [
+    "3192657915"
+   ],
+   "usuarios": [
+    "@armori.shoes"
+   ],
+   "nombre_normalizado": "armorishoes",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q62",
+   "lista": "Lista 5",
+   "nombre": "Papos Calzado Infantil",
+   "perfil": "https://www.tiktok.com/@paposshop",
+   "telefonos": [],
+   "usuarios": [
+    "@paposshop"
+   ],
+   "nombre_normalizado": "paposcalzadoinfantil",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q63",
+   "lista": "Lista 5",
+   "nombre": "Milu Zapatos",
+   "perfil": "https://www.instagram.com/milu_zapatos/",
+   "telefonos": [],
+   "usuarios": [
+    "@milu_zapatos"
+   ],
+   "nombre_normalizado": "miluzapatos",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q64",
+   "lista": "Lista 5",
+   "nombre": "Duzca",
+   "perfil": "https://www.instagram.com/duzca.gd/",
+   "telefonos": [],
+   "usuarios": [
+    "@duzca.gd"
+   ],
+   "nombre_normalizado": "duzca",
+   "entregado": "2026-11-25"
+  },
+  {
+   "id": "q44",
+   "lista": "Lista 5",
+   "nombre": "Sneaker Medellín",
+   "perfil": "https://www.instagram.com/sneaker.medellin/",
+   "telefonos": [],
+   "usuarios": [
+    "@sneaker.medellin"
+   ],
+   "nombre_normalizado": "sneakermedellin",
+   "entregado": "2026-11-25",
+   "posible_repetido_de": "Sneakers Medellín",
+   "motivo": "nombre muy parecido"
+  },
+  {
+   "id": "q57",
+   "lista": "Lista 5",
+   "nombre": "Tenis Cali 7",
+   "perfil": "https://zapatillascali.com/",
+   "telefonos": [],
+   "usuarios": [
+    "@teniscali_7",
+    "web:zapatillascali.com"
+   ],
+   "nombre_normalizado": "teniscali7",
+   "entregado": "2026-11-25",
+   "posible_repetido_de": "Tenis Cali",
+   "motivo": "nombre muy parecido"
+  }
+ ],
+ "descartados": []
+}
