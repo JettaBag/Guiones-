@@ -942,7 +942,8 @@
    "nombre_normalizado": "tenismedellin",
    "entregado": "2026-11-22",
    "posible_repetido_de": "Tennis Medellín",
-   "motivo": "nombre muy parecido"
+   "motivo": "nombre muy parecido",
+   "descartado": true
   },
   {
    "id": "a05",
@@ -958,7 +959,8 @@
    "nombre_normalizado": "tenismedellin",
    "entregado": "2026-11-22",
    "posible_repetido_de": "Tennis Medellín",
-   "motivo": "nombre muy parecido"
+   "motivo": "nombre muy parecido",
+   "descartado": true
   },
   {
    "id": "a21",
@@ -974,7 +976,8 @@
    "nombre_normalizado": "tenismedellin",
    "entregado": "2026-11-22",
    "posible_repetido_de": "Tennis Medellín",
-   "motivo": "nombre muy parecido"
+   "motivo": "nombre muy parecido",
+   "descartado": true
   },
   {
    "id": "a61",
@@ -988,7 +991,8 @@
    "nombre_normalizado": "tenniscali",
    "entregado": "2026-11-22",
    "posible_repetido_de": "Tenis Cali",
-   "motivo": "nombre muy parecido"
+   "motivo": "nombre muy parecido",
+   "descartado": true
   },
   {
    "id": "n01",
@@ -2433,7 +2437,8 @@
    "nombre_normalizado": "cdteniscali",
    "entregado": "2026-11-23",
    "posible_repetido_de": "Tenis Cali",
-   "motivo": "usuario casi igual"
+   "motivo": "usuario casi igual",
+   "descartado": true
   },
   {
    "id": "c24",
@@ -2461,7 +2466,8 @@
    "nombre_normalizado": "zapatoscalidc",
    "entregado": "2026-11-23",
    "posible_repetido_de": "Zapatos Cali",
-   "motivo": "usuario casi igual"
+   "motivo": "usuario casi igual",
+   "descartado": true
   },
   {
    "id": "c31",
@@ -3363,7 +3369,8 @@
    "nombre_normalizado": "tenismedellin11",
    "entregado": "2026-11-24",
    "posible_repetido_de": "Tenis Medellín CO",
-   "motivo": "usuario casi igual"
+   "motivo": "usuario casi igual",
+   "descartado": true
   },
   {
    "id": "m56",
@@ -4178,7 +4185,8 @@
    "nombre_normalizado": "sneakermedellin",
    "entregado": "2026-11-25",
    "posible_repetido_de": "Sneakers Medellín",
-   "motivo": "nombre muy parecido"
+   "motivo": "nombre muy parecido",
+   "descartado": true
   },
   {
    "id": "q57",
@@ -4193,8 +4201,125 @@
    "nombre_normalizado": "teniscali7",
    "entregado": "2026-11-25",
    "posible_repetido_de": "Tenis Cali",
-   "motivo": "nombre muy parecido"
+   "motivo": "nombre muy parecido",
+   "descartado": true
   }
  ],
- "descartados": []
+ "descartados": [
+  {
+   "lista": "Lista 1",
+   "nombre": "Tenis Medellín (oficial)",
+   "perfil": "https://www.instagram.com/tenismedellin__oficial/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenismedellin__oficial"
+   ],
+   "repetido_de": "Tennis Medellín",
+   "motivo": "nombre muy parecido",
+   "fecha": "2026-11-27"
+  },
+  {
+   "lista": "Lista 1",
+   "nombre": "Tenis Medellin",
+   "perfil": "https://www.instagram.com/tenis_medellin2/",
+   "telefonos": [
+    "3003625193"
+   ],
+   "usuarios": [
+    "@tenis_medellin2"
+   ],
+   "repetido_de": "Tennis Medellín",
+   "motivo": "nombre muy parecido",
+   "fecha": "2026-11-27"
+  },
+  {
+   "lista": "Lista 1",
+   "nombre": "Tenis Medellín (Facebook)",
+   "perfil": "https://www.facebook.com/tenispidanpues/",
+   "telefonos": [
+    "3127430235"
+   ],
+   "usuarios": [
+    "@tenispidanpues"
+   ],
+   "repetido_de": "Tennis Medellín",
+   "motivo": "nombre muy parecido",
+   "fecha": "2026-11-27"
+  },
+  {
+   "lista": "Lista 1",
+   "nombre": "Tennis Cali",
+   "perfil": "https://www.instagram.com/tenniscalicol/",
+   "telefonos": [],
+   "usuarios": [
+    "@tenniscalicol"
+   ],
+   "repetido_de": "Tenis Cali",
+   "motivo": "nombre muy parecido",
+   "fecha": "2026-11-27"
+  },
+  {
+   "lista": "Lista 3",
+   "nombre": "C&D Tenis Cali",
+   "perfil": "https://www.tiktok.com/@tenis_cali",
+   "telefonos": [],
+   "usuarios": [
+    "@tenis_cali"
+   ],
+   "repetido_de": "Tenis Cali",
+   "motivo": "usuario casi igual",
+   "fecha": "2026-11-27"
+  },
+  {
+   "lista": "Lista 3",
+   "nombre": "Zapatos Cali D.C",
+   "perfil": "https://www.tiktok.com/@zapatos.cali",
+   "telefonos": [],
+   "usuarios": [
+    "@zapatos.cali"
+   ],
+   "repetido_de": "Zapatos Cali",
+   "motivo": "usuario casi igual",
+   "fecha": "2026-11-27"
+  },
+  {
+   "lista": "Lista 4",
+   "nombre": "Tenis Medellín 1.1",
+   "perfil": "https://www.tiktok.com/@tenis.medellin",
+   "telefonos": [
+    "3161776015"
+   ],
+   "usuarios": [
+    "@tenis.medellin"
+   ],
+   "repetido_de": "Tenis Medellín CO",
+   "motivo": "usuario casi igual",
+   "fecha": "2026-11-27"
+  },
+  {
+   "lista": "Lista 5",
+   "nombre": "Sneaker Medellín",
+   "perfil": "https://www.instagram.com/sneaker.medellin/",
+   "telefonos": [],
+   "usuarios": [
+    "@sneaker.medellin"
+   ],
+   "repetido_de": "Sneakers Medellín",
+   "motivo": "nombre muy parecido",
+   "fecha": "2026-11-27"
+  },
+  {
+   "lista": "Lista 5",
+   "nombre": "Tenis Cali 7",
+   "perfil": "https://zapatillascali.com/",
+   "telefonos": [],
+   "usuarios": [
+    "@teniscali_7",
+    "web:zapatillascali.com"
+   ],
+   "repetido_de": "Tenis Cali",
+   "motivo": "nombre muy parecido",
+   "fecha": "2026-11-27"
+  }
+ ]
 }

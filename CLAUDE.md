@@ -15,6 +15,9 @@ Antes de entregar cualquier lista de clientes nuevos:
 4. **Posible repetido** (no se entrega como nuevo; se marca para que el usuario decida): el mismo
    nombre de negocio normalizado, un nombre muy parecido, o un usuario que solo cambia en
    puntos o guiones bajos.
+   Al limpiar una lista ya entregada: de cada grupo repetido deja solo uno; si alguno ya tiene
+   estado (enviado, respondió…) consérvalo y borra el duplicado vacío. Los borrados pasan a
+   `descartados` del historial y siguen bloqueando búsquedas futuras.
 5. Al entregar, guarda los nuevos y los posibles en el historial con
    `python3 scripts/revisar_duplicados.py agregar candidatos.json --lista "Lista N"`.
    Los repetidos quedan anotados en `descartados`.
